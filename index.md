@@ -1,7 +1,8 @@
-Petitions signatures polling
-============================
+PoLiTiPeT
+=========
 
-updates every 10 minutes.
+suivi de pétitions
+------------------
 
 
 

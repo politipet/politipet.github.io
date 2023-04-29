@@ -1,5 +1,5 @@
-PoLiTiPeT
-=========
+☆ POLITIPET ☆
+=============
 
 suivi de pétitions
 ------------------

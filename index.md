@@ -6,22 +6,22 @@ suivi de pétitions
 
 
 
-![art-68.png][art-68]
+![graph][art-68]
 
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1123)
 
 
-![demission.png][demission]
+![graph][demission]
 
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1484)
 
 
-![brav-m.png][brav-m]
+![graph][brav-m]
 
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1446)
 
 
-![brav-m #1.png][brav-m #1]
+![graph][brav-m #1]
 
 [voir](https://petitions.assemblee-nationale.fr/initiatives/i-1319)
 

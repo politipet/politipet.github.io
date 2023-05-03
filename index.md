@@ -6,12 +6,16 @@ suivi de pétitions
 
 
 
+<p id="1123"/>
+
 ![graph][art-68]
 
 ![score][art-68.score]
 
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1123)
 
+
+<p id="1484"/>
 
 ![graph][demission]
 
@@ -20,10 +24,14 @@ suivi de pétitions
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1484)
 
 
+<p id="1395"/>
+
 ![graph][art-68 #2]
 
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1395)
 
+
+<p id="1549"/>
 
 ![graph][lacrymo]
 
@@ -32,10 +40,14 @@ suivi de pétitions
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1549)
 
 
+<p id="1446"/>
+
 ![graph][brav-m]
 
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1446)
 
+
+<p id="1319"/>
 
 ![graph][brav-m #1]
 

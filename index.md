@@ -15,6 +15,8 @@ suivi de pétitions
 
 ![graph][demission]
 
+![score][demission.score]
+
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1484)
 
 
@@ -54,4 +56,5 @@ suivi de pétitions
 [brav-m #1]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart?oid=544747026&format=image
 
 [art-68.score]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart?oid=342244041&format=image
+[demission.score]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart?oid=1772260604&format=image
 [lacrymo.score]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart?oid=1263406030&format=image

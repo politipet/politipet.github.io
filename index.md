@@ -8,6 +8,8 @@ suivi de pétitions
 
 ![graph][art-68]
 
+![score][art-68.score]
+
 [signer](https://petitions.assemblee-nationale.fr/initiatives/i-1123)
 
 
@@ -51,4 +53,5 @@ suivi de pétitions
 [lacrymo]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart?oid=326156748&format=image
 [brav-m #1]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart?oid=544747026&format=image
 
+[art-68.score]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart?oid=342244041&format=image
 [lacrymo.score]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart?oid=1263406030&format=image

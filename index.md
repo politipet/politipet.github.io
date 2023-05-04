@@ -71,3 +71,11 @@ function petition(id) {
 
 main()
 </script>
+
+<style>
+
+body	{ font-family: 'Comfortaa'; }
+img	{ max-width: 100%; }
+img	{ display: block; }
+
+</style>

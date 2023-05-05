@@ -11,6 +11,15 @@ suivi de pétitions
 
 <div id="contents"></div>
 
+-----
+
+<a href="commission/lois.html">
+<img
+   style="width: 150px"
+   src="https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/8/8/9/4589883-1-fre-FR/PICTO_AFF_LOIS_300x300.png">
+</a>
+
+
 <script>
 data = [
 "1123	1120464573	342244041",

@@ -39,6 +39,10 @@ function image_url(oid) {
 	return oid ? gdoc + "oid=" + oid + "&format=image" : ""
 }
 
+function petition_url(id) {
+	return "https://petitions.assemblee-nationale.fr/initiatives/i-" + id
+}
+
 function petition(id) {
 	var _ = document.createElement("div")
 	var g = document.createElement("img")
@@ -47,8 +51,10 @@ function petition(id) {
 	_.id = id
 	g.src = image_url(graph[id])
 	s.src = image_url(score[id])
-	l.href = "https://petitions.assemblee-nationale.fr/initiatives/i-" + id
+	s.onclick = function() { location.href = petition_url(id) }
+	l.href = petition_url(id)
 	l.innerHTML = "signer"
+
 	_.appendChild(g)
 	if (s.src) _.appendChild(s)
 	_.appendChild(l)

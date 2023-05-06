@@ -45,6 +45,9 @@ Rapporteur
 .composition {
 	margin-left: 1.5rem;
 }
+body {
+	font-family: 'Comfortaa';
+}
 </style>
 
 [président]: https://www.assemblee-nationale.fr/dyn/deputes/PA722150

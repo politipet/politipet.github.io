@@ -36,7 +36,7 @@ gdoc = (
 )
 
 function image_url(oid) {
-	return oid ? gdoc + "oid=" + oid + "&format=image" : ""
+	return gdoc + "oid=" + oid + "&format=image"
 }
 
 function petition_url(id) {
@@ -56,7 +56,7 @@ function petition(id) {
 	l.innerHTML = "signer"
 
 	_.appendChild(g)
-	if (s.src) _.appendChild(s)
+	_.appendChild(s)
 	_.appendChild(l)
 
 	return _

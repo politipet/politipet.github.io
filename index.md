@@ -23,7 +23,6 @@ suivi de pétitions
 
 <style>
 
-body	{ font-family: 'Comfortaa'; }
 img	{ max-width: 100%; }
 img	{ display: block; }
 #contents > div { margin-bottom: 5rem; }

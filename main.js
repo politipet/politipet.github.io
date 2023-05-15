@@ -50,7 +50,7 @@ function petition(id) {
 	var g = document.createElement("img")
 	var s = document.createElement("img")
 	var l = document.createElement("a")
-	_.id = id
+	_.id = id.replace(/i-|\?.*=/, "")
 	g.src = image_url(graph[id])
 	s.src = image_url(score[id])
 	s.onclick = function() { location.href = petition_url(id) }

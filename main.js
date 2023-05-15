@@ -53,12 +53,11 @@ function petition(id) {
 	_.id = id.replace(/i-|\?.*=/, "")
 	g.src = image_url(graph[id])
 	s.src = image_url(score[id])
-	s.onclick = function() { location.href = petition_url(id) }
 	l.href = petition_url(id)
 	l.innerHTML = "signer"
+	l.insertBefore(s, l.firstChild)
 
 	_.appendChild(g)
-	_.appendChild(s)
 	_.appendChild(l)
 
 	return _

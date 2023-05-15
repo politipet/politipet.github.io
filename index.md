@@ -14,6 +14,7 @@ suivi de pétitions
 <style>
 	img	{ max-width: 100%; }
 	img	{ display: block; }
+	a	{ display: inline-block; }
 	#contents > div { margin-bottom: 5rem; }
 </style>
 

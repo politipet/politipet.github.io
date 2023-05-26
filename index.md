@@ -9,8 +9,6 @@ suivi de pétitions
 
 -----
 
-[les plus signées](https://petitions.assemblee-nationale.fr/initiatives?order=most_voted)
-
 
 <div id="contents"></div>
 <script src="main.js"></script>
@@ -20,6 +18,10 @@ suivi de pétitions
 	a	{ display: inline-block; }
 	#contents > div { margin-bottom: 5rem; }
 </style>
+
+-----
+
+[les plus signées](https://petitions.assemblee-nationale.fr/initiatives?order=most_voted)
 
 -----
 

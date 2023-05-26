@@ -17,6 +17,11 @@ suivi de pétitions
 	img	{ display: block; }
 	a	{ display: inline-block; }
 	#contents > div { margin-bottom: 5rem; }
+	#contents a img	{
+		border: 2px solid blue;
+		border-radius: 150px;
+		margin-bottom: .5rem;
+	}
 </style>
 
 -----

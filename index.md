@@ -22,6 +22,10 @@ suivi de pétitions
 		border-radius: 150px;
 		margin-bottom: .5rem;
 	}
+	#footer img {
+		width: 80px;
+		margin: .5rem;
+	}
 </style>
 
 -----
@@ -30,8 +34,18 @@ suivi de pétitions
 
 -----
 
-<a href="commission/lois.html">
-<img
-   style="width: 150px"
-   src="https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/8/8/9/4589883-1-fre-FR/PICTO_AFF_LOIS_300x300.png">
+<div id=footer>
+
+<a href="poll/">
+<img src="favicon.ico">
 </a>
+
+<a href="https://petitions.assemblee-nationale.fr/initiatives?order=most_voted">
+<img src="https://www.assemblee-nationale.fr/assets/images/logo_an_square.png">
+</a>
+
+<a href="commission/lois.html">
+<img src="https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/8/8/9/4589883-1-fre-FR/PICTO_AFF_LOIS_300x300.png">
+</a>
+
+</div>

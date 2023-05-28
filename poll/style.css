@@ -1,0 +1,17 @@
+body {
+	background-color: #c8ae8d;
+	color: darkblue;
+}
+input[type='submit'] {
+	background-color: darkseagreen;
+	border-radius: 1rem;
+	padding: .7rem;
+	margin: 2rem;
+	width: 70%;
+}
+form {
+	display: inline-block;
+}
+form > div {
+	text-align: left;
+}

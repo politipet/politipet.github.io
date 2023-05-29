@@ -10,7 +10,6 @@ non mais c'est quoi ce délire ⁉️
 
 c'est pratique 👌
 surprenant
-étonnant
 marrant 🤣
 chelou
 clair
@@ -19,16 +18,16 @@ joli 🤩
 j'ai voté depuis un tél.
 au final j'ai pris un ordi
 
-j'ai voté que pour celle à la fraise 🍓
+j'ai voté pour celle à la fraise 🍓
 tanka faire, deux-ou-trois autres
 pour toutes !
-j'ai fait que regarder les images
+j'ai pas voté, seulement regardé
 
 FranceConnect, même pas peur
 un peu relou quand même
-l'anonymat du vote, c'est cool 👻  🕶️
+le vote anonyme, c'est cool 👻  🕶️
 
-je vais faire suivre
+j'ai fait suivre
 je vais « faire voter »
 j'ai « ajouté à l'écran d'accueil »
 

@@ -1,7 +1,9 @@
 function init() {
 	var _ = document.querySelector("data")
 
-	var questions = _.innerHTML.trim().split(/\n/)
+	var questions = _.innerHTML
+		.trim().split(/\n/)
+		.map(s => s.trim())
 
 	var form = document.createElement("form")
 	var button = document.createElement("input")
@@ -11,8 +13,7 @@ function init() {
 	_.replaceWith(form)
 	_ = form
 
-	for (i in questions)
-		_.appendChild(item(questions[i]))
+	questions.map(q => _.appendChild(item(q)))
 
 	_.appendChild(button)
 	_.method = "post"

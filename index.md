@@ -20,7 +20,6 @@ suivi de pétitions
 	#contents a img	{
 		border: 2px solid blue;
 		border-radius: 150px;
-		margin-bottom: .5rem;
 	}
 	#footer img {
 		width: 80px;

@@ -56,8 +56,7 @@ function petition(id) {
 	g.src = image_url(graph[id])
 	s.src = image_url(score[id])
 	l.href = petition_url(id)
-	l.innerHTML = "signer"
-	l.insertBefore(s, l.firstChild)
+	l.appendChild(s)
 
 	_.appendChild(g)
 	_.appendChild(l)

@@ -29,7 +29,7 @@ suivi de pétitions
 
 -----
 
-[les plus signées](https://petitions.assemblee-nationale.fr/initiatives?order=most_voted)
+[les plus votées](https://petitions.assemblee-nationale.fr/initiatives?order=most_voted)
 
 -----
 

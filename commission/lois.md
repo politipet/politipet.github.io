@@ -29,7 +29,7 @@ Rapporteur
 
 <hr class="separator">
 
-[commission de lois][officiel]
+[commission des lois][officiel]
 
 
 

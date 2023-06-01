@@ -1,0 +1,11 @@
+.separator {
+	width: 10rem;
+	margin: 3rem 0 auto;
+}
+.composition {
+	display: inline-block;
+	text-align: left;
+}
+.composition {
+	margin-left: 1.5rem;
+}

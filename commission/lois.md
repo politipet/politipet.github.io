@@ -33,20 +33,6 @@ Rapporteur
 
 
 
-<style>
-.separator {
-	width: 10rem;
-	margin: 3rem 0 auto;
-}
-.composition {
-	display: inline-block;
-	text-align: left;
-}
-.composition {
-	margin-left: 1.5rem;
-}
-</style>
-
 [président]: https://www.assemblee-nationale.fr/dyn/deputes/PA722150
 [rapporteur]: https://www.assemblee-nationale.fr/dyn/deputes/PA719600
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/lois/composition

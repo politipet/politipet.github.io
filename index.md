@@ -12,20 +12,6 @@ suivi de pétitions
 
 <div id="contents"></div>
 <script src="main.js"></script>
-<style>
-	img	{ max-width: 100%; }
-	img	{ display: block; }
-	a	{ display: inline-block; }
-	#contents > div { margin-bottom: 5rem; }
-	#contents a img	{
-		border: 2px solid blue;
-		border-radius: 150px;
-	}
-	#footer img {
-		width: 80px;
-		margin: .5rem;
-	}
-</style>
 
 -----
 

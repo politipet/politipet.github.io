@@ -33,20 +33,6 @@ Rapporteure
 
 
 
-<style>
-.separator {
-	width: 10rem;
-	margin: 3rem 0 auto;
-}
-.composition {
-	display: inline-block;
-	text-align: left;
-}
-.composition {
-	margin-left: 1.5rem;
-}
-</style>
-
 [présidente]: https://www.assemblee-nationale.fr/dyn/deputes/PA719186
 [rapporteure]: https://www.assemblee-nationale.fr/dyn/deputes/PA720066
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-sociales/composition

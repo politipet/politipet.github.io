@@ -17,7 +17,7 @@ function init() {
 
 	_.appendChild(button)
 	_.method = "post"
-	_.action = "https://wg.payart.com/politipet"
+	_.action = "https://sondage.politipet.fr/politipet"
 }
 
 function item(txt) {

@@ -7,6 +7,7 @@ a {
 }
 #contents > div	{
 	margin-bottom: 5rem;
+	margin-top: 1rem;
 }
 #contents a img	{
 	border: 2px solid blue;

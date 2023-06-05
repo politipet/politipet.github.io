@@ -1,8 +1,8 @@
 ☆ POLITIPET ☆
 =============
 
-suivi de pétitions
-------------------
+météo des plages citoyennes
+---------------------------
 
 ### votez · faites voter
 

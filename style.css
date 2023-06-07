@@ -9,6 +9,11 @@ a {
 	margin-bottom: 5rem;
 	margin-top: 1rem;
 }
+#contents div > img {
+	border: 2px solid grey;
+	border-radius: 1rem;
+	margin: 1rem -2px;
+}
 #contents a img	{
 	border: 2px solid blue;
 	border-radius: 150px;

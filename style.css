@@ -31,4 +31,5 @@ a {
 #footer img {
 	width: 80px;
 	margin: .5rem;
+	border-radius: 1rem;
 }

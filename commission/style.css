@@ -9,3 +9,13 @@
 .composition {
 	margin-left: 1.5rem;
 }
+html {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+body {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}

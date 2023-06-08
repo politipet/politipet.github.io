@@ -1,8 +1,7 @@
 ☆ POLITIPET ☆
 =============
 
-météo des plages citoyennes
----------------------------
+### météo des plages citoyennes
 
 ### votez · faites voter
 

@@ -1,48 +1,27 @@
-data = [
-"i-1559	1010483208	808968259",
-"i-1590	1481400461	208675595",
-"i-1036	683409204	828515436",
-"?filter[search_text]=bassine	990190109	1953374430",
-"i-1549	326156748	1263406030",
-"i-1465	1227648321	1925332917",
+petitions = [
+"i-1559",
+"i-1590",
+"i-1036",
+"bassine",
+"i-1549",
+"i-1465",
 
-"i-1123	1120464573	342244041",
-"i-1446	1421214239	738909962",
-"i-1484	1545084010	1772260604",
-//"i-1395	916793369	1552015065",
+"i-1123",
+"i-1446",
+"i-1484",
+//"i-1395",
 
-"i-1319	544747026	1691291351	closed",
+"i-1319", // closed
 ]
 
-petitions = []
-graph = {}
-score = {}
+url = {
+"bassine": "?filter[search_text]=bassine",
+}
 
 function main() {
-	init_globals()
 	var c = document.getElementById("contents")
 	for (i in petitions)
 		c.appendChild(petition(petitions[i]))
-}
-
-function init_globals() {
-	for (i in data) {
-		x = data[i].split(/\s+/)
-		id = x[0]
-		graph[id] = x[1]
-		score[id] = x[2]
-		petitions[i] = id
-	}
-}
-
-gdoc = (
-"https://docs.google.com/spreadsheets/" +
-"d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig" +
-"/pubchart?"
-)
-
-function image_url(oid) {
-	return gdoc + "oid=" + oid + "&format=image"
 }
 
 function petition_url(id) {
@@ -54,10 +33,10 @@ function petition(id) {
 	var g = document.createElement("img")
 	var s = document.createElement("img")
 	var l = document.createElement("a")
-	_.id = id.replace(/i-|\?.*=/, "")
-	g.src = image_url(graph[id])
-	s.src = image_url(score[id])
-	l.href = petition_url(id)
+	_.id = id.replace(/i-/, "")
+	g.src = id + ".graph.png"
+	s.src = id + ".score.png"
+	l.href = petition_url(url[id] || id)
 	l.appendChild(s)
 
 	_.appendChild(g)

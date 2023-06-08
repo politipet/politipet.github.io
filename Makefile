@@ -1,5 +1,3 @@
-statics: graphs scores version
-
 target = $(shell cut -f 1 graphs.txt)
 .graph = $(shell cut -f 2 graphs.txt)
 .score = $(shell cut -f 3 graphs.txt)

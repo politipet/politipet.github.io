@@ -15,7 +15,8 @@ a {
 #contents div > img {
 	border: 2px solid grey;
 	border-radius: 1rem;
-	margin: 1rem -2px;
+	margin: 0 -2px;
+	margin-bottom: 1rem;
 }
 #contents a img	{
 	border: 2px solid blue;

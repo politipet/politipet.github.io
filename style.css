@@ -9,6 +9,9 @@ a {
 	margin-bottom: 7rem;
 	padding: 1rem .5rem;
 }
+#contents > div:last-child {
+	margin-bottom: 3rem;
+}
 #contents div > img {
 	border: 2px solid grey;
 	border-radius: 1rem;

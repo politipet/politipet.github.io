@@ -31,10 +31,6 @@ j'ai fait suivre
 je vais « faire voter »
 j'ai « ajouté à l'écran d'accueil »
 
-j'ai oublié le nom / le lien
-c'est quoi github machin .io
-ça veut dire quoi politipet
-
 je n'ai pas internet
 
 </data>

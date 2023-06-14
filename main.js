@@ -20,8 +20,16 @@ url = {
 
 function main() {
 	var c = document.getElementById("contents")
-	for (i in petitions)
-		c.appendChild(petition(petitions[i]))
+	var i, p
+	for (i in petitions) {
+		p = petition(petitions[i])
+		c.appendChild(p)
+
+		p.addEventListener('click', function(ev) {
+			c.appendChild(ev.currentTarget)
+			ev.stopPropagation()
+		})
+	}
 }
 
 function petition_url(id) {
@@ -38,6 +46,10 @@ function petition(id) {
 	s.src = id + ".score.png"
 	l.href = petition_url(url[id] || id)
 	l.appendChild(s)
+
+	l.addEventListener('click', function(ev) {
+		ev.stopPropagation()
+	})
 
 	_.appendChild(g)
 	_.appendChild(l)

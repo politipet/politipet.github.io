@@ -1,10 +1,13 @@
+<div id=header>
+
 ☆ POLITIPET ☆
 =============
 
-### météo des plages citoyennes
+### votations ☆ 🛈 ☆ citoyennes
 
 ### votez · faites voter
 
+</div>
 
 -----
 

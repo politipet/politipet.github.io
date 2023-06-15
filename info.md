@@ -10,7 +10,7 @@
 
 [politipet.fr][politipet.fr] est un _site vitrine_ indépendant
 qui présente une sélection de « propositions citoyennes »
-ouvertes au vote sur le site de l'[Assemblée nationale][assemblée].
+ouvertes au vote sur la plateforme de l'[Assemblée nationale][assemblée].
 
 <center>☆</center>
 

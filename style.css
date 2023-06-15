@@ -6,7 +6,7 @@ img {
 	display: block;
 }
 a {
-	display: inline-block;
+	display: table-cell;
 }
 #contents > div	{
 	margin-bottom: 7rem;
@@ -27,9 +27,23 @@ a {
 }
 #contents a img {
 	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	animation: gradient 15s ease-in-out infinite;
+	animation: gradient 10s ease-in-out infinite;
 	background-size: 400% 400%;
 }
+#contents .button {
+	display: table-cell;
+	vertical-align: middle;
+	width: 40%;
+	color: blue;
+	opacity: 20%;
+}
+.fwd-button {
+	text-align: right;
+}
+.bak-button {
+	text-align: left;
+}
+
 @keyframes gradient {
 	0%	{ background-position: 0% 50%; }
 	50%	{ background-position: 100% 50%; }

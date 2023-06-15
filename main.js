@@ -24,11 +24,6 @@ function main() {
 	for (i in petitions) {
 		p = petition(petitions[i])
 		c.appendChild(p)
-
-		p.addEventListener('click', function(ev) {
-			c.appendChild(ev.currentTarget)
-			ev.stopPropagation()
-		})
 	}
 	add_page_event_listeners()
 }
@@ -55,14 +50,36 @@ function petition(id) {
 	l.href = petition_url(url[id] || id)
 	l.appendChild(s)
 
-	l.addEventListener('click', function(ev) {
-		ev.stopPropagation()
-	})
-
 	_.appendChild(g)
+	_.appendChild(backward_button())
 	_.appendChild(l)
+	_.appendChild(forward_button())
 
 	return _
 }
+
+function forward_button() {
+	return button("button fwd-button", ">>", function(ev) {
+		c = document.getElementById("contents")
+		c.appendChild(c.firstChild)
+	})
+}
+
+function backward_button() {
+	return button("button bak-button", "<<", function(ev) {
+		c = document.getElementById("contents")
+		c.insertBefore(c.lastChild, c.firstChild)
+	})
+}
+
+function button(clazz, txt, onclick) {
+	var _ = document.createElement("span")
+	_.setAttribute("class", clazz)
+	_.addEventListener('click', onclick)
+	_.innerHTML = txt
+
+	return _
+}
+
 
 main()

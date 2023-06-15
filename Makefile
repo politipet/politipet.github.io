@@ -1,6 +1,7 @@
 target = $(shell cut -f 1 graphs.txt)
 .graph = $(shell cut -f 2 graphs.txt)
 .score = $(shell cut -f 3 graphs.txt)
+.seen  = $(shell cut -f 4 graphs.txt)
 
 all_id = $(shell seq $(words $(target)))
 
@@ -13,8 +14,19 @@ ref = $(word $*, $(target))
 
 graphs: $(addsuffix .graph, $(all_id))
 scores: $(addsuffix .score, $(all_id))
+seens:  $(addsuffix .seen,  $(all_id))
+
+%.seen:
+	curl -s $(SEEN)/$(src) \
+	| grep '<div  id="texte$(src)">' \
+	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
+	> $(dst).md
+	echo "[voter][vote]" >> $(dst).md
+	echo "[vote]: $(VOTE)/$(ref)" >> $(dst).md
 
 version:
 	git rev-parse --short=6 HEAD > _site/version.txt
 
+VOTE = "https://petitions.assemblee-nationale.fr/initiatives"
+SEEN = "https://seenthis.net/messages"
 BASE = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart"

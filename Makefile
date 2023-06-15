@@ -25,6 +25,7 @@ seens:  $(addsuffix .seen,  $(all_id))
 
 footer = "\n\
 [voter][vote]\n\
+\n\
 [discuter][chat]\n\
 \n\
 [vote]: $(VOTE)/$(ref)\n\

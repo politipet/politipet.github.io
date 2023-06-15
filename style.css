@@ -1,3 +1,6 @@
+#header {
+	user-select: none;
+}
 #votez--faites-voter {
 	letter-spacing: .2rem;
 }

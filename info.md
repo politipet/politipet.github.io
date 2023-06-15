@@ -6,7 +6,7 @@
 ### votez · faites voter
 
 
-<div style="text-align: left">
+<div style="text-align: left" markdown="1">
 
 [politipet.fr][politipet.fr] est un site _vitrine_ indépendant
 qui présente une sélection de « propositions citoyennes »

@@ -1,4 +1,4 @@
-<div id=header>
+<div id="header" markdown="1">
 
 ☆ POLITIPET ☆
 =============

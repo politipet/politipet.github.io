@@ -41,6 +41,8 @@ img {
 	width: 40%;
 	color: blue;
 	opacity: 20%;
+	user-select: none;
+	cursor: pointer;
 }
 .fwd-button {
 	text-align: right;

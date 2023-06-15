@@ -1,5 +1,6 @@
 #header {
 	user-select: none;
+	cursor: pointer;
 }
 #votez--faites-voter {
 	letter-spacing: .2rem;
@@ -23,6 +24,7 @@ a {
 	border-radius: 1rem;
 	margin: 0 -2px;
 	margin-bottom: 1rem;
+	cursor: pointer;
 }
 #contents a img	{
 	border: 2px solid blue;

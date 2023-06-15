@@ -3,7 +3,7 @@
 ☆ POLITIPET ☆
 =============
 
-### votations ☆ 🛈 ☆ citoyennes
+### votations ☆ ℹ️ ☆ citoyennes
 
 ### votez · faites voter
 

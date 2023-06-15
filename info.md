@@ -30,6 +30,13 @@ ou un compte impots.gouv.fr, qui marche aussi très bien.
 
 </div>
 
+[social][seenthis] [contact][email] [source][github]
+
+
+[email]: email:politipet@laposte.net
+[github]: https://github.com/politipet
+[seenthis]: https://seenthis.net/people/politipet
+
 [politipet.fr]: https://politipet.fr
 [assemblée]: https://petitions.assemblee-nationale.fr
 [most voted]: https://petitions.assemblee-nationale.fr/initiatives?order=most_voted

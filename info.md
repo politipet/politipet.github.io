@@ -1,3 +1,5 @@
+<div id="header" markdown="1">
+
 ☆ POLITIPET ☆
 =============
 
@@ -5,6 +7,9 @@
 
 ### votez · faites voter
 
+</div>
+
+-----
 
 <div style="text-align: left" markdown="1">
 
@@ -34,6 +39,7 @@ ou un compte impots.gouv.fr, qui marche aussi très bien.
 
 </div>
 
+-----
 
 [social][seenthis] ☆ [contact][email] ☆ [source][github]
 

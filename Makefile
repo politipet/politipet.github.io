@@ -21,8 +21,15 @@ seens:  $(addsuffix .seen,  $(all_id))
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
 	> $(dst).md
-	echo "[voter][vote]" >> $(dst).md
-	echo "[vote]: $(VOTE)/$(ref)" >> $(dst).md
+	@echo $(footer) >> $(dst).md
+
+footer = "\n\
+[voter][vote]\n\
+[discuter][chat]\n\
+\n\
+[vote]: $(VOTE)/$(ref)\n\
+[chat]: $(SEEN)/$(src)\n\
+"
 
 version:
 	git rev-parse --short=6 HEAD > _site/version.txt

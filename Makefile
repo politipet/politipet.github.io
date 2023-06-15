@@ -4,9 +4,12 @@ target = $(shell cut -f 1 graphs.txt)
 
 all_id = $(shell seq $(words $(target)))
 
+src = $(word $*, $($(suffix $@)))
+dst = $(word $*, $(target))$(suffix $@)
+ref = $(word $*, $(target))
+
 %.graph %.score:
-	curl -s $(BASE)"?oid=$(word $*, $($(suffix $@)))&format=image" \
-		> _site/$(word $*, $(target))$(suffix $@).png
+	curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
 
 graphs: $(addsuffix .graph, $(all_id))
 scores: $(addsuffix .score, $(all_id))

@@ -49,6 +49,7 @@ function petition(id) {
 	s.src = id + ".score.png"
 	l.href = petition_url(url[id] || id)
 	l.appendChild(s)
+	g.addEventListener('click', show_infopage)
 
 	_.appendChild(g)
 	_.appendChild(backward_button())
@@ -56,6 +57,11 @@ function petition(id) {
 	_.appendChild(forward_button())
 
 	return _
+}
+
+function show_infopage(ev) {
+	id = ev.currentTarget.parentNode.id
+	location.assign("i-" + id + ".seen.html")
 }
 
 function forward_button() {

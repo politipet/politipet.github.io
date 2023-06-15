@@ -11,28 +11,24 @@
 
 -----
 
-
 <div id="contents"></div>
 <script src="main.js"></script>
 
 -----
 
-[les plus votées](https://petitions.assemblee-nationale.fr/initiatives?order=most_voted)
+[les plus votées][most voted]
 
 -----
 
-<div id=footer>
+<div id="footer" markdown="1">
 
-<a href="poll/">
-<img src="favicon.ico">
-</a>
-
-<a href="https://petitions.assemblee-nationale.fr/initiatives?order=most_voted">
-<img src="https://www.assemblee-nationale.fr/assets/images/logo_an_square.png">
-</a>
-
-<a href="commission/lois.html">
-<img src="https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/8/8/9/4589883-1-fre-FR/PICTO_AFF_LOIS_300x300.png">
-</a>
+[![sondage](favicon.ico)](poll/)
+[![liste][logo an]][most voted]
+[![lois][logo lois]](commission/lois.md)
 
 </div>
+
+
+[logo an]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png
+[logo lois]: https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/8/8/9/4589883-1-fre-FR/PICTO_AFF_LOIS_300x300.png
+[most voted]: https://petitions.assemblee-nationale.fr/initiatives?order=most_voted

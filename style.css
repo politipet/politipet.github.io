@@ -50,6 +50,13 @@ img {
 .bak-button {
 	text-align: left;
 }
+.spip_code code {
+	display: block;
+	border: 1px dotted;
+	padding: .5rem;
+	text-align: center;
+	background-color: darkgrey;
+}
 
 @keyframes gradient {
 	0%	{ background-position: 0% 50%; }

@@ -12,6 +12,8 @@
 qui présente une sélection de « propositions citoyennes »
 ouvertes au vote sur le site de l'[Assemblée nationale][assemblée].
 
+<center>☆</center>
+
 Les graphiques montrent l'évolution de la participation à la _votation_ :
 nombre total de votes et nombre de votes / heure.
 
@@ -22,6 +24,8 @@ Les 3 boutons en bas de page permettent de (1) participer à un
 [sondage](poll/), (2) lister les propositions les
 [plus votées][most voted] et (3) consulter la composition de la
 [commission des lois](commission/lois.md).
+
+<center>☆</center>
 
 La plateforme de l'Assemblée nationale garantit l'unicité du vote
 et l'anonymat des participants. Pour pouvoir voter, il faut un accès

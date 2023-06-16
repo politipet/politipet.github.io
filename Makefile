@@ -28,9 +28,13 @@ footer = "\n\
 \n\
 [discuter][chat]\n\
 \n\
-[vote]: $(VOTE)/$(ref)\n\
+[vote]: $(VOTE)/$(url)\n\
 [chat]: $(SEEN)/$(src)\n\
 "
+
+url = $(if $(ref.url),$(ref.url),$(ref))
+ref.url = $($(ref).url)
+bassine.url = "?filter[search_text]=bassine"
 
 version:
 	git rev-parse --short=6 HEAD > _site/version.txt

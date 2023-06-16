@@ -60,8 +60,9 @@ function petition(id) {
 }
 
 function show_infopage(ev) {
-	id = ev.currentTarget.parentNode.id
-	location.assign("i-" + id + ".seen.html")
+	var info_page = ev.currentTarget
+		.src.replace("graph.png", "seen.html")
+	location.assign(info_page)
 }
 
 function forward_button() {

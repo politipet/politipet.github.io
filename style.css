@@ -2,6 +2,13 @@
 	user-select: none;
 	cursor: pointer;
 }
+#header h4 em {
+	display: inline-block;
+	width: 7rem;
+}
+#header h4 em:nth-child(2) {
+	width: 1.7rem;
+}
 #votez--faites-voter {
 	letter-spacing: .2rem;
 }

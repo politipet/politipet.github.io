@@ -44,6 +44,12 @@ et l'anonymat des participants. Pour pouvoir voter, il faut un accès
 France Connect, p.ex. un compte Améli - n° de sécu et mot de passe -
 ou un compte impots.gouv.fr.
 
+<center>☆</center>
+
+Si vous votez depuis un smartphone, pensez à enregistrer vos
+informations de connexion quand il vous le propose : vous les
+aurez sous le doigt pour le prochain tour, comme sur votre ordi.
+
 </div>
 
 -----

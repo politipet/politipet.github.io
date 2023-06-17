@@ -24,12 +24,16 @@ seens:  $(addsuffix .seen,  $(all_id))
 	@echo $(footer) >> $(ref).md
 
 footer = "\n\
+☆\n\
+\n\
 [voter][vote]\n\
 \n\
 [discuter][chat]\n\
 \n\
 [vote]: $(VOTE)/$(url)\n\
 [chat]: $(SEEN)/$(src)\n\
+\n\
+☆\
 "
 
 url = $(if $(ref.url),$(ref.url),$(ref))

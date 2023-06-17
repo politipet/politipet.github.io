@@ -71,3 +71,9 @@ img {
 	margin: .5rem;
 	border-radius: 1rem;
 }
+#footer.info-page a {
+	background-color: darkgrey;
+	border-radius: 1rem;
+	padding: .5rem;
+	border: 2px dotted green;
+}

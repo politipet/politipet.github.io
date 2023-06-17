@@ -23,7 +23,7 @@ seens:  $(addsuffix .seen,  $(all_id))
 	> $(ref).md
 	@echo $(footer) >> $(ref).md
 
-footer = "\n\
+footer = "<div id='footer' class='info-page' markdown='1'>\
 ☆\n\
 \n\
 [voter][vote]\n\
@@ -33,7 +33,8 @@ footer = "\n\
 [vote]: $(VOTE)/$(url)\n\
 [chat]: $(SEEN)/$(src)\n\
 \n\
-☆\
+☆\n\
+</div>\
 "
 
 url = $(if $(ref.url),$(ref.url),$(ref))

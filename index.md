@@ -16,7 +16,7 @@
 
 -----
 
-[les plus votées][most voted]
+☆ ℹ️  [info](info.md) ℹ️  ☆
 
 -----
 

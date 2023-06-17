@@ -16,11 +16,11 @@
 
 -----
 
-☆ ℹ️  [info](info.md) ℹ️  ☆
+<div id="footer" markdown="1">
+
+☆ [ℹ️ ](info.md) ☆
 
 -----
-
-<div id="footer" markdown="1">
 
 [![sondage](favicon.ico)](poll/)
 [![liste][logo an]][most voted]

@@ -65,6 +65,7 @@ img {
 }
 #footer a {
 	display: inline-block;
+	text-decoration: none;
 }
 #footer img {
 	width: 80px;

@@ -11,7 +11,7 @@
 
 -----
 
-<div style="text-align: left" markdown="1">
+<div class="left" markdown="1">
 
 Site vitrine indépendant, outil de suivi et incitateur civique,
 [politipet.fr][politipet] présente une sélection de propositions citoyennes

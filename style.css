@@ -57,6 +57,10 @@ img {
 	text-align: center;
 	background-color: darkgrey;
 }
+.left {
+	text-align: left;
+	max-width: 40rem;
+}
 
 @keyframes gradient {
 	0%	{ background-position: 0% 50%; }

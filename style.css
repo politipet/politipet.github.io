@@ -4,10 +4,12 @@
 }
 #header h4 em {
 	display: inline-block;
-	width: 7rem;
+	min-width: 8.7rem;
+	letter-spacing: .1rem;
 }
 #header h4 em:nth-child(2) {
-	width: 1.7rem;
+	min-width: 2rem;
+	margin-right: -.7rem;
 }
 #votez--faites-voter {
 	letter-spacing: .2rem;

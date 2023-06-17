@@ -19,17 +19,23 @@ ouvertes au vote sur la plateforme de l'[Assemblée nationale][assemblée].
 
 <center>☆</center>
 
-Les **graphiques** montrent l'évolution des votes dans le temps :
-nombre total de votes, nombre de votes / heure.
-Clicker pour voir le résumé de la proposition.
+Les **graphiques** montrent :
+- l'évolution des votes dans le temps :<br>
+  nombre total de votes, nombre de votes / heure
+- un résumé du texte de la proposition (cliquer)
 
-Les **boutons score** montrent le total actuel des votes.
-Clicker pour se rendre sur la plateforme de vote. Le vote est anonyme.
+Les **boutons score** permettent de :
+- voir le total des votes<br>
+  (mise à jour 1x par heure)
+- aller sur la plateforme de vote<br>
+  (le vote est anonyme)
 
-Les **boutons du bas** de page permettent de
-- (1) participer au [sondage](poll/),
-- (2) lister les propositions les [plus votées][most voted],
-- (3) voir la composition de la [commission des lois](commission/lois.md).
+Les **boutons du bas** permettent de :
+- participer au [sondage](poll/)
+- voir les propositions<br>
+  [les plus votées][most voted]
+- voir la composition de la<br>
+  [commission des lois](commission/lois.md)
 
 <center>☆</center>
 

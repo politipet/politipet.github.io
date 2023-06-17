@@ -57,6 +57,9 @@ img {
 	text-align: center;
 	background-color: darkgrey;
 }
+.texte {
+	max-width: 40rem;
+}
 .left {
 	text-align: left;
 	max-width: 40rem;

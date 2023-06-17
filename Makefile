@@ -20,8 +20,8 @@ seens:  $(addsuffix .seen,  $(all_id))
 	curl -s $(SEEN)/$(src) \
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
-	> $(dst).md
-	@echo $(footer) >> $(dst).md
+	> $(ref).md
+	@echo $(footer) >> $(ref).md
 
 footer = "\n\
 [voter][vote]\n\

@@ -61,7 +61,7 @@ function petition(id) {
 
 function show_infopage(ev) {
 	var info_page = ev.currentTarget
-		.src.replace("graph.png", "seen.html")
+		.src.replace(".graph.png", "")
 	location.assign(info_page)
 }
 

@@ -44,25 +44,21 @@ function petition(id) {
 	var g = document.createElement("img")
 	var s = document.createElement("img")
 	var l = document.createElement("a")
+	var p = document.createElement("a")
 	_.id = id.replace(/i-/, "")
 	g.src = id + ".graph.png"
 	s.src = id + ".score.png"
 	l.href = petition_url(url[id] || id)
 	l.appendChild(s)
-	g.addEventListener('click', show_infopage)
+	p.href = g.src.replace(".graph.png", "")
+	p.appendChild(g)
 
-	_.appendChild(g)
+	_.appendChild(p)
 	_.appendChild(backward_button())
 	_.appendChild(l)
 	_.appendChild(forward_button())
 
 	return _
-}
-
-function show_infopage(ev) {
-	var info_page = ev.currentTarget
-		.src.replace(".graph.png", "")
-	location.assign(info_page)
 }
 
 function forward_button() {

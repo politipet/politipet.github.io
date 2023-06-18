@@ -28,12 +28,15 @@ img {
 #contents > div:last-child {
 	margin-bottom: 3rem;
 }
-#contents div > img {
+#contents div > a:first-child img {
 	border: 2px solid grey;
 	border-radius: 1rem;
 	margin: 0 -2px;
 	margin-bottom: 1rem;
 	cursor: pointer;
+}
+#contents div > a:first-child {
+	display: inline-block;
 }
 #contents a {
 	display: table-cell;

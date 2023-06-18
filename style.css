@@ -2,14 +2,17 @@
 	user-select: none;
 	cursor: pointer;
 }
-#header h4 em {
-	display: inline-block;
-	min-width: 8.7rem;
-	letter-spacing: .1rem;
+#header h4 {
+	letter-spacing: .04rem;
+	height: 1.2rem;
 }
-#header h4 em:nth-child(2) {
-	min-width: 2rem;
-	margin-right: -.7rem;
+#header h4 b {
+	display: inline-block;
+	width: 2rem;
+}
+#header h4 em {
+	letter-spacing: .13rem;
+	font-style: normal;
 }
 #votez--faites-voter {
 	letter-spacing: .2rem;

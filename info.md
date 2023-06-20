@@ -41,8 +41,8 @@ rendu écrit, en bas de la page de la proposition sur la plateforme
 de l'Assemblée.
 
 
-☆ au menu de politipet ☆
-------------------------
+☆ au menu ☆
+-----------
 
 Les **graphiques** montrent :
 

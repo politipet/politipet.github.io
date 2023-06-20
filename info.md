@@ -13,27 +13,42 @@
 
 <div class="left" markdown="1">
 
-Site vitrine indépendant, outil de suivi et incitateur civique,
+Site vitrine indépendant, outil de suivi, incitateur civique,
 [politipet.fr][politipet] présente une sélection de propositions citoyennes
 ouvertes au vote sur la plateforme de l'[Assemblée nationale][assemblée].
 
 <center>☆</center>
 
+Voter est <u>anonyme</u> et prend <u>une minute</u> -
+il faut avoir ses accès [ameli.fr](http://ameli.fr)
+ou [impots.gouv](http://impots.gouv.fr) sous la main.
+
+<center>☆</center>
+
 Les **graphiques** montrent :
+
 - l'évolution des votes dans le temps :<br>
-  nombre total de votes, nombre de votes / heure
-- un résumé du texte de la proposition (cliquer)
+  nombre total de votes (bleu),<br>
+  nombre de votes / heure (rouge)
+
+- un résumé du texte de la proposition<br>
+  en cliquant sur le graphique
 
 Les **boutons score** permettent de :
 - voir le total des votes<br>
-  (mise à jour 1x par heure)
+  mis à jour un fois par heure
+
 - aller sur la plateforme de vote<br>
-  (le vote est anonyme)
+  le vote est anonyme
+
 
 Les **boutons du bas** permettent de :
+
 - participer au [sondage](poll/)
+
 - voir les propositions<br>
   [les plus votées][most voted]
+
 - voir la composition de la<br>
   [commission des lois](commission/lois.md)
 

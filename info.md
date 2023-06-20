@@ -23,7 +23,9 @@ Voter est <u>anonyme</u> et prend <u>une minute</u> -
 il faut avoir ses accès [ameli.fr](http://ameli.fr)
 ou [impots.gouv](http://impots.gouv.fr) sous la main.
 
-<center>☆</center>
+
+☆ au menu de politipet ☆
+------------------------
 
 Les **graphiques** montrent :
 
@@ -52,7 +54,9 @@ Les **boutons du bas** permettent de :
 - voir la composition de la<br>
   [commission des lois](commission/lois.md)
 
-<center>☆</center>
+
+☆ la plateforme de vote ☆
+-------------------------
 
 La plateforme de l'Assemblée nationale garantit l'unicité du vote
 et l'anonymat des participants. Pour pouvoir voter, il faut un accès

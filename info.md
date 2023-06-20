@@ -24,6 +24,24 @@ il faut avoir ses accès [ameli.fr](http://ameli.fr)
 ou [impots.gouv](http://impots.gouv.fr) sous la main.
 
 
+☆ règles du jeu ☆
+-----------------
+
+Les propositions doivent atteindre 5000 votes en moins de 6 mois,
+sinon elle sont classées «sans suite» par la commission des lois.
+Celles qui dépassent 500.000 voix peuvent passer en débat public
+dans l'hémicycle à l'Assemblée.
+
+La commission étudie les propositions, sur demande d'un.e député.es
+et produit une décision et un compte rendu écrit. Elle peut décider
+de rejetter la proposition ou de la discuter, pour ensuite la porter
+et en faire un projet de loi.
+
+Les débats en commission sont filmés et disponibles, avec le compte
+rendu écrit, en bas de la page de la proposition sur la plateforme
+de l'Assemblée.
+
+
 ☆ au menu de politipet ☆
 ------------------------
 

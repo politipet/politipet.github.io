@@ -19,9 +19,8 @@ ouvertes au vote sur la plateforme de l'[Assemblée nationale][assemblée].
 
 <center>☆</center>
 
-Voter est <u>anonyme</u> et prend <u>une minute</u> -
-il faut avoir ses accès [ameli.fr](http://ameli.fr)
-ou [impots.gouv](http://impots.gouv.fr) sous la main.
+Voter est <u>anonyme</u> et prend <u>une minute</u> ;
+il faut avoir ses accès ameli.fr ou impots.gouv sous la main.
 
 
 ☆ règles du jeu ☆

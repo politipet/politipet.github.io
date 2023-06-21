@@ -27,13 +27,15 @@ il faut avoir ses accès ameli.fr ou impots.gouv sous la main.
 -----------------
 
 Les propositions doivent atteindre 5000 votes en moins de 6 mois,
-sinon elle sont classées «sans suite» par la commission des lois.
-Celles qui dépassent 500.000 voix peuvent passer en débat public
-dans l'hémicycle à l'Assemblée.
+sinon elle sont classées «sans suite» par la commission des lois ;
+les autres commissions ont une barre à 10.000 votes, sans
+limite de temps. Les propositions qui dépassent 500.000 voix
+peuvent passer en débat public dans l'hémicycle à l'Assemblée.
 
-La commission étudie les propositions, sur demande d'un.e député.es
-et produit une décision et un compte rendu écrit. Elle peut décider
-de rejetter la proposition ou de la discuter, pour ensuite la porter
+La commission compétente sur le sujet étudie la proposition,
+spontanément ou sur demande d'un.e député.e et produit une décision
+et un compte rendu écrit. La commission peut décider de
+rejetter la proposition, ou de la discuter, pour ensuite la porter
 et en faire un projet de loi.
 
 Les débats en commission sont filmés et disponibles, avec le compte
@@ -50,10 +52,11 @@ Les **graphiques** montrent :
   nombre total de votes (bleu),<br>
   nombre de votes / heure (rouge)
 
-- un résumé du texte de la proposition<br>
+- un résumé de la proposition<br>
   en cliquant sur le graphique
 
 Les **boutons score** permettent de :
+
 - voir le total des votes<br>
   mis à jour un fois par heure
 

@@ -89,6 +89,33 @@ Si vous votez depuis un smartphone, pensez à enregistrer vos
 informations de connexion quand il vous le propose : vous les
 aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 
+
+☆ aux armes, citoyen·nes ☆
+--------------------------
+
+Les propositions citoyennes offrent une voie d'entrée directe
+dans le parlement. Le système de vote est un précurseur du vote
+électronique direct de la loi par la population. En effet,
+voter pour les propositions remplit simultanément deux fonctions
+différentes : a.) effectuer une pre-selection des propositions
+à envoyer à l'Assemblée, sur la base de l' « intérêt déclaré » ;
+et b.) réaliser un « pre-vote citoyen » des pre-propositions de loi.
+
+Les propositions citoyennes agissent directement sur l'agenda
+du parlement, permettent de <u>voter fréquement</u> et de manière
+<u>ciblée</u> sur les thèmes qui comptent, choisis par la population.
+Les parlementaires ont _bien entendu_ toujours le dernier mot,
+démocratie représentative oblige. Pour autant, si les député·es
+respectent leur mandat et les scrutins pour les propositions,
+ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
+
+<center>☆</center>
+
+
+☆ [les propositions](/) ☆
+-------------------------
+
+
 </div>
 
 -----

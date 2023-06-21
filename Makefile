@@ -30,8 +30,11 @@ footer = "<div id='footer' class='info-page' markdown='1'>\
 \n\
 [discuter][chat]\n\
 \n\
+[participation][graph]\n\
+\n\
 [vote]: $(VOTE)/$(url)\n\
 [chat]: $(SEEN)/$(src)\n\
+[graph]: /\#$(ref:i-%=%)\n\
 \n\
 ☆\n\
 </div>\

@@ -46,7 +46,7 @@ de l'Assemblée.
 ☆ au menu ☆
 -----------
 
-Les **graphiques** montrent :
+Les <u>graphiques</u> montrent :
 
 - l'évolution des votes dans le temps :<br>
   nombre total de votes (bleu),<br>
@@ -55,23 +55,21 @@ Les **graphiques** montrent :
 - un résumé de la proposition<br>
   en cliquant sur le graphique
 
-Les **boutons score** permettent de :
+Les <u>boutons score</u> permettent de :
 
-- voir le total des votes<br>
-  mis à jour un fois par heure
+- voir le total des votes
 
-- aller sur la plateforme de vote<br>
-  le vote est anonyme
+- aller voter
 
 
-Les **boutons du bas** permettent de :
+Les <u>boutons du bas</u> permettent de :
 
 - participer au [sondage](poll/)
 
-- voir les propositions<br>
+- voir les propositions
   [les plus votées][most voted]
 
-- voir la composition de la<br>
+- voir le profil de la
   [commission des lois](commission/lois.md)
 
 

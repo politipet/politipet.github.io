@@ -21,30 +21,12 @@ seens:  $(addsuffix .seen,  $(all_id))
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
 	> $(ref).md
-	@echo $(footer) >> $(ref).md
+	cat i-page.footer.md | sed "$(footer.repl)" >> $(ref).md
 
-footer = "<div id='footer' class='info-page' markdown='1'>\
-☆\n\
-\n\
-[voter][vote]\n\
-\n\
-[discuter][chat]\n\
-\n\
-[participation][graph]\n\
-\n\
-☆\n\
-</div>\n\
-\n\
------\n\
-[social][social] ☆ [politipet.fr](/) ☆ [contact][contact]\n\
-\n\
-[vote]: $(VOTE)/$(url)\n\
-[chat]: $(SEEN)/$(src)\n\
-[graph]: /\#$(ref:i-%=%)\n\
-\n\
-[social]: https://piaille.fr/@politipet\n\
-[contact]: mailto:politipet@laposte.net\n\
-"
+footer.repl = \
+	s,:VOTE:,$(VOTE)/$(url),;\
+	s,:SEEN:,$(SEEN)/$(src),;\
+	s,:REF:,$(ref:i-%=%),;\
 
 url = $(if $(ref.url),$(ref.url),$(ref))
 ref.url = $($(ref).url)

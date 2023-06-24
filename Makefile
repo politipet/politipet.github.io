@@ -32,12 +32,18 @@ footer = "<div id='footer' class='info-page' markdown='1'>\
 \n\
 [participation][graph]\n\
 \n\
+☆\n\
+</div>\n\
+\n\
+-----\n\
+[social][social] ☆ [politipet.fr](/) ☆ [contact][contact]\n\
+\n\
 [vote]: $(VOTE)/$(url)\n\
 [chat]: $(SEEN)/$(src)\n\
 [graph]: /\#$(ref:i-%=%)\n\
 \n\
-☆\n\
-</div>\
+[social]: https://piaille.fr/@politipet\n\
+[contact]: mailto:politipet@laposte.net\n\
 "
 
 url = $(if $(ref.url),$(ref.url),$(ref))

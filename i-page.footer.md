@@ -11,7 +11,7 @@
 </div>
 
 -----
-[social][social] ☆ [politipet.fr](/) ☆ [contact][contact]
+[social][social] ☆ [info](/info) ☆ [contact][contact]
 
 
 [vote]: :VOTE:

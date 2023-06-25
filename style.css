@@ -98,6 +98,7 @@ img {
 	margin: .5rem;
 	border-radius: 1rem;
 }
+.footer a,
 #footer a,
 #footer a:visited {
 	color: blue;
@@ -107,4 +108,8 @@ img {
 	border-radius: 1rem;
 	padding: .5rem;
 	border: 2px dotted green;
+}
+.info-page.footer a {
+	width: 5rem;
+	display: inline-block;
 }

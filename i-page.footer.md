@@ -11,7 +11,12 @@
 </div>
 
 -----
+
+<div class='info-page footer' markdown='1'>
+
 [social][social] ☆ [info](/info) ☆ [contact][contact]
+
+</div>
 
 
 [vote]: :VOTE:

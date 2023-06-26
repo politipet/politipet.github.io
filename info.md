@@ -92,12 +92,12 @@ aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 --------------------------
 
 Les propositions citoyennes offrent une voie d'entrée directe
-dans le parlement. Le système de vote est un précurseur du vote
-électronique direct de la loi par la population. En effet,
-voter pour les propositions remplit simultanément deux fonctions
-différentes : a.) effectuer une pre-selection des propositions
-à envoyer à l'Assemblée, sur la base de l' « intérêt déclaré » ;
-et b.) réaliser un « pre-vote citoyen » des pre-propositions de loi.
+dans le parlement. Le système de vote est un précurseur du
+<u>vote électronique</u> direct de la loi par la population.
+Voter les propositions réalise deux actions en même temps :
+1.) une sélection des propositions à envoyer à l'Assemblée, le
+nombre de voix indique l'«intérêt» ; 2.) un «pré-vote» des
+«pré-propositions de loi» à la manière d'un référendum.
 
 Les propositions citoyennes agissent directement sur l'agenda
 du parlement, permettent de <u>voter fréquement</u> et de manière
@@ -110,8 +110,8 @@ ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 <center>☆</center>
 
 
-☆ [les propositions](/) ☆
--------------------------
+»» [les propositions](/) ««
+---------------------------
 
 
 </div>

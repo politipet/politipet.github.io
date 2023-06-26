@@ -26,14 +26,14 @@ il faut avoir ses accès ameli.fr ou impots.gouv sous la main.
 ☆ règles du jeu ☆
 -----------------
 
-Les propositions doivent atteindre 5000 votes en moins de 6 mois,
-sinon elle sont classées «sans suite» par la commission des lois ;
-les autres commissions ont une barre à 10.000 votes, sans
-limite de temps. Les propositions qui dépassent 500.000 voix
+Les propositions attribuées à la commission des lois doivent
+atteindre 5.000 votes en moins de 6 mois, sinon elle sont classées
+sans suite ; pour les autres commissions, la barre est à 10.000 votes,
+mais sans limite de temps. Les propositions qui dépassent 500.000 voix
 peuvent passer en débat public dans l'hémicycle à l'Assemblée.
 
 La commission compétente sur le sujet étudie la proposition,
-spontanément ou sur demande d'un.e député.e et produit une décision
+spontanément ou sur demande d'un·e député·e et produit une décision
 et un compte rendu écrit. La commission peut décider de
 rejetter la proposition, ou de la discuter, pour ensuite la porter
 et en faire un projet de loi.

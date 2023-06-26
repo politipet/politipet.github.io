@@ -28,14 +28,6 @@ function main() {
 		p = petition(petitions[i])
 		c.appendChild(p)
 	}
-	add_page_event_listeners()
-}
-
-function add_page_event_listeners() {
-	document.getElementById("header")
-	.addEventListener('click', function(ev) {
-		location.assign("info.html")
-	})
 }
 
 function petition_url(id) {

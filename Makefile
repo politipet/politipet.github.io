@@ -46,9 +46,16 @@ tdg_list:
 		s:</p></div></div></div>::g;\
 		s:&num;:#:g;\
 	" > tdg/list.tsv
+	{ echo "id\ttext"; cat tdg/list.tsv; } > _data/items.tsv
 
 version:
-	git rev-parse --short=6 HEAD > _site/version.txt
+	{ echo "githash: `git rev-parse --short=6 HEAD`"	;\
+	  echo "timestamp: `date +'%F %T'`"			;\
+	} > _data/$@.yml
+
+version tdg_list: _data
+
+_data:; mkdir _data
 
 VOTE = "https://petitions.assemblee-nationale.fr/initiatives"
 SEEN = "https://seenthis.net/messages"

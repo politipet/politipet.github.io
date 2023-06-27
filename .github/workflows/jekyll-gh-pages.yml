@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - run:  make seens tdg_list
+      - run:  make seens tdg_list version
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll

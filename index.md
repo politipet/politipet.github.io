@@ -18,7 +18,7 @@
 
 <div id="footer" markdown="1">
 
-☆ [ℹ️ ](info.md) ☆
+[TDG](tdg) ☆ [ℹ️ ](info.md) ☆ [VER](ver)
 
 -----
 

@@ -55,7 +55,6 @@ img {
 	vertical-align: middle;
 	width: 40%;
 	color: blue;
-	opacity: 20%;
 	user-select: none;
 	cursor: pointer;
 }
@@ -64,6 +63,15 @@ img {
 }
 .bak-button {
 	text-align: left;
+}
+div .button {
+	opacity: 0;
+	pointer-events:	none;
+}
+div:last-child .button,
+div:first-child .button {
+	opacity: 20%;
+	pointer-events:	auto;
 }
 .spip_code code {
 	display: block;

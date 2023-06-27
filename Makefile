@@ -34,6 +34,19 @@ url = $(if $(ref.url),$(ref.url),$(ref))
 ref.url = $($(ref).url)
 bassine.url = "?filter[search_text]=bassine"
 
+tdg_list:
+	curl -s $(SEEN)/1007431 \
+	| grep 'class="texte"' \
+	| sed 's:<br>:\n:g' \
+	| grep lien_lien \
+	| sed "s:<span class='lien_lien'.*</a></span><a rel='nofollow' ::g;\
+		s:.*class='lien_fin'>::g;\
+		s:\t: :g;\
+		s:</span></span></a></span>:\t:g;\
+		s:</p></div></div></div>::g;\
+		s:&num;:#:g;\
+	" > tdg/list.tsv
+
 version:
 	git rev-parse --short=6 HEAD > _site/version.txt
 

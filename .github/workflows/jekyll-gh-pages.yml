@@ -35,8 +35,7 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - run:  sudo make graphs
-      - run:  sudo make scores
+      - run:  sudo make graphs scores
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 

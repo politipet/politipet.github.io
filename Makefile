@@ -9,12 +9,14 @@ src = $(word $*, $($(suffix $@)))
 dst = $(word $*, $(target))$(suffix $@)
 ref = $(word $*, $(target))
 
-%.graph %.score:
-	curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
-
 graphs: $(addsuffix .graph, $(all_id))
 scores: $(addsuffix .score, $(all_id))
 seens:  $(addsuffix .seen,  $(all_id))
+
+%.graph:; $(GET_PNG)
+%.score:; $(GET_PNG)
+
+GET_PNG = curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
 
 %.seen:
 	curl -s $(SEEN)/$(src) \

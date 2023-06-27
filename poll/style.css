@@ -19,3 +19,7 @@ h1 {
 	background-color: lightsteelblue;
 	border-radius: 1rem;
 }
+iframe.res {
+	width: 100%;
+	border: none;
+}

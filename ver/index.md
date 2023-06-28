@@ -1,13 +1,13 @@
 version
 =======
 
-site version
-------------
+politipet
+---------
 
 {{ site.data.version.githash }}
 
 
-last update
------------
+dernière màj
+------------
 
 {{ site.data.version.timestamp }}

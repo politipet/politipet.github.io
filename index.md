@@ -12,6 +12,13 @@
 -----
 
 <div id="contents"></div>
+<script>
+petitions = [
+{% for item in site.data.items %}
+"{{ item.id }}",
+{% endfor %}
+]
+</script>
 <script src="main.js"></script>
 
 -----

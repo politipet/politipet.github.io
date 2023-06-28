@@ -3,11 +3,15 @@ Tête de Gondole
 
 ----
 
+<div class="content" markdown="1">
+
 {% for item in site.data.items %}
 
 [{{ item.text }}](/{{ item.id }})
 
 {% endfor %}
+
+</div>
 
 ----
 

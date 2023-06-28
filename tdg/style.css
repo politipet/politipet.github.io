@@ -1,6 +1,19 @@
-iframe {
-	width: 100%;
-	height: 78vh;
-	border: none;
+.content a {
+	margin: .5rem .1rem;
+	background-color: lightsteelblue;
+	display: block;
+	font-variant: small-caps;
+	font-weight: bold;
+	max-width: 40rem;
+}
+a {
+	text-decoration: none;
 	border-radius: 1rem;
+	padding: .5rem 1rem;
+}
+a:visited {
+	color: blue;
+}
+.content p {
+	margin: 0;
 }

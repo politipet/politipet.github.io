@@ -1,0 +1,15 @@
+h1, h2 {
+	border-radius: 1rem;
+	padding: .5rem 1rem;
+}
+h1 {
+	background-color: lightsteelblue;
+}
+h2 {
+	display: inline-block;
+	font-size: large;
+	background-color: lightgrey;
+}
+h2#politipet {
+	margin-top: 4rem;
+}

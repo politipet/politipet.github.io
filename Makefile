@@ -45,8 +45,12 @@ tdg_list:
 		s:</span></span></a></span>:\t:g;\
 		s:</p></div></div></div>::g;\
 		s:&num;:#:g;\
-	" > tdg/list.tsv
-	{ echo "id\ttext"; cat tdg/list.tsv; } > _data/items.tsv
+	" > $(list.tsv)
+	[ `wc -l < $(list.tsv)` -gt 1 ] || { echo === FALLBACK ===; \
+		curl -s https://politipet.fr/$(list.tsv) > $(list.tsv); }
+	{ echo "id\ttext"; cat $(list.tsv); } > _data/items.tsv
+
+list.tsv = tdg/list.tsv
 
 githash = $(shell git rev-parse --short=6 HEAD)
 timestamp = $(shell TZ='Europe/Paris' date +'%F %T')

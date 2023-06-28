@@ -48,10 +48,11 @@ tdg_list:
 	" > tdg/list.tsv
 	{ echo "id\ttext"; cat tdg/list.tsv; } > _data/items.tsv
 
+githash = $(shell git rev-parse --short=6 HEAD)
+timestamp = $(shell TZ='Europe/Paris' date +'%F %T')
 version:
-	{ echo "githash: `git rev-parse --short=6 HEAD`"	;\
-	  echo "timestamp: `date +'%F %T'`"			;\
-	} > _data/$@.yml
+	echo 'githash: $(githash)\ntimestamp: "$(timestamp)"' \
+	> _data/$@.yml
 
 version tdg_list: _data
 

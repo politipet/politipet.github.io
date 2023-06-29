@@ -43,6 +43,13 @@ rendu écrit, en bas de la page de la proposition sur la plateforme
 de l'Assemblée.
 
 
+»» [la sélection politipet](/) ««
+---------------------------------
+
+
+<center>☆</center>
+
+
 ☆ au menu ☆
 -----------
 
@@ -51,26 +58,26 @@ Les <u>graphiques</u> montrent :
 - l'évolution des votes dans le temps :<br>
   nombre total de votes (bleu),<br>
   nombre de votes / heure (rouge)
-
 - un résumé de la proposition<br>
   en cliquant sur le graphique
 
 Les <u>boutons score</u> permettent de :
 
 - voir le total des votes
-
 - aller voter
 
 
 Les <u>boutons du bas</u> permettent de :
 
 - participer au [sondage](poll/)
-
 - voir les propositions
   [les plus votées][most voted]
-
 - voir le profil de la
   [commission des lois](commission/lois.md)
+- voir la [Tête de Gondole](tdg/)
+
+
+<center>☆</center>
 
 
 ☆ la plateforme de vote ☆

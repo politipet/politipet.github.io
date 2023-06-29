@@ -13,3 +13,6 @@ h2 {
 h2#politipet {
 	margin-top: 4rem;
 }
+img {
+	max-width: 100%;
+}

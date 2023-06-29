@@ -25,7 +25,7 @@ petitions = [
 
 <div id="footer" markdown="1">
 
-[TDG](tdg) ☆ [ℹ️ ](info.md) ☆ [VER](ver)
+[TDG](tdg) ☆ [INFO](info.md) ☆ [VER](ver)
 
 -----
 

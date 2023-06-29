@@ -42,6 +42,8 @@ Les débats en commission sont filmés et disponibles, avec le compte
 rendu écrit, en bas de la page de la proposition sur la plateforme
 de l'Assemblée.
 
+![pie chart PAN](pie-chart-PAN.png)
+
 
 »» [la sélection politipet](/) ««
 ---------------------------------

@@ -34,6 +34,14 @@ url = $(if $(ref.url),$(ref.url),$(ref))
 ref.url = $($(ref).url)
 bassine.url = "?filter[search_text]=bassine"
 
+
+pie-chart-PAN: src = 365702971
+pie-chart-PAN: dst = $@
+pie-chart-PAN:; $(GET_PNG)
+
+graphs: pie-chart-PAN
+
+
 tdg_list:
 	curl -s $(SEEN)/1007431 \
 	| grep 'class="texte"' \

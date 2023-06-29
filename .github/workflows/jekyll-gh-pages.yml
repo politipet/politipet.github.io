@@ -2,10 +2,7 @@ name: Jekyll GitHub Pages
 
 on:
   push:
-    branches: ["master"]
-
-  # Allows manual runs from the Actions tab
-  workflow_dispatch:
+    tags: ["build"]
 
   schedule:
     - cron: "30 * * * *"

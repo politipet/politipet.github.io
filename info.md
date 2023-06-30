@@ -13,14 +13,14 @@
 
 <div class="left" markdown="1">
 
-Site vitrine indépendant, outil de suivi, incitateur civique,
-[politipet.fr][politipet] présente une sélection de propositions citoyennes
+Vitrine indépendante, outil de suivi, incitateur civique,
+[politipet.fr][politipet] présente une sélection d'initiatives citoyennes
 ouvertes au vote sur la plateforme de l'[Assemblée nationale][assemblée].
 
 <center>☆</center>
 
 Voter est <u>anonyme</u> et prend <u>une minute</u> ;
-il faut avoir ses accès ameli.fr ou impots.gouv sous la main.
+il suffit d'avoir un indentifiant France-Connect sous la main.
 
 
 ☆ règles du jeu ☆
@@ -45,8 +45,7 @@ de l'Assemblée.
 ![pie chart PAN](pie-chart-PAN.png)
 
 
-»» [la sélection politipet](/) ««
----------------------------------
+### »» [la sélection politipet](/tdg) ««
 
 
 <center>☆</center>

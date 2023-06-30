@@ -88,8 +88,10 @@ div:first-child .button {
 	max-width: 40rem;
 }
 .left h2 {
-	text-align: center;
 	font-variant: small-caps;
+}
+.left h2, h3 {
+	text-align: center;
 }
 
 @keyframes gradient {

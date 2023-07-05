@@ -33,6 +33,7 @@ footer.repl = \
 url = $(if $(ref.url),$(ref.url),$(ref))
 ref.url = $($(ref).url)
 bassine.url = "?filter[search_text]=bassine"
+planlfi.url = "?filter[search_text]=plan+d\'urgence"
 
 
 pie-chart-PAN: src = 365702971

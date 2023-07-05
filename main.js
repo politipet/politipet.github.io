@@ -1,6 +1,7 @@
 
 url = {
 "bassine": "?filter[search_text]=bassine",
+"planlfi": "?filter[search_text]=plan+d'urgence",
 }
 
 function main() {

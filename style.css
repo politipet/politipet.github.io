@@ -83,6 +83,23 @@ div:first-child .button {
 .texte {
 	max-width: 40rem;
 }
+.lien_lien {
+	background-repeat: no-repeat;
+	padding-left: 1.5rem;
+	word-wrap: break-word;
+	word-break: break-word;
+	overflow-wrap: break-word;
+	hyphens: auto;
+}
+.lien_lien_total {
+	display: none;
+}
+.lien_raccourci::after {
+	content: "\2026/";
+}
+.lien_off {
+	display: none;
+}
 .left {
 	text-align: left;
 	max-width: 40rem;

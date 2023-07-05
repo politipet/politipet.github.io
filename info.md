@@ -26,15 +26,16 @@ il suffit d'avoir un indentifiant France-Connect sous la main.
 ☆ règles du jeu ☆
 -----------------
 
-Les propositions attribuées à la commission des lois doivent
-atteindre 5.000 votes en moins de 6 mois, sinon elle sont classées
-sans suite ; pour les autres commissions, la barre est à 10.000 votes,
-mais sans limite de temps. Les propositions qui dépassent 500.000 voix
+Les propositions sont attribuées selon le sujet à l'une des huit
+commissions de l'Assemblée. Pour la commission des lois, il faut
+atteindre 5.000 votes en moins de 6 mois, sinon la proposition est classée
+sans suite ; les autres commissions mettent la barre à 10.000 voix,
+avec ou sans limite de temps. Les propositions qui dépassent 500.000 voix
 peuvent passer en débat public dans l'hémicycle à l'Assemblée.
 
-La commission compétente sur le sujet étudie la proposition,
-spontanément ou sur demande d'un·e député·e et produit une décision
-et un compte rendu écrit. La commission peut décider de
+La commission désigne un rapporteur et se réunit, spontanément ou
+sur demande d'un·e député·e, pour étudier les propositions. Elle produit
+une décision et un compte rendu écrit. La commission peut décider de
 rejetter la proposition, ou de la discuter, pour ensuite la porter
 et en faire un projet de loi.
 
@@ -48,7 +49,7 @@ de l'Assemblée.
 ### »» [la sélection politipet](/tdg) ««
 
 
-<center>☆</center>
+<center>&nbsp;</center>
 
 
 ☆ au menu ☆
@@ -71,14 +72,12 @@ Les <u>boutons score</u> permettent de :
 Les <u>boutons du bas</u> permettent de :
 
 - participer au [sondage](poll/)
-- voir les propositions
-  [les plus votées][most voted]
-- voir le profil de la
-  [commission des lois](commission/lois.md)
+- voir les propositions [les plus votées][most voted]
+- voir la [commission des lois](commission/lois.md)
 - voir la [Tête de Gondole](tdg/)
 
 
-<center>☆</center>
+<center>&nbsp;</center>
 
 
 ☆ la plateforme de vote ☆

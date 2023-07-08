@@ -61,15 +61,24 @@ tdg_list:
 
 list.tsv = tdg/list.tsv
 
+all.yml:
+	curl -sL $(data_all.txt) \
+	| awk '{print($$1 ":\n commission: " $$2 "\n score: " $$3)}' \
+	> _data/$@
+
+data_all.txt = https://github.com/politipet/data/raw/master/all-data.txt
+
+
 githash = $(shell git rev-parse --short=6 HEAD)
 timestamp = $(shell TZ='Europe/Paris' date +'%F %T')
 version:
 	echo 'githash: $(githash)\ntimestamp: "$(timestamp)"' \
 	> _data/$@.yml
 
-version tdg_list: _data
 
-_data:; mkdir _data
+version tdg_list all.yml: _data
+_data:
+	mkdir $@
 
 VOTE = "https://petitions.assemblee-nationale.fr/initiatives"
 SEEN = "https://seenthis.net/messages"

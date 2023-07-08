@@ -43,7 +43,11 @@ pie-chart-PAN:; $(GET_PNG)
 graphs: pie-chart-PAN
 
 
-tdg_list:
+data_files = all.yml tdg.tsv version
+data_files: $(data_files)
+
+
+tdg.tsv:
 	curl -s $(SEEN)/1007431 \
 	| grep 'class="texte"' \
 	| sed 's:<br>:\n:g' \
@@ -57,7 +61,7 @@ tdg_list:
 	" > $(list.tsv)
 	[ `wc -l < $(list.tsv)` -gt 1 ] || { echo === FALLBACK ===; \
 		curl -s https://politipet.fr/$(list.tsv) > $(list.tsv); }
-	{ echo "id\ttext"; cat $(list.tsv); } > _data/items.tsv
+	{ echo "id\ttext"; cat $(list.tsv); } > _data/$@
 
 list.tsv = tdg/list.tsv
 
@@ -76,7 +80,7 @@ version:
 	> _data/$@.yml
 
 
-version tdg_list all.yml: _data
+$(data_files): _data
 _data:
 	mkdir $@
 

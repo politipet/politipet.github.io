@@ -14,7 +14,7 @@
 <div id="contents"></div>
 <script>
 petitions = [
-{% for item in site.data.items %}
+{% for item in site.data.tdg %}
 "{{ item.id }}",
 {% endfor %}
 ]

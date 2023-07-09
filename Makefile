@@ -67,10 +67,29 @@ list.tsv = tdg/list.tsv
 
 all.yml:
 	curl -sL $(data_all.txt) \
+	| tee _data/alive.txt \
 	| awk '{print($$1 ":\n commission: " $$2 "\n score: " $$3)}' \
 	> _data/$@
 
 data_all.txt = https://github.com/politipet/data/raw/master/all-data.txt
+
+
+extra-scores = bassine planlfi i-1319
+extra-data: $(extra-scores:%=%.extra)
+
+%.extra:
+	echo "$*:\n score: $(get.score)" >> _data/all.yml
+
+get.score = $(if $(findstring |,$(_score)),$(sum.scores),$(_score))
+sum.scores = $(shell cat _data/alive.txt | egrep 'i-($(_score))' \
+		| cut -d ' ' -f 3 | xargs | tr ' ' '+' | bc)
+_score = $($(*).score)
+
+bassine.score = 1437|1470
+planlfi.score = 1768|1769
+i-1319.score  = 264000
+
+data_files: extra-data
 
 
 githash = $(shell git rev-parse --short=6 HEAD)

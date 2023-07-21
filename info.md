@@ -19,6 +19,10 @@ ouvertes au vote sur la plateforme de l'[Assemblée nationale][assemblée].
 
 <center>☆</center>
 
+### [PoLiTiPeT : une amie qui nous veut du bien][intro.seen]
+
+<center>☆</center>
+
 Voter est <u>anonyme</u> et prend <u>une minute</u> ;
 il suffit d'avoir un indentifiant France-Connect sous la main.
 
@@ -131,6 +135,7 @@ ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 [email]: mailto:politipet@laposte.net
 [github]: https://github.com/politipet
 [seenthis]: https://seenthis.net/people/politipet
+[intro.seen]: https://seenthis.net/messages/1010675
 
 [politipet]: https://politipet.fr
 [assemblée]: https://petitions.assemblee-nationale.fr

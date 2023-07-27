@@ -124,12 +124,16 @@ ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 »» [les propositions](/) ««
 ---------------------------
 
+<center>
+<a rel="me" href="https://piaille.fr/@politipet">☆</a>
+</center>
 
 </div>
 
 -----
 
 [social][seenthis] ☆ [contact][email] ☆ [source][github]
+
 
 
 [email]: mailto:politipet@laposte.net

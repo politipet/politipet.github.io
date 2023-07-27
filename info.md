@@ -19,10 +19,6 @@ ouvertes au vote sur la plateforme de l'[Assemblée nationale][assemblée].
 
 <center>☆</center>
 
-### [PoLiTiPeT : une amie qui nous veut du bien][intro.seen]
-
-<center>☆</center>
-
 Voter est <u>anonyme</u> et prend <u>une minute</u> ;
 il suffit d'avoir un indentifiant France-Connect sous la main.
 
@@ -123,6 +119,10 @@ ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 
 »» [les propositions](/) ««
 ---------------------------
+
+<center>☆</center>
+
+### [PoLiTiPeT nous veut du bien !][intro.seen]
 
 <center>
 <a rel="me" href="https://piaille.fr/@politipet">☆</a>

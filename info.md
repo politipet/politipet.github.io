@@ -15,12 +15,12 @@
 
 Vitrine indépendante, outil de suivi, incitateur civique,
 [politipet.fr][politipet] présente une sélection d'initiatives citoyennes
-ouvertes au vote sur la plateforme de l'[Assemblée nationale][assemblée].
+ouvertes au vote sur la [plateforme][assemblée] de l'Assemblée nationale.
 
 <center>☆</center>
 
 Voter est <u>anonyme</u> et prend <u>une minute</u> ;
-il suffit d'avoir un indentifiant France-Connect sous la main.
+il suffit d'avoir un accès FranceConnect sous la main.
 
 
 ☆ règles du jeu ☆
@@ -54,6 +54,8 @@ de l'Assemblée.
 
 ☆ au menu ☆
 -----------
+
+### [politipet][politipet]
 
 Les <u>graphiques</u> montrent :
 

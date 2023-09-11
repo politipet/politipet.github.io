@@ -152,3 +152,10 @@ div:first-child .button {
 	width: 5rem;
 	display: inline-block;
 }
+
+h3#politipet {
+	margin: -.8em 0 1.5em;
+}
+h3#politipet a {
+	text-decoration: none;
+}

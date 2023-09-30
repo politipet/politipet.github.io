@@ -109,7 +109,7 @@ nombre de voix indique l'«intérêt» ; 2.) un «pré-vote» des
 «pré-propositions de loi» à la manière d'un référendum.
 
 Les propositions citoyennes agissent directement sur l'agenda
-du parlement, permettent de <u>voter fréquement</u> et de manière
+du parlement, permettent de <u>voter fréquemment</u> et de manière
 <u>ciblée</u> sur les thèmes qui comptent, choisis par la population.
 Les parlementaires ont _bien entendu_ toujours le dernier mot,
 démocratie représentative oblige. Pour autant, si les député·es

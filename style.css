@@ -112,6 +112,15 @@ div:first-child .button {
 .lien_off {
 	display: none;
 }
+.spip_out::after {
+	content: "=> ❀";
+}
+.spip_out {
+	text-decoration: none;
+}
+.lien_court {
+	display: none;
+}
 .left {
 	text-align: left;
 	max-width: 40rem;

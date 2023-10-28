@@ -56,14 +56,13 @@ Les intitiatives citoyennes offrent une voie d'entrée directe
 dans le parlement. Le système de vote est un précurseur du
 <u>vote électronique</u> direct de la loi par la population.
 Voter les propositions réalise deux actions en même temps :
-1.) une sélection des propositions à envoyer à l'Assemblée, le
-nombre de voix indique l'«intérêt» ; 2.) un «pré-vote» des
-«pré-propositions de loi» à la manière d'un référendum.
+une _sélection_ des propositions à envoyer à l'Assemblée et
+un _pré-vote_ populaire de la loi. Et parfois, c'est un RIC.
 
-Les propositions agissent directement sur l'agenda du parlement,
-permettent de <u>voter fréquemment</u> et de manière <u>ciblée</u>
-sur les thèmes qui comptent, choisis par la population.
-Les parlementaires ont _bien entendu_ toujours le dernier mot,
+Les citoyens agissent directement sur l'agenda du parlement,
+<u>votent fréquemment</u> et de manière <u>ciblée</u>
+sur les thèmes choisis par la population, qui suit les résultats.
+Le dernier mot revient _bien entendu_ toujours aux parlementaires,
 démocratie représentative oblige. Ceci-dit, en s'assurant que
 les député·es respectent leur mandat et les résultats des scrutins,
 ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.

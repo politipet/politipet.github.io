@@ -15,12 +15,13 @@
 
 Vitrine indépendante, outil de suivi, incitateur civique,
 [politipet.fr][politipet] présente une sélection d'initiatives citoyennes
-ouvertes au vote sur la [plateforme][assemblée] de l'Assemblée nationale.
+ouvertes au vote sur la plateforme de l'Assemblée nationale.
 
 <center>☆</center>
 
-Voter est <u>anonyme</u> et prend <u>une minute</u> ;
-il suffit d'avoir un accès FranceConnect sous la main.
+Voter est <u>anonyme</u> et prend <u>une minute</u>,
+il suffit d'avoir un accès FranceConnect : compte améli
+ou impôts, mot de passe.
 
 
 ☆ règles du jeu ☆
@@ -45,62 +46,13 @@ de l'Assemblée.
 
 ![pie chart PAN](pie-chart-PAN.png)
 
-
-### »» [la sélection politipet](/tdg) ««
-
-
-<center>&nbsp;</center>
-
-
-☆ au menu ☆
------------
-
-### [politipet][politipet]
-
-Les <u>graphiques</u> montrent :
-
-- l'évolution des votes dans le temps :<br>
-  nombre total de votes (bleu),<br>
-  nombre de votes / heure (rouge)
-- un résumé de la proposition<br>
-  en cliquant sur le graphique
-
-Les <u>boutons score</u> permettent de :
-
-- voir le total des votes
-- aller voter
-
-
-Les <u>boutons du bas</u> permettent de :
-
-- participer au [sondage](poll/)
-- voir les propositions [les plus votées][most voted]
-- voir la [commission des lois](commission/lois.md)
-- voir la [Tête de Gondole](tdg/)
-
-
-<center>&nbsp;</center>
-
-
-☆ la plateforme de vote ☆
--------------------------
-
-La plateforme de l'Assemblée nationale garantit l'unicité du vote
-et l'anonymat des participants. Pour pouvoir voter, il faut un accès
-France Connect, p.ex. un compte Améli - n° de sécu et mot de passe -
-ou un compte impots.gouv.fr.
-
-<center>☆</center>
-
-Si vous votez depuis un smartphone, pensez à enregistrer vos
-informations de connexion quand il vous le propose : vous les
-aurez sous le doigt pour le prochain tour, comme sur votre ordi.
-
+<center>initiatives par commission</center>
+<br>
 
 ☆ aux armes, citoyen·nes ☆
 --------------------------
 
-Les propositions citoyennes offrent une voie d'entrée directe
+Les intitiatives citoyennes offrent une voie d'entrée directe
 dans le parlement. Le système de vote est un précurseur du
 <u>vote électronique</u> direct de la loi par la population.
 Voter les propositions réalise deux actions en même temps :
@@ -108,26 +60,77 @@ Voter les propositions réalise deux actions en même temps :
 nombre de voix indique l'«intérêt» ; 2.) un «pré-vote» des
 «pré-propositions de loi» à la manière d'un référendum.
 
-Les propositions citoyennes agissent directement sur l'agenda
-du parlement, permettent de <u>voter fréquemment</u> et de manière
-<u>ciblée</u> sur les thèmes qui comptent, choisis par la population.
+Les propositions agissent directement sur l'agenda du parlement,
+permettent de <u>voter fréquemment</u> et de manière <u>ciblée</u>
+sur les thèmes qui comptent, choisis par la population.
 Les parlementaires ont _bien entendu_ toujours le dernier mot,
-démocratie représentative oblige. Pour autant, si les député·es
-respectent leur mandat et les scrutins pour les propositions,
+démocratie représentative oblige. Ceci-dit, en s'assurant que
+les député·es respectent leur mandat et les résultats des scrutins,
 ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 
 <center>☆</center>
 
 
-»» [les propositions](/) ««
----------------------------
+### [la sélection PoLiTiPeT](/tdg)
+
+### [toutes les propositions à l'AN][most recent]
+
+<br>
+
+
+☆ la vitrine politipet ☆
+------------------------
+
+Les <u>graphiques</u> montrent l'évolution des votes dans le temps :
+nombre total de votes (bleu), nombre de votes / heure (rouge).
+Cliquer dessus pour voir la page de résumé de la proposition.
+
+Les <u>boutons score</u> affichent le total des voix et permettent
+d'aller voter sur la plateforme des PAN.  Le score indiqué est
+mis à jour toutes les heures.
+
+Les <u>boutons du bas</u> permettent de participer au sondage,
+voir les propositions les plus votées ou la composition de la
+commission des lois.
+
+
+☆ la plateforme de vote ☆
+-------------------------
+
+La plateforme de l'Assemblée nationale garantit l'unicité du vote
+et l'anonymat des participants en utilisant le service FranceConnect.
+Pour voter, il faut un accès FranceConnect : compte améli
+ou compte impôts.gouv - n° de sécu ou n° fiscal et mot de passe.
+
+Si vous votez depuis un smartphone, pensez à enregistrer vos
+informations de connexion quand il vous le propose : vous les
+aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 
 <center>☆</center>
 
-### [PoLiTiPeT nous veut du bien !][intro.seen]
+FranceConnect agit comme tiers de confiance et ne transmet aucune
+information personnelle à la plateforme de vote : uniquement date de
+naissance - il faut être majeur - et un "identifiant anonyme" unique.
+
+Les écrans d'autentification sont directement ceux des sites ameli.fr
+ou impots.gouv.fr, le site FranceConnect récupère nom et date de
+naissance, génère un identifiant anonyme unique qu'il transmet avec la
+date de naissance à la plateforme de vote.
+
+<br>
+
+
+☆ politipet ☆
+-------------
+
+### [une amie qui nous veut du bien][intro.seen]
+
+<center>☆</center>
+
+### [home](/)
 
 <center>
-<a rel="me" href="https://piaille.fr/@politipet">☆</a>
+<a rel="me" href="https://piaille.fr/@politipet">&nbsp;</a>
 </center>
 
 </div>
@@ -144,5 +147,5 @@ ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 [intro.seen]: https://seenthis.net/messages/1010675
 
 [politipet]: https://politipet.fr
-[assemblée]: https://petitions.assemblee-nationale.fr
 [most voted]: https://petitions.assemblee-nationale.fr/initiatives?order=most_voted
+[most recent]: https://petitions.assemblee-nationale.fr/initiatives?order=recent

@@ -28,11 +28,10 @@ ou impôts, mot de passe.
 -----------------
 
 Les propositions sont attribuées selon le sujet à l'une des huit
-commissions de l'Assemblée. Pour la commission des lois, il faut
-atteindre 5.000 votes en moins de 6 mois, sinon la proposition est classée
-sans suite ; les autres commissions mettent la barre à 10.000 voix,
-avec ou sans limite de temps. Les propositions qui dépassent 500.000 voix
-peuvent passer en débat public dans l'hémicycle à l'Assemblée.
+commissions de l'Assemblée, puis sont ouvertes au vote et doivent
+atteindre 5.000 ou 10.000 voix en 6 ou 9 mois. Faute de votes, elle
+sont classée sans suite, automatiquement et sans étude. Celles qui
+dépassent 500.000 peuvent passer en débat public dans l'hémicycle.
 
 La commission désigne un rapporteur et se réunit, spontanément ou
 sur demande d'un·e député·e, pour étudier les propositions. Elle produit

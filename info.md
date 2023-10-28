@@ -20,7 +20,7 @@ ouvertes au vote sur la plateforme de l'Assemblée nationale.
 <center>☆</center>
 
 Voter est <u>anonyme</u> et prend <u>une minute</u>,
-il suffit d'avoir un accès FranceConnect : compte améli
+il suffit d'avoir un accès France Connect : compte améli
 ou impôts, mot de passe.
 
 
@@ -95,9 +95,9 @@ commission des lois.
 -------------------------
 
 La plateforme de l'Assemblée nationale garantit l'unicité du vote
-et l'anonymat des participants en utilisant le service FranceConnect.
-Pour voter, il faut un accès FranceConnect : compte améli
-ou compte impôts.gouv - n° de sécu ou n° fiscal et mot de passe.
+et l'anonymat des participants grâce au service France Connect.
+Pour se connecter, il faut un compte améli ou impôts : n° de sécu
+ou n° fiscal, mot de passe.
 
 Si vous votez depuis un smartphone, pensez à enregistrer vos
 informations de connexion quand il vous le propose : vous les
@@ -105,12 +105,12 @@ aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 
 <center>☆</center>
 
-FranceConnect agit comme tiers de confiance et ne transmet aucune
+France Connect agit comme tiers de confiance et ne transmet aucune
 information personnelle à la plateforme de vote : uniquement date de
 naissance - il faut être majeur - et un "identifiant anonyme" unique.
 
 Les écrans d'autentification sont directement ceux des sites ameli.fr
-ou impots.gouv.fr, le site FranceConnect récupère nom et date de
+ou impots.gouv.fr, le site France Connect récupère nom et date de
 naissance, génère un identifiant anonyme unique qu'il transmet avec la
 date de naissance à la plateforme de vote.
 

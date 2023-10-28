@@ -124,6 +124,7 @@ div:first-child .button {
 .left {
 	text-align: left;
 	max-width: 40rem;
+	line-height: 1.4rem;
 }
 .left h2 {
 	font-variant: small-caps;

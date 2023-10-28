@@ -68,15 +68,6 @@ démocratie représentative oblige. Ceci-dit, en s'assurant que
 les député·es respectent leur mandat et les résultats des scrutins,
 ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 
-<center>☆</center>
-
-
-### [la sélection PoLiTiPeT](/tdg)
-
-### [toutes les propositions à l'AN][most recent]
-
-<br>
-
 
 ☆ la vitrine politipet ☆
 ------------------------
@@ -92,6 +83,14 @@ mis à jour toutes les heures.
 Les <u>boutons du bas</u> permettent de participer au sondage,
 voir les propositions les plus votées ou la composition de la
 commission des lois.
+
+<center>☆</center>
+
+### [la sélection PoLiTiPeT](/tdg)
+
+### [toutes les propositions à l'AN][most recent]
+
+<br>
 
 
 ☆ la plateforme de vote ☆

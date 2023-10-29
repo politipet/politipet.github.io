@@ -40,6 +40,7 @@ extra.seens = $(shell egrep '^[0-9]+.seen: src' Makefile | cut -d : -f 1)
 $(extra.seens): ref = i-$*
 $(extra.seens):
 
+1970.seen: src = 1023697
 
 seens: $(extra.seens)
 

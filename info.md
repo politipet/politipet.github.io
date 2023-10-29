@@ -28,12 +28,12 @@ ou impôts, mot de passe.
 -----------------
 
 Les propositions sont attribuées selon le sujet à l'une des huit
-commissions de l'Assemblée, puis sont ouvertes au vote et doivent
-atteindre 5.000 ou 10.000 voix en 6 ou 9 mois. Faute de votes, elle
-sont classée sans suite, automatiquement et sans étude. Celles qui
-dépassent 500.000 peuvent passer en débat public dans l'hémicycle.
+commissions de l'Assemblée, puis sont ouvertes au vote citoyen. Un
+minimum de 5.000 ou 10.000 voix en 6 ou 9 mois est requis, faute de
+quoi elles sont classée sans suite et sans étude. Celles qui
+atteignent 500.000 peuvent passer en débat public dans l'hémicycle.
 
-La commission désigne un rapporteur et se réunit, spontanément ou
+La commission désigne un·e rapporteur·e et se réunit, spontanément ou
 sur demande d'un·e député·e, pour étudier les propositions. Elle produit
 une décision et un compte rendu écrit. La commission peut décider de
 rejetter la proposition, ou de la discuter, pour ensuite la porter
@@ -51,16 +51,16 @@ de l'Assemblée.
 ☆ aux armes, citoyen·nes ☆
 --------------------------
 
-Les intitiatives citoyennes offrent une voie d'entrée directe
+Les intitiatives citoyennes sont une voie d'entrée directe
 dans le parlement. Le système de vote est un précurseur du
 <u>vote électronique</u> direct de la loi par la population.
-Voter les propositions réalise deux actions en même temps :
+Participer aux scrutins réalise deux actions en même temps :
 une _sélection_ des propositions à envoyer à l'Assemblée et
 un _pré-vote_ populaire de la loi. Et parfois, c'est un RIC.
 
-Les citoyens agissent directement sur l'agenda du parlement,
-<u>votent fréquemment</u> et de manière <u>ciblée</u>
-sur les thèmes choisis par la population, qui suit les résultats.
+Les citoyen·nes agissent directement sur l'agenda legislatif,
+votent <u>fréquemment</u> et de manière <u>ciblée</u> sur les
+thèmes choisis par la population.
 Le dernier mot revient _bien entendu_ toujours aux parlementaires,
 démocratie représentative oblige. Ceci-dit, en s'assurant que
 les député·es respectent leur mandat et les résultats des scrutins,

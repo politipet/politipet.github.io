@@ -1,5 +1,5 @@
 Les commissions de l'assemblée
 ==============================
 
-- [Commission des lois](lois.md)
-- [Commission des affaires sociales](affaires-sociales.md)
+### [lois et administration](lois.md)
+### [affaires sociales](affaires-sociales.md)

@@ -1,6 +1,6 @@
 target = $(shell cut -f 1 graphs.txt)
 .graph = $(shell cut -f 2 graphs.txt)
-.seen  = $(shell cut -f 4 graphs.txt)
+.seen  = $(shell cut -f 3 graphs.txt)
 
 all_id = $(shell seq $(words $(target)))
 

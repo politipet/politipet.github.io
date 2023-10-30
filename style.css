@@ -133,9 +133,9 @@ div:first-child div .shifter {
 	text-decoration: none;
 }
 #footer img {
-	width: 80px;
+	width: 60px;
 	margin: .5rem;
-	border-radius: 1rem;
+	border-radius: .7rem;
 }
 .footer a,
 #footer a,

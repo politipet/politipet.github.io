@@ -27,11 +27,11 @@ ou impôts, mot de passe.
 ☆ règles du jeu ☆
 -----------------
 
-Les propositions sont attribuées selon le sujet à l'une des huit
+Les propositions sont attribuées, selon le sujet, à l'une des huit
 commissions de l'Assemblée, puis sont ouvertes au vote citoyen. Un
 minimum de 5.000 ou 10.000 voix en 6 ou 9 mois est requis, faute de
-quoi elles sont classée sans suite et sans étude. Celles qui
-atteignent 500.000 peuvent passer en débat public dans l'hémicycle.
+quoi les propositions sont classées, sans étude. Celles qui
+dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
 
 La commission désigne un·e rapporteur·e et se réunit, spontanément ou
 sur demande d'un·e député·e, pour étudier les propositions. Elle produit
@@ -39,9 +39,8 @@ une décision et un compte rendu écrit. La commission peut décider de
 rejetter la proposition, ou de la discuter, pour ensuite la porter
 et en faire un projet de loi.
 
-Les débats en commission sont filmés et disponibles, avec le compte
-rendu écrit, en bas de la page de la proposition sur la plateforme
-de l'Assemblée.
+Les débats en commission sont filmés, vidéo et compte rendu écrit sont
+disponibles en bas de la page de la proposition.
 
 ![pie chart PAN](pie-chart-PAN.png)
 

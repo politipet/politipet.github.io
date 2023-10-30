@@ -22,11 +22,13 @@ Participation
   <img alt="{{item.text}}" src="{{item.id}}.graph.png">
 </a>
 
-<span class="button bak-button">&lt;&lt;</span>
+<div id="buttons">
+<span class="button shifter bak">&lt;&lt;</span>
 <span class="button score"><a href="{{vote}}/{{url}}">
 {{ site.data.all[item.id].score }}
 </a></span>
-<span class="button fwd-button">&gt;&gt;</span>
+<span class="button shifter fwd">&gt;&gt;</span>
+</div>
 
 </div>
 
@@ -37,3 +39,25 @@ Participation
 ----
 
 [home](/)
+
+<script>
+(function init_shifter() {
+
+const c = document.getElementById("contents")
+
+c.querySelectorAll(".shifter.fwd")
+.forEach((butt) => {
+	butt.onclick = function(ev) {
+		c.appendChild(c.children[0])
+	}
+})
+
+c.querySelectorAll(".shifter.bak")
+.forEach((butt) => {
+	butt.onclick = function(ev) {
+		c.insertBefore(c.children[c.children.length-1], c.children[0])
+	}
+})
+
+})()
+</script>

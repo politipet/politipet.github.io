@@ -57,20 +57,19 @@ img {
 	font-size: xx-large;
 	text-decoration: none;
 }
-.fwd-button {
+.shifter.fwd {
 	text-align: right;
 }
-.bak-button {
+.shifter.bak {
 	text-align: left;
 }
-.button {
+.shifter {
 	opacity: 0;
+	pointer-events:	none;
+	width: 40%;
 }
-.button.score {
-	opacity: 100%;
-}
-div:last-child .button,
-div:first-child .button {
+div:last-child div .shifter,
+div:first-child div .shifter {
 	opacity: 20%;
 	pointer-events:	auto;
 }

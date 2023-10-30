@@ -23,8 +23,8 @@
 <div id="footer" markdown="1">
 
 [![sondage](favicon.ico)](poll/)
-[![liste][logo an]][most voted]
-[![lois][logo lois]](commission/lois.md)
+[![plus votées][logo an]][most voted]
+[![commissions][logo lois]](commission/)
 
 </div>
 

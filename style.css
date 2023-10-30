@@ -20,6 +20,8 @@
 img {
 	max-width: 100%;
 	display: block;
+	font-size: xx-large;
+	font-weight: bold;
 }
 #contents > div	{
 	margin-bottom: 7rem;

@@ -38,37 +38,29 @@ img {
 #contents div > a:first-child {
 	display: inline-block;
 }
-#contents a {
+.button {
 	display: table-cell;
+	vertical-align: middle;
+	user-select: none;
+	cursor: pointer;
+	color: blue;
 }
-#contents a img	{
-	border: 2px solid blue;
-	border-radius: 150px;
-}
-#contents a img {
+.button.score {
 	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	animation: gradient 10s ease-in-out infinite;
 	background-size: 400% 400%;
 }
-#contents span.score {
-	opacity: 100%;
-}
-#contents a.score {
-	vertical-align: middle;
-	text-decoration: none;
-	width: 8rem;
+.button.score {
+	min-width: 8rem;
 	height: 8rem;
 	border: 10px dotted aliceblue;
 	border-radius: 5rem;
-	pointer-events:	auto;
 }
-#contents .button {
-	display: table-cell;
-	vertical-align: middle;
-	width: 40%;
-	color: blue;
-	user-select: none;
-	cursor: pointer;
+.button.score a {
+	display: block;
+	width: 100%;
+	font-size: xx-large;
+	text-decoration: none;
 }
 .fwd-button {
 	text-align: right;
@@ -76,9 +68,11 @@ img {
 .bak-button {
 	text-align: left;
 }
-div .button {
+.button {
 	opacity: 0;
-	pointer-events:	none;
+}
+.button.score {
+	opacity: 100%;
 }
 div:last-child .button,
 div:first-child .button {

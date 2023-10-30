@@ -21,7 +21,7 @@
 
 [vote]: :VOTE:
 [chat]: :SEEN:
-[graph]: /#:REF:
+[graph]: /gfx#:REF:
 
 [social]: https://piaille.fr/@politipet
 [contact]: mailto:politipet@laposte.net

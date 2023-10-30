@@ -11,23 +11,16 @@
 
 -----
 
-<div id="contents"></div>
-<script>
-petitions = [
-{% for item in site.data.tdg %}
-"{{ item.id }}",
-{% endfor %}
-]
-</script>
-<script src="main.js"></script>
+## [Tête de Gondole](tdg)
+## [graphiques](gfx)
+## [a propos](info)
+## [sondage](poll)
+
+#### ☆ [version](ver) ☆
 
 -----
 
 <div id="footer" markdown="1">
-
-[TDG](tdg) ☆ [INFO](info.md) ☆ [VER](ver)
-
------
 
 [![sondage](favicon.ico)](poll/)
 [![liste][logo an]][most voted]

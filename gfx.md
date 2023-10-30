@@ -16,7 +16,7 @@ Participation
   {% else %}           {% assign url = item.id %}
 {% endcase %}
 
-<div id="{{item.id}}">
+<div id="{{item.id | remove: "i-" }}">
 
 <a href="{{item.id}}">
   <img alt="{{item.text}}" src="{{item.id}}.graph.png">

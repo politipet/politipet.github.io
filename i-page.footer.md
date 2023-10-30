@@ -14,7 +14,7 @@
 
 <div class='info-page footer' markdown='1'>
 
-[social][social] ☆ [info](/info) ☆ [contact][contact]
+[social][social] ☆ [home](/) ☆ [contact][contact]
 
 </div>
 

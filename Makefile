@@ -1,6 +1,5 @@
 target = $(shell cut -f 1 graphs.txt)
 .graph = $(shell cut -f 2 graphs.txt)
-.score = $(shell cut -f 3 graphs.txt)
 .seen  = $(shell cut -f 4 graphs.txt)
 
 all_id = $(shell seq $(words $(target)))
@@ -10,11 +9,9 @@ dst = $(word $*, $(target))$(suffix $@)
 ref = $(word $*, $(target))
 
 graphs: $(addsuffix .graph, $(all_id))
-scores: $(addsuffix .score, $(all_id))
 seens:  $(addsuffix .seen,  $(all_id))
 
 %.graph:; $(GET_PNG)
-%.score:; $(GET_PNG)
 
 GET_PNG = curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
 

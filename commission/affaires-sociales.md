@@ -1,5 +1,5 @@
-Commission des affaires sociales
-================================
+Affaires Sociales
+=================
 
 
 <pre class="composition">
@@ -8,9 +8,14 @@ Commission des affaires sociales
 11 FN
  8 LR
  7 Modem
- 4 Horizons
- 2 Liot
-18 Nupes
+ 3 Horizons
+ 3 Liot
+19 Nupes
+
+10 LFI
+ 4 Soc
+ 2 GDR
+ 3 Écolo
 
 </pre>
 
@@ -22,7 +27,7 @@ Présidente
 
 
 Rapporteure
-------------
+-----------
 
 [Stéphanie Rist][rapporteure]
 
@@ -36,6 +41,3 @@ Rapporteure
 [présidente]: https://www.assemblee-nationale.fr/dyn/deputes/PA719186
 [rapporteure]: https://www.assemblee-nationale.fr/dyn/deputes/PA720066
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-sociales/composition
-
-[photo.khattabi]: https://www2.assemblee-nationale.fr/static/tribun/16/photos/carre/719186.jpg
-[photo.rist]: https://www2.assemblee-nationale.fr/static/tribun/16/photos/carre/720066.jpg

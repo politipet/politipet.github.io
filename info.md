@@ -60,9 +60,9 @@ un _pré-vote_ populaire de la loi. Et parfois, c'est un RIC.
 Les citoyen·nes agissent directement sur l'agenda legislatif,
 votent <u>fréquemment</u> et de manière <u>ciblée</u> sur les
 thèmes choisis par la population.
-Le dernier mot revient _bien entendu_ toujours aux parlementaires,
+Le dernier mot revient aux parlementaires, 5ème République à
 démocratie représentative oblige. Ceci-dit, en s'assurant que
-les député·es respectent leur mandat et les résultats des scrutins,
+les député·es respectent et leur mandat et les résultats des scrutins,
 ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 
 

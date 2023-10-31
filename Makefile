@@ -11,6 +11,9 @@ ref = $(word $*, $(target))
 graphs: $(addsuffix .graph, $(all_id))
 seens:  $(addsuffix .seen,  $(all_id))
 
+seens graphs:
+	: generated $(words $^) $@
+
 %.graph:
 	@curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
 

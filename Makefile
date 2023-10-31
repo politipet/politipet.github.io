@@ -12,9 +12,7 @@ graphs: $(addsuffix .graph, $(all_id))
 seens:  $(addsuffix .seen,  $(all_id))
 
 %.graph:
-	@$(GET_PNG)
-
-GET_PNG = curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
+	@curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
 
 %.seen:
 	@curl -s $(SEEN)/$(src) \
@@ -34,11 +32,10 @@ bassine.url = "?filter[search_text]=bassine"
 planlfi.url = "?filter[search_text]=plan+d\'urgence"
 
 
-pie-chart-PAN: src = 365702971
-pie-chart-PAN: dst = $@
-pie-chart-PAN:; $(GET_PNG)
+pie-chart.graph: src = 365702971
+pie-chart.graph: dst = pie-chart-PAN
 
-graphs: pie-chart-PAN
+graphs: pie-chart.graph
 
 
 data_files = all.yml tdg.tsv version

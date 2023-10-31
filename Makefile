@@ -33,15 +33,6 @@ bassine.url = "?filter[search_text]=bassine"
 planlfi.url = "?filter[search_text]=plan+d\'urgence"
 
 
-extra.seens = $(shell egrep '^[0-9]+.seen: src' Makefile | cut -d : -f 1)
-$(extra.seens): ref = i-$*
-$(extra.seens):
-
-1970.seen: src = 1023697
-
-seens: $(extra.seens)
-
-
 pie-chart-PAN: src = 365702971
 pie-chart-PAN: dst = $@
 pie-chart-PAN:; $(GET_PNG)

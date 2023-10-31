@@ -72,7 +72,7 @@ all.yml:
 data_all.txt = https://github.com/politipet/data/raw/master/all-data.txt
 
 
-extra-scores = bassine planlfi i-1319
+extra-scores = bassine planlfi
 extra-data: $(extra-scores:%=%.extra)
 
 %.extra:
@@ -85,7 +85,6 @@ _score = $($(*).score)
 
 bassine.score = 1437|1470
 planlfi.score = 1768|1769
-i-1319.score  = 264000
 
 data_files: extra-data
 

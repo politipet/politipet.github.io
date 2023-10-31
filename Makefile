@@ -11,16 +11,17 @@ ref = $(word $*, $(target))
 graphs: $(addsuffix .graph, $(all_id))
 seens:  $(addsuffix .seen,  $(all_id))
 
-%.graph:; $(GET_PNG)
+%.graph:
+	@$(GET_PNG)
 
 GET_PNG = curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
 
 %.seen:
-	curl -s $(SEEN)/$(src) \
+	@curl -s $(SEEN)/$(src) \
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
 	> $(ref).md
-	cat i-page.footer.md | sed "$(footer.repl)" >> $(ref).md
+	@cat i-page.footer.md | sed "$(footer.repl)" >> $(ref).md
 
 footer.repl = \
 	s,:VOTE:,$(VOTE)/$(url),;\
@@ -45,7 +46,7 @@ data_files: $(data_files)
 
 
 tdg.tsv:
-	curl -s $(SEEN)/1007431 \
+	@curl -s $(SEEN)/1007431 \
 	| grep 'class="texte"' \
 	| sed 's:<br>:\n:g' \
 	| grep lien_lien \
@@ -56,9 +57,9 @@ tdg.tsv:
 		s:</p></div></div></div>::g;\
 		s:&num;:#:g;\
 	" > $(list.tsv)
-	[ `wc -l < $(list.tsv)` -gt 1 ] || { echo === FALLBACK ===; \
+	@[ `wc -l < $(list.tsv)` -gt 1 ] || { echo === FALLBACK ===; \
 		curl -s https://politipet.fr/$(list.tsv) > $(list.tsv); }
-	{ echo "id\ttext"; cat $(list.tsv); } > _data/$@
+	@{ echo "id\ttext"; cat $(list.tsv); } > _data/$@
 
 list.tsv = tdg/list.tsv
 

@@ -23,6 +23,7 @@ seens graphs:
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
 	> $(ref).md
 	@cat i-page.footer.md | sed "$(footer.repl)" >> $(ref).md
+	@cp $(ref).md $(ref:i-%=%).md 2>/dev/null || true
 
 footer.repl = \
 	s,:VOTE:,$(VOTE)/$(url),;\

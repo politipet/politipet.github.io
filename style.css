@@ -61,6 +61,7 @@ img {
 	padding: 1em 0;
 	font-size: xx-large;
 	text-decoration: none;
+	border-radius: 5rem;
 }
 .shifter.fwd {
 	text-align: right;

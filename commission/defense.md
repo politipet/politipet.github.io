@@ -12,11 +12,6 @@ Défense nationale
  2 Liot
 17 Nupes
 
- 9 LFI
- 4 Soc
- 2 GDR
- 2 Écolo
-
 </pre>
 
 

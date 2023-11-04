@@ -12,11 +12,6 @@ Affaires économiques
  3 Liot
 20 Nupes
 
-10 LFI
- 4 Soc
- 3 GDR
- 3 Écolo
-
 </pre>
 
 

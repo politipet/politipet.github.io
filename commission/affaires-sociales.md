@@ -12,11 +12,6 @@ Affaires Sociales
  3 Liot
 19 Nupes
 
-10 LFI
- 4 Soc
- 2 GDR
- 3 Écolo
-
 </pre>
 
 

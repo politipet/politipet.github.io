@@ -12,11 +12,6 @@ Commission des finances
  2 Liot
 21 Nupes
 
-10 LFI
- 4 Soc
- 4 GDR
- 3 Ecolo
-
 </pre>
 
 

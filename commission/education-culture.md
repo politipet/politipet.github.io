@@ -12,11 +12,6 @@
  3 Liot
 19 Nupes
 
- 9 LFI
- 4 Soc
- 3 GDR
- 3 Écolo
-
 </pre>
 
 

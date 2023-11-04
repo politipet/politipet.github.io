@@ -13,11 +13,6 @@ Affaires étrangères
  3 Non inscrit
 18 Nupes
 
- 9 LFI
- 3 Soc
- 3 GDR
- 3 Écolos
-
 </pre>
 
 

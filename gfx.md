@@ -22,7 +22,7 @@ Participation
   <img alt="{{item.text}}" src="{{item.id}}.graph.png">
 </a>
 
-<div id="buttons">
+<div class="buttons">
 <span class="button shifter bak">&lt;&lt;</span>
 <span class="button score"><a href="{{vote}}/{{url}}">
 {{ site.data.all[item.id].score }}

@@ -34,11 +34,13 @@ img {
 	border: 2px solid grey;
 	border-radius: 1rem;
 	margin: 0 -2px;
-	margin-bottom: 1rem;
 	cursor: pointer;
 }
 #contents div > a:first-child {
 	display: inline-block;
+}
+.buttons {
+	margin-top: 1rem;
 }
 .button {
 	display: table-cell;

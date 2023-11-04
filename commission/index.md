@@ -1,5 +1,5 @@
-Les commissions de l'assemblée
-==============================
+Commissions
+===========
 
 ### [développement durable](developpement-durable.md)
 (10k en 9 mois)

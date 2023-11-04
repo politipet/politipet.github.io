@@ -15,6 +15,7 @@
 ## [graphiques](gfx)
 ## [a propos](info)
 ## [sondage](poll)
+## [stats](stats)
 
 #### ☆ [version](ver) ☆
 

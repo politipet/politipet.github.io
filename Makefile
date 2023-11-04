@@ -41,6 +41,10 @@ pie-chart.graph: dst = pie-chart-PAN
 
 graphs: pie-chart.graph
 
+votes.graph: src = 1008534023
+votes.graph: dst = votes-per-day
+
+graphs: votes.graph
 
 data_files = all.yml tdg.tsv version
 data_files: $(data_files)

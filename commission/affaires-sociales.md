@@ -1,4 +1,4 @@
-Affaires Sociales
+Affaires sociales
 =================
 
 

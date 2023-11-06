@@ -30,17 +30,18 @@ ou impôts, mot de passe.
 Les propositions sont attribuées, selon le sujet, à l'une des huit
 commissions de l'Assemblée, puis sont ouvertes au vote citoyen. Un
 minimum de 5.000 ou 10.000 voix en 6 ou 9 mois est requis, faute de
-quoi les propositions sont classées, sans étude. Celles qui
+quoi les propositions sont classées d'office sans étude. Celles qui
 dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
 
-La commission désigne un·e rapporteur·e et se réunit, spontanément ou
-sur demande d'un·e député·e, pour étudier les propositions. Elle produit
-une décision et un compte rendu écrit. La commission peut décider de
-rejetter la proposition, ou de la discuter, pour ensuite la porter
-et en faire un projet de loi.
+La commission désigne un·e rapporteur chargé·e d'étudier «en première
+lecture» les propositions admissibles. Elle se réunit plusieurs fois
+par an, spontanément ou sur requête d'un·e député·e, afin de décider
+du sort des propositions selectionnées. Elle peut choisir de rejetter
+ou de discuter la proposition pour en faire un projet de loi.
 
-Les débats en commission sont filmés, vidéo et compte rendu écrit sont
-disponibles en bas de la page de la proposition.
+La commission produit une décision et un compte rendu. Les débats
+sont filmés, vidéo et compte rendu sont disponibles au bas de la
+page de la proposition sur le site de l'Assemblée.
 
 ![pie chart PAN](pie-chart-PAN.png)
 
@@ -51,18 +52,17 @@ disponibles en bas de la page de la proposition.
 --------------------------
 
 Les intitiatives citoyennes sont une voie d'entrée directe
-dans le parlement. Le système de vote est un précurseur du
-<u>vote électronique</u> direct de la loi par la population.
+dans le parlement. La signature anonyme et officielle constitue
+un véritable <u>vote électronique</u> de la loi par la population.
 Participer aux scrutins réalise deux actions en même temps :
-une _sélection_ des propositions à envoyer à l'Assemblée et
-un _pré-vote_ populaire de la loi. Et parfois, c'est un RIC.
+une sélection des propositions à envoyer à l'Assemblée ; et un
+«premier tour citoyen» du vote de la loi. Parfois, c'est un RIC.
 
-Les citoyen·nes agissent directement sur l'agenda legislatif,
+Les citoyen·nes agissent ainsi directement sur l'agenda legislatif,
 votent <u>fréquemment</u> et de manière <u>ciblée</u> sur les
-thèmes choisis par la population.
-Le dernier mot revient aux parlementaires, 5ème République à
-démocratie représentative oblige. Ceci-dit, en s'assurant que
-les député·es respectent et leur mandat et les résultats des scrutins,
+thèmes choisis par la population. Si le dernier mot revient toujours
+aux député·es, démocratie représentative oblige, en s'assurant que les
+parlementaires respectent leur mandat et les résultats des scrutins,
 ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
 
 
@@ -93,25 +93,21 @@ commission des lois.
 ☆ la plateforme de vote ☆
 -------------------------
 
-La plateforme de l'Assemblée nationale garantit l'unicité du vote
-et l'anonymat des participants grâce au service France Connect.
-Pour se connecter, il faut un compte améli ou impôts : n° de sécu
-ou n° fiscal, mot de passe.
+La plateforme de l'Assemblée nationale garantit l'anonymat des
+participants et l'unicité du vote grâce au service France Connect,
+qui agit des deux côtés comme tiers de confiance. Le tiers ne transmet
+aucune information permettant d'identifier les participants.
+
+L'autentification est réalisée directement sur les sites ameli.fr ou
+impots.gouv.fr, qui fournissent date de naissance et nom au tiers afin
+qu'il génère un «pseudonyme» unique. Seuls le pseudonyme et la date
+de naissance sont transmis à la plateforme de vote.
+
+<center>☆</center>
 
 Si vous votez depuis un smartphone, pensez à enregistrer vos
 informations de connexion quand il vous le propose : vous les
 aurez sous le doigt pour le prochain tour, comme sur votre ordi.
-
-<center>☆</center>
-
-France Connect agit comme tiers de confiance et ne transmet aucune
-information personnelle à la plateforme de vote : uniquement date de
-naissance - il faut être majeur - et un "identifiant anonyme" unique.
-
-Les écrans d'autentification sont directement ceux des sites ameli.fr
-ou impots.gouv.fr, le site France Connect récupère nom et date de
-naissance, génère un identifiant anonyme unique qu'il transmet avec la
-date de naissance à la plateforme de vote.
 
 <br>
 

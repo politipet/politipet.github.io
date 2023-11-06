@@ -144,11 +144,6 @@ div:first-child div .shifter {
 	margin: .5rem;
 	border-radius: .7rem;
 }
-.footer a,
-#footer a,
-#footer a:visited {
-	color: blue;
-}
 #footer.info-page a {
 	background-color: darkgrey;
 	border-radius: 1rem;

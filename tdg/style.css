@@ -11,9 +11,6 @@ a {
 	border-radius: 1rem;
 	padding: .5rem 1rem;
 }
-a:visited {
-	color: blue;
-}
 .content p {
 	margin: 0;
 }

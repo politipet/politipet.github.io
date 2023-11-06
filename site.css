@@ -2,3 +2,7 @@ body {
 	font-family: 'Comfortaa';
 	background-color: #FFB080;
 }
+a,
+a:visited {
+	color: blue;
+}

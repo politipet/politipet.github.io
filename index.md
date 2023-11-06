@@ -12,8 +12,8 @@
 -----
 
 ## [tête de gondole](tdg)
-## [graphiques](gfx)
-## [a propos](info)
+## [participation](gfx)
+## [a  propos](info)
 ## [sondage](poll)
 ## [stats](stats)
 

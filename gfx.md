@@ -1,5 +1,13 @@
-Participation
+<div id="header" markdown="1" onclick="location.href='/'">
+
+☆ POLITIPET ☆
 =============
+
+#### propositions · _citoyennes_
+
+### votez · faites voter
+
+</div>
 
 ----
 

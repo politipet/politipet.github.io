@@ -1,17 +1,17 @@
-Stats
-=====
+Statistiques
+============
 
 ----
 
 ![votes par jour](votes-per-day.png)
 
-<center>votes par jour / ensemble des PAN</center>
+votes par jour sur l'ensemble des PAN
 
-<center>☆</center>
+☆
 
 ![pie chart PAN](pie-chart-PAN.png)
 
-<center>initiatives par commission</center>
+initiatives par commission
 
 ----
 

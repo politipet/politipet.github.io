@@ -1,14 +1,13 @@
-
-politipet
----------
-
-{{ site.data.version.githash }}
-
-
 mise à jour
------------
+===========
 
 {{ site.data.version.timestamp }}
+
+
+politipet
+=========
+
+{{ site.data.version.githash }}
 
 
 ### ☆

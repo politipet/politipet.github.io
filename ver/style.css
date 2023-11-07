@@ -1,8 +1,7 @@
-h2 {
+h1 {
 	border-radius: 1rem;
 	padding: .5rem 1rem;
 	display: inline-block;
-	font-size: large;
 	background-color: lightgrey;
 }
 h3 {

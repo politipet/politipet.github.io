@@ -61,6 +61,7 @@ tdg.tsv:
 		s:</span></span></a></span>:\t:g;\
 		s:</p></div></div></div>::g;\
 		s:&num;:#:g;\
+		/^[0-9]/ s:^:i-:;\
 	" > $(list.tsv)
 	@[ `wc -l < $(list.tsv)` -gt 1 ] || { echo === FALLBACK ===; \
 		curl -s https://politipet.fr/$(list.tsv) > $(list.tsv); }

@@ -3,6 +3,7 @@ h1 {
 	padding: .5rem 1rem;
 	display: inline-block;
 	background-color: lightgrey;
+	font-size: large;
 }
 h3 {
 	font-weight: normal;

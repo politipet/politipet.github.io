@@ -96,17 +96,17 @@ commission des lois.
 La plateforme de l'Assemblée nationale garantit l'anonymat des
 participants et l'unicité du vote grâce au service France Connect,
 qui agit des deux côtés comme tiers de confiance. Le tiers ne transmet
-aucune information permettant d'identifier les participants.
+aucune information qui permette d'identifier les participants.
 
-L'autentification est réalisée directement sur les sites ameli.fr ou
-impots.gouv.fr, qui fournissent date de naissance et nom au tiers afin
-qu'il génère un «pseudonyme» unique. Seuls le pseudonyme et la date
+L'autentification est réalisée directement sur ameli.fr ou impots.gouv.
+Ces sites fournissent date de naissance et nom à France Connect afin
+qu'il génère un pseudonyme unique. Seuls le pseudonyme et la date
 de naissance sont transmis à la plateforme de vote.
 
 <center>☆</center>
 
-Si vous votez depuis un smartphone, pensez à enregistrer vos
-informations de connexion quand il vous le propose : vous les
+Quand vous votez depuis un smartphone, pensez à enregistrer vos
+informations de connexion lorsqu'il vous le propose : vous les
 aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 
 <br>

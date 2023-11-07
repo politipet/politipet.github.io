@@ -94,7 +94,7 @@ data_files: extra_data
 
 
 githash = $(shell git rev-parse --short=6 HEAD)
-timestamp = $(shell TZ='Europe/Paris' date +'%F %T')
+timestamp = $(shell TZ='Europe/Paris' date +'%F %H:%M')
 version:
 	echo 'githash: $(githash)\ntimestamp: "$(timestamp)"' \
 	> _data/$@.yml

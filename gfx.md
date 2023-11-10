@@ -30,6 +30,11 @@
 {% assign score = score | divided_by: 1000.0 | round: 1 %}
 {% assign score = score | string | append: "k" %}
 {% endif %}
+
+{% if score == 0 %}
+{% assign score = "" %}
+{% endif %}
+
 <div id="{{item.id | remove: "i-" }}">
 
 <a href="{{item.id | remove: "i-" }}">

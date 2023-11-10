@@ -12,10 +12,10 @@
 -----
 
 ## [tête de gondole](tdg)
-## [participation](gfx)
-## [a  propos](info)
+## [graphiques](gfx)
 ## [sondage](poll)
 ## [stats](stats)
+## [info](info)
 
 #### ☆ [version](ver) ☆
 

@@ -21,12 +21,6 @@ Présidente
 [Fadila Khattabi][présidente]
 
 
-Rapporteure
------------
-
-[Stéphanie Rist][rapporteure]
-
-
 <hr class="separator">
 
 [commission des affaires sociales][officiel]
@@ -34,5 +28,4 @@ Rapporteure
 
 
 [présidente]: https://www.assemblee-nationale.fr/dyn/deputes/PA719186
-[rapporteure]: https://www.assemblee-nationale.fr/dyn/deputes/PA720066
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-sociales/composition

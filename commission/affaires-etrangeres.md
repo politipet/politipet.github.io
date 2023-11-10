@@ -22,12 +22,6 @@ Président
 [Jean-Louis Bourlanges][président]
 
 
-Rapporteur
-----------
-
-[?][rapporteur]
-
-
 <hr class="separator">
 
 [commission des affaires étrangères][officiel]
@@ -35,5 +29,4 @@ Rapporteur
 
 
 [président]: https://www.assemblee-nationale.fr/dyn/deputes/PA721608
-[rapporteur]: #
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-etrangeres/composition

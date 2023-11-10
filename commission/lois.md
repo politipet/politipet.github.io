@@ -22,12 +22,6 @@ Président
 [Sacha Houlié][président]
 
 
-Rapporteur
------------
-
-[Éric Poulliat][rapporteur]
-
-
 <hr class="separator">
 
 [commission des lois][officiel]
@@ -35,5 +29,4 @@ Rapporteur
 
 
 [président]: https://www.assemblee-nationale.fr/dyn/deputes/PA722150
-[rapporteur]: https://www.assemblee-nationale.fr/dyn/deputes/PA719600
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/lois/composition

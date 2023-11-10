@@ -21,12 +21,6 @@ Président
 [Jean-Marc Zulesi][président]
 
 
-Rapporteur
-----------
-
-[?][rapporteur]
-
-
 <hr class="separator">
 
 [commission du développement durable][officiel]
@@ -34,8 +28,4 @@ Rapporteur
 
 
 [président]: https://www.assemblee-nationale.fr/dyn/deputes/PA718962
-[rapporteur]: #
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/developpement-durable/composition
-
-[photo.khattabi]: https://www2.assemblee-nationale.fr/static/tribun/16/photos/carre/719186.jpg
-[photo.rist]: https://www2.assemblee-nationale.fr/static/tribun/16/photos/carre/720066.jpg

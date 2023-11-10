@@ -21,12 +21,6 @@ Président
 [Thomas Gassilloud][président]
 
 
-Rapporteur
-----------
-
-[?][rapporteur]
-
-
 <hr class="separator">
 
 [commission de la défense nationale][officiel]
@@ -34,5 +28,4 @@ Rapporteur
 
 
 [président]: https://www.assemblee-nationale.fr/dyn/deputes/PA722358
-[rapporteur]: #
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/defense/composition

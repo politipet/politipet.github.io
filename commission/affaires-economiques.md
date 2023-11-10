@@ -21,12 +21,6 @@ Président
 [Guillaume Kasbarian][président]
 
 
-Rapporteur
-----------
-
-[?][rapporteur]
-
-
 <hr class="separator">
 
 [commission des affaires économiques][officiel]
@@ -34,5 +28,4 @@ Rapporteur
 
 
 [président]: https://www.assemblee-nationale.fr/dyn/deputes/PA719372
-[rapporteur]: #
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-economiques/composition

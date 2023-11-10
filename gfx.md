@@ -24,6 +24,12 @@
   {% else %}           {% assign url = item.id %}
 {% endcase %}
 
+{% assign score = site.data.all[item.id].score | to_integer %}
+
+{% if score >= 1000 %}
+{% assign score = score | divided_by: 1000.0 | round: 1 %}
+{% assign score = score | string | append: "k" %}
+{% endif %}
 <div id="{{item.id | remove: "i-" }}">
 
 <a href="{{item.id | remove: "i-" }}">
@@ -33,7 +39,7 @@
 <div class="buttons">
 <span class="button shifter bak">&lt;&lt;</span>
 <span class="button score"><a href="{{vote}}/{{url}}">
-{{ site.data.all[item.id].score }}
+{{ score }}
 </a></span>
 <span class="button shifter fwd">&gt;&gt;</span>
 </div>

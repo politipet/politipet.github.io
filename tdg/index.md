@@ -7,7 +7,7 @@
 
 {% for item in site.data.tdg %}
 
-[{{ item.text }}](/{{ item.id }})
+[{{ item.text }}](/{{ item.id | remove: "i-" }})
 
 {% endfor %}
 

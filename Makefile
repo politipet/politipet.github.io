@@ -25,6 +25,25 @@ seens graphs:
 	@cat i-page.footer.md | sed "$(footer.repl)" >> $(ref).md
 	@cp $(ref).md $(ref:i-%=%).md 2>/dev/null || true
 
+%.closed:
+	@src=`egrep ^$* closed.txt | cut -f 2`; \
+	curl -s $(SEEN)/$$src \
+	| grep '<div  id="texte'$$src'">' \
+	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
+	> $*.md ;\
+	cat i-page.footer.md | sed "$(footer.repl)" \
+	| grep -v graph | sed 's/voter/voir/' \
+	>> $*.md
+	@cp $*.md $(*:i-%=%).md 2>/dev/null || true
+
+%.closed: url = $*
+%.closed: src = $$src
+%.closed: ref = $*
+
+closed = $(shell cut -f 1 closed.txt)
+seens: $(closed:%=%.closed)
+
+
 footer.repl = \
 	s,:VOTE:,$(VOTE)/$(url),;\
 	s,:SEEN:,$(SEEN)/$(src),;\

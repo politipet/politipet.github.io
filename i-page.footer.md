@@ -23,5 +23,5 @@
 [chat]: :SEEN:
 [graph]: /gfx#:REF:
 
-[social]: https://piaille.fr/@politipet
+[social]: https://piaille.fr/tags/initiatives_citoyennes
 [contact]: mailto:politipet@laposte.net

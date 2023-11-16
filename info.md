@@ -40,7 +40,7 @@ du sort des propositions selectionnées. Elle peut choisir de rejetter
 ou de discuter la proposition pour en faire un projet de loi.
 
 La commission produit une décision et un compte rendu. Les débats
-sont filmés, vidéo et compte rendu sont disponibles au bas de la
+sont filmés. Vidéo et compte rendu sont disponibles au bas de la
 page de la proposition sur le site de l'Assemblée.
 
 ![pie chart PAN](pie-chart-PAN.png)
@@ -78,8 +78,8 @@ d'aller voter sur la plateforme des PAN.  Le score indiqué est
 mis à jour toutes les heures.
 
 Les <u>boutons du bas</u> permettent de participer au sondage,
-voir les propositions les plus votées ou la composition de la
-commission des lois.
+voir les propositions les plus votées ou la composition des
+commissions.
 
 <center>☆</center>
 

@@ -19,6 +19,18 @@ initiatives par commission
 
 ☆
 
+Top 20
+------
+
+<table style="font-family: monospace">
+{% for item in site.data.all %}
+{% assign score = item[1].score | divided_by: 1000.0 | round: 1 %}
+{% assign score = score | string | append: "k" %}
+<tr><td align="right">{{score}}</td><td>{{item[0]}}</td></tr>
+{% if forloop.index == 20 %} {% break %} {% endif %}
+{% endfor %}
+</table>
+
 ----
 
 [home](/)

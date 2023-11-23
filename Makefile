@@ -90,6 +90,7 @@ list.tsv = tdg/list.tsv
 
 all.yml:
 	curl -sL $(data_all.txt) \
+	| sort -nr -k3 \
 	| tee _data/alive.txt \
 	| awk '{print($$1 ":\n commission: " $$2 "\n score: " $$3)}' \
 	> _data/$@

@@ -94,6 +94,8 @@ all.yml:
 	| tee _data/alive.txt \
 	| awk '{print($$1 ":\n commission: " $$2 "\n score: " $$3)}' \
 	> _data/$@
+	{ echo "id,commission,score"; tr ' ' , < _data/alive.txt; } \
+	> _data/alive.csv
 
 data_all.txt = https://github.com/politipet/data/raw/master/all-data.txt
 

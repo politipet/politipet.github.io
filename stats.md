@@ -13,6 +13,8 @@ votes par jour sur l'ensemble des PAN
 
 initiatives par commission
 
+(total : {{site.data.alive.size}})
+
 ☆
 
 [Top of The Pets](https://seenthis.net/messages/1021649)

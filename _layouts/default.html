@@ -15,7 +15,7 @@
     {% if page_num > 0 %}{% assign page_id = page_id | prepend: "i-" %}{%endif%}
     {% assign title = site.data.title[page_id].title %}
     <title> {{ host }}.fr {{page_id}} {{title}}</title>
-    <meta property="og:title" content="{{page_id}} : {{title}}"/>
+    <meta property="og:title" content="{{page_id | replace: "i-", "n°"}} : {{title}}"/>
     <meta property="og:description" content="initiative citoyenne à l'Assemblée nationale"/>
     <meta property="og:image" content="{{site.url}}/{{page_id}}.graph.png"/>
     <meta property="og:url" content="{{site.url}}{{page.dir}}{{page_id | remove: "i-"}}"/>

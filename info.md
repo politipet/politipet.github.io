@@ -27,17 +27,19 @@ ou impôts, mot de passe.
 ☆ règles du jeu ☆
 -----------------
 
-Les propositions sont attribuées, selon le sujet, à l'une des huit
-commissions de l'Assemblée, puis sont ouvertes au vote citoyen. Un
-minimum de 5.000 ou 10.000 voix en 6 ou 9 mois est requis, faute de
-quoi les propositions sont classées d'office sans étude. Celles qui
-dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
+Les propositions des citoyen·nes sont validées formellement par le
+service de la plateforme et attribuées, selon le sujet, à l'une des
+huit commissions de l'Assemblée. Les propositions sont alors ouvertes
+au vote et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
+être «admissibles», sinon elles sont classées d'office sans étude. Celles
+qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
 
-La commission désigne un·e rapporteur chargé·e d'étudier «en première
-lecture» les propositions admissibles. Elle se réunit plusieurs fois
-par an, spontanément ou sur requête d'un·e député·e, afin de décider
-du sort des propositions selectionnées. Elle peut choisir de rejetter
-ou de discuter la proposition pour en faire un projet de loi.
+Pour chaque proposition admissible, la commission désigne un·e rapporteur
+chargé·e d'étudier le texte et de faire une recommendation : classer ou
+étudier «au fond» la proposition. La commission se réunit, régulièrement
+ou sur requête d'un·e député·e, pour décider du sort des propositions
+selectionnées. Elle peut alors choisir de suivre ou pas la recommendation
+et rejetter ou discuter la proposition pour en faire un projet de loi.
 
 La commission produit une décision et un compte rendu. Les débats
 sont filmés. Vidéo et compte rendu sont disponibles au bas de la

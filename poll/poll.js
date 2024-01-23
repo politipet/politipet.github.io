@@ -32,6 +32,9 @@ function item(txt) {
 	div.appendChild(box)
 	div.appendChild(lbl)
 
+	if ((location.search + ",").match(box.name+","))
+		box.checked = 1
+
 	return div
 }
 item.id = 1

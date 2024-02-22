@@ -27,23 +27,13 @@ ou impôts, mot de passe.
 ☆ règles du jeu ☆
 -----------------
 
-Les propositions des citoyen·nes sont validées formellement par le
-service de la plateforme et attribuées, selon le sujet, à l'une des
+Les propositions des citoyen·nes sont enregistrées et attribuées,
+selon le sujet, à l'une des
 huit commissions de l'Assemblée. Les propositions sont alors ouvertes
 au vote et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
 être «admissibles», sinon elles sont classées d'office sans étude. Celles
 qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
 
-Pour chaque proposition admissible, la commission désigne un·e rapporteur
-chargé·e d'étudier le texte et de faire une recommendation : classer ou
-étudier «au fond» la proposition. La commission se réunit, régulièrement
-ou sur requête d'un·e député·e, pour décider du sort des propositions
-selectionnées. Elle peut alors choisir de suivre ou pas la recommendation
-et rejetter ou discuter la proposition pour en faire un projet de loi.
-
-La commission produit une décision et un compte rendu. Les débats
-sont filmés. Vidéo et compte rendu sont disponibles au bas de la
-page de la proposition sur le site de l'Assemblée.
 
 ![pie chart PAN](pie-chart-PAN.png)
 
@@ -90,6 +80,26 @@ commissions.
 ### [toutes les propositions à l'AN][most recent]
 
 <br>
+
+
+☆ la vie des pets ☆
+-------------------
+
+Lorsque une proposition admissible est considérée, la commission désigne
+un·e rapporteur·e chargé·e d'étudier le texte «en première lecture». Le ou
+la rapporteur.e produit une recommendation : classer ou étudier «au fond»
+la proposition.
+
+La commission se réunit régulièrement ou sur requête d'un·e député·e et
+décide du sort des propositions selectionnées par un vote à main levée.
+Elle peut choisir de suivre, ou pas, la recommendation et de «classer»
+[=rejetter] ou «ne pas la classer» la proposition. Lorsequ'elle retient
+une proposition, la commission prévoit de la discuter en profondeur,
+pour ensuite la porter et en faire un projet de loi.
+
+La commission produit une décision et un compte rendu. Les débats
+sont filmés. Vidéo et compte rendu sont disponibles au bas de la
+page de la proposition sur le site de l'Assemblée.
 
 
 ☆ la plateforme de vote ☆

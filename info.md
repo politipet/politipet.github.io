@@ -27,11 +27,13 @@ ou impôts, mot de passe.
 ☆ règles du jeu ☆
 -----------------
 
-Les propositions des citoyen·nes sont enregistrées et attribuées,
-selon le sujet, à l'une des
-huit commissions de l'Assemblée. Les propositions sont alors ouvertes
-au vote et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
-être «admissibles», sinon elles sont classées d'office sans étude. Celles
+Les propositions des citoyen·nes sont enregistrées et attribuées
+selon le sujet à l'une des huit commissions de l'Assemblée.
+Les propositions sont ainsi ouvertes au vote populaire
+et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
+être «admissibles», sinon elles sont classées sans suite, sans étude.
+Les propositions admissibles sont discutées en commission, les
+député·es décident alors de les porter ou de les rejetter. Celles
 qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
 
 

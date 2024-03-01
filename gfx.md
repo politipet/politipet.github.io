@@ -20,6 +20,7 @@
 
 {% case item.id %}
   {% when "bassine" %} {% assign url = search | append: "bassine" %}
+  {% when "destitution" %} {% assign url = search | append: "destitution" %}
   {% else %}           {% assign url = item.id %}
 {% endcase %}
 

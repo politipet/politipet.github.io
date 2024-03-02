@@ -29,9 +29,9 @@ ou impôts, mot de passe.
 
 Les propositions des citoyen·nes sont enregistrées et attribuées
 selon le sujet à l'une des huit commissions de l'Assemblée.
-Les propositions sont ainsi ouvertes au vote populaire
+Les propositions sont ouvertes au vote populaire
 et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
-être «admissibles», sinon elles sont classées sans suite, sans étude.
+être admissibles, sinon elles sont classées sans suite, sans étude.
 Les propositions admissibles sont discutées en commission, les
 député·es décident alors de les porter ou de les rejetter. Celles
 qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
@@ -47,17 +47,16 @@ qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
 
 Les intitiatives citoyennes sont une voie d'entrée directe
 dans le parlement. La signature anonyme et officielle constitue
-un véritable <u>vote électronique</u> de la loi par la population.
+un véritable <u>vote électronique</u>.
 Participer aux scrutins réalise deux actions en même temps :
-une sélection des propositions à envoyer à l'Assemblée ; et un
+une sélection des propositions à envoyer à l'Assemblée et un
 «premier tour citoyen» du vote de la loi. Parfois, c'est un RIC.
 
-Les citoyen·nes agissent ainsi directement sur l'agenda legislatif,
-votent <u>fréquemment</u> et de manière <u>ciblée</u> sur les
-thèmes choisis par la population. Si le dernier mot revient toujours
-aux député·es, démocratie représentative oblige, en s'assurant que les
-parlementaires respectent leur mandat et les résultats des scrutins,
-ce sont bien les citoyen·nes qui prennent en main l'avenir du pays.
+Les citoyen·nes agissent de fait sur l'agenda législatif,
+votent fréquemment et de manière ciblée sur les thèmes choisis par
+la population. Les parlementaire ont certes le dernier mot _de jure_,
+mais sont politiquement tenus de respecter les scrutins populaires.
+Ce sont alors les citoyen·nes qui impulsent la loi.
 
 
 ☆ la vitrine politipet ☆
@@ -87,15 +86,15 @@ commissions.
 ☆ la vie des pets ☆
 -------------------
 
-Lorsque une proposition admissible est considérée, la commission désigne
-un·e rapporteur·e chargé·e d'étudier le texte «en première lecture». Le ou
-la rapporteur.e produit une recommendation : classer ou étudier «au fond»
-la proposition.
+Quand une proposition admissible est considérée, la commission désigne
+un·e rapporteur·e chargé·e d'étudier le texte «en première lecture». Le
+ou la rapporteur.e produit un rapport et une recommendation : classer ou
+étudier «au fond» la proposition.
 
-La commission se réunit régulièrement ou sur requête d'un·e député·e et
+La commission, qui se réunit régulièrement ou sur requête d'un·e député·e,
 décide du sort des propositions selectionnées par un vote à main levée.
 Elle peut choisir de suivre, ou pas, la recommendation et de «classer»
-[=rejetter] ou «ne pas la classer» la proposition. Lorsequ'elle retient
+[=rejetter] ou «ne pas classer» la proposition. Lorsqu'elle retient
 une proposition, la commission prévoit de la discuter en profondeur,
 pour ensuite la porter et en faire un projet de loi.
 

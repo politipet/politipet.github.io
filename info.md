@@ -11,7 +11,7 @@
 
 -----
 
-<div class="left" markdown="1">
+<div class="info" markdown="1">
 
 Vitrine indépendante, outil de suivi, incitateur civique,
 [politipet.fr][politipet] présente une sélection d'initiatives citoyennes

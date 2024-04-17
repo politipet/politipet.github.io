@@ -115,15 +115,15 @@ div:first-child div .shifter {
 .lien_court {
 	display: none;
 }
-.left {
-	text-align: left;
+.info {
+	text-align: justify;
 	max-width: 40rem;
 	line-height: 1.4rem;
 }
-.left h2 {
+.info h2 {
 	font-variant: small-caps;
 }
-.left h2, h3 {
+.info h2, h3 {
 	text-align: center;
 }
 

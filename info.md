@@ -31,7 +31,7 @@ Les propositions des citoyen·nes sont enregistrées et attribuées
 selon le sujet à l'une des huit commissions de l'Assemblée.
 Elles sont ainsi ouvertes au vote populaire
 et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
-être admissibles, sinon elles sont «classées», sans étude.
+être admissibles, sinon elles sont classées, sans étude.
 Les propositions admissibles sont discutées en commission, les
 député·es décident alors de les porter ou de les rejetter. Celles
 qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
@@ -46,7 +46,7 @@ qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
 --------------------------
 
 Les intitiatives citoyennes sont une voie d'entrée directe
-dans le parlement. La signature anonyme et officielle constitue
+dans le parlement. La signature, anonyme et officielle, constitue
 un véritable <u>vote électronique</u>.
 Participer aux scrutins réalise deux actions en même temps :
 une sélection des propositions à envoyer à l'Assemblée et un
@@ -54,8 +54,8 @@ une sélection des propositions à envoyer à l'Assemblée et un
 
 Les citoyen·nes agissent de fait sur l'agenda législatif,
 votent fréquemment et de manière ciblée sur les thèmes choisis par
-la population. Les parlementaire ont certes le dernier mot _de jure_,
-mais sont politiquement tenus de respecter les scrutins populaires.
+la population. Les parlementaires ont certes le dernier mot _de jure_,
+mais sont politiquement tenu·es de respecter les scrutins populaires.
 Ce sont alors les citoyen·nes qui impulsent la loi.
 
 

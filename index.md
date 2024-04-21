@@ -13,11 +13,11 @@
 
 ## [tête de gondole](tdg)
 ## [graphiques](gfx)
-## [sondage](poll)
+## [top 20][most voted]
 ## [stats](stats)
 ## [info](info)
 
-#### ☆ [version](ver) ☆
+##### [^.^](ver)
 
 -----
 

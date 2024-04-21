@@ -18,7 +18,7 @@ Défense nationale
 admissibilité
 -------------
 
-10k voix en 6 mois
+(inconnue)
 
 
 <hr class="separator">

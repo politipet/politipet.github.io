@@ -22,8 +22,6 @@ admissibilité
 5k voix en 6 mois
 
 
-<hr class="separator">
-
 [![logo][logo]][officiel]
 
 

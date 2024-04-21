@@ -21,8 +21,6 @@ admissibilité
 pas de limite
 
 
-<hr class="separator">
-
 [![logo][logo]][officiel]
 
 

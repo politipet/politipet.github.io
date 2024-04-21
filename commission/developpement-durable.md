@@ -21,8 +21,6 @@ admissibilité
 10k voix en 9 mois
 
 
-<hr class="separator">
-
 [![logo][logo]][officiel]
 
 

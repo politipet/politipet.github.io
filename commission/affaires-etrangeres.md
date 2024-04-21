@@ -22,8 +22,6 @@ admissibilité
 (inconnue)
 
 
-<hr class="separator">
-
 [![logo][logo]][officiel]
 
 

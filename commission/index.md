@@ -1,6 +1,7 @@
 Commissions
 ===========
 
+
 ### [développement durable](developpement-durable.md)
 
 ### [affaires économiques](affaires-economiques.md)
@@ -16,8 +17,3 @@ Commissions
 ### [finances](finances.md)
 
 ### [défense](defense.md)
-
-
-<style>
-h3 { margin-bottom: -.7rem; }
-</style>

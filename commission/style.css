@@ -9,6 +9,12 @@
 .composition {
 	margin-left: 1.5rem;
 }
+h1 {
+	margin-bottom: 2em;
+}
+h2 {
+	font-size: large;
+}
 html {
 	display: table;
 	height: 100%;

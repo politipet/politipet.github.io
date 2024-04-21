@@ -24,8 +24,9 @@ admissibilité
 
 <hr class="separator">
 
-[commission des lois][officiel]
+[![logo][logo]][officiel]
 
 
 
+[logo]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/lois/composition

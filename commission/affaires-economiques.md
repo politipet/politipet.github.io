@@ -15,10 +15,10 @@ Affaires économiques
 </pre>
 
 
-Président
----------
+admissibilité
+-------------
 
-[Guillaume Kasbarian][président]
+10k voix en 6 mois
 
 
 <hr class="separator">
@@ -27,5 +27,4 @@ Président
 
 
 
-[président]: https://www.assemblee-nationale.fr/dyn/deputes/PA719372
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-economiques/composition

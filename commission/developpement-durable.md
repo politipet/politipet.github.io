@@ -15,10 +15,10 @@ Développement durable
 </pre>
 
 
-Président
----------
+admissibilité
+-------------
 
-[Jean-Marc Zulesi][président]
+10k voix en 9 mois
 
 
 <hr class="separator">
@@ -27,5 +27,4 @@ Président
 
 
 
-[président]: https://www.assemblee-nationale.fr/dyn/deputes/PA718962
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/developpement-durable/composition

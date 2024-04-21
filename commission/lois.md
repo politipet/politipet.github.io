@@ -16,10 +16,10 @@ Commission des lois
 </pre>
 
 
-Président
----------
+admissibilité
+-------------
 
-[Sacha Houlié][président]
+5k voix en 6 mois
 
 
 <hr class="separator">
@@ -28,5 +28,4 @@ Président
 
 
 
-[président]: https://www.assemblee-nationale.fr/dyn/deputes/PA722150
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/lois/composition

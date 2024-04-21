@@ -15,10 +15,10 @@ Commission des finances
 </pre>
 
 
-Président
----------
+admissibilité
+-------------
 
-[Éric Coquerel][président]
+pas de limite
 
 
 <hr class="separator">
@@ -26,5 +26,5 @@ Président
 [commission des finances][officiel]
 
 
-[président]: https://www.assemblee-nationale.fr/dyn/deputes/PA721202
+
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/finances/composition

@@ -16,10 +16,10 @@ Affaires étrangères
 </pre>
 
 
-Président
----------
+admissibilité
+-------------
 
-[Jean-Louis Bourlanges][président]
+(inconnue)
 
 
 <hr class="separator">
@@ -28,5 +28,4 @@ Président
 
 
 
-[président]: https://www.assemblee-nationale.fr/dyn/deputes/PA721608
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-etrangeres/composition

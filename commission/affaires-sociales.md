@@ -15,10 +15,10 @@ Affaires sociales
 </pre>
 
 
-Présidente
-----------
+admissibilité
+-------------
 
-[Fadila Khattabi][présidente]
+10k voix en 6 mois
 
 
 <hr class="separator">
@@ -27,5 +27,4 @@ Présidente
 
 
 
-[présidente]: https://www.assemblee-nationale.fr/dyn/deputes/PA719186
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-sociales/composition

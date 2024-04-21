@@ -27,5 +27,5 @@ admissibilité
 
 
 
-[logo]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png
+[logo]: https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/4/5/0/4590543-1-fre-FR/PICTO_DEV_DURABLE_300x300.png
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/developpement-durable/composition

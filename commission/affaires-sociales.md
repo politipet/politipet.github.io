@@ -27,5 +27,5 @@ admissibilité
 
 
 
-[logo]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png
+[logo]: https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/6/0/0/4590063-1-fre-FR/PICTO_AFF_SOCIALES_300x300.png
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/affaires-sociales/composition

@@ -27,5 +27,5 @@ pas de limite
 
 
 
-[logo]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png
+[logo]: https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/4/9/9/4589943-1-fre-FR/PICTO_AFF_FINANCES_300x300.png
 [officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/finances/composition

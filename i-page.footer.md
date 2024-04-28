@@ -18,6 +18,10 @@
 
 </div>
 
+<script>
+document.querySelector("div > div.texte > div > p > strong")
+		.onclick = function() { history.back() }
+</script>
 
 [vote]: :VOTE:
 [chat]: :SEEN:

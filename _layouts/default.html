@@ -11,7 +11,8 @@
     <link href='style.css' rel='stylesheet'>
     {% assign fqdn = site.title | split: "." %}
     {% assign host = fqdn [0] %}
-    {% assign page_id = page.name | remove: ".md" | remove: "index" %}
+    {% assign page_id = page.url | remove_first: "/" | remove: ".html" %}
+    {% assign page_id = page_id  | remove: ".md" | remove: "index" %}
     {% assign page_num = page_id | to_integer %}
     {% if page_num > 0 %}{% assign page_id = page_id | prepend: "i-" %}{%endif%}
     {% assign title = site.data.title[page_id].title %}

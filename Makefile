@@ -22,7 +22,12 @@ seens graphs:
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
 	> $(ref).md
-	@cat i-page.footer.md | sed "$(footer.repl)" >> $(ref).md
+	@if [ `wc -l < $(ref).md` = 0 ]; then \
+		echo === FALLBACK $(ref) ===; \
+		curl -s https://politipet.fr/$(ref).md > $(ref).md; \
+	else \
+		cat i-page.footer.md | sed "$(footer.repl)" \
+		>> $(ref).md	; fi
 	@cp $(ref).md $(ref:i-%=%).md 2>/dev/null || true
 
 %.closed:

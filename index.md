@@ -13,7 +13,7 @@
 
 ## [tête de gondole](tdg)
 ## [graphiques](gfx)
-## [top 20][most voted]
+## [top 20](top-20)
 ## [stats](stats)
 ## [info](info)
 

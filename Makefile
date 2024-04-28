@@ -70,7 +70,7 @@ votes.graph: dst = votes-per-day
 
 graphs: votes.graph
 
-data_files = all.yml tdg.tsv version.yml top_20.yml
+data_files = all.yml tdg.tsv version.yml top_20.tsv
 data_files: $(data_files)
 
 
@@ -123,13 +123,14 @@ get.score = $(shell cat _data/alive.txt				\
 
 data_files: extra_data
 
-top_20.yml:
+top_20.tsv:
 	curl -s -H "Accept: text/html" $(VOTE)?order=most_voted \
 	| awk '\
-		/card__link/	{ gsub(".*i-", ""); print } \
+		/card__link/	{ gsub(".*i-", ""); printf $$0 } \
 		title		{ print; title = 0 } \
 		/card__title/	{ title = 1 } \
-	' | sed 's/">/:/; s/^ \+\(.*\)/ title: "\1"/' \
+		BEGIN		{ print "id" "\t" "title" } \
+	' | sed 's:">:\t: ; s: \+::' \
 	> _data/$@
 
 

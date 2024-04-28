@@ -155,7 +155,7 @@ div > div.texte > div > p > strong {
 	border-radius: .7rem;
 }
 #footer.info-page a {
-	background-color: darkgrey;
+	background-color: lightgrey;
 	border-radius: 1rem;
 	padding: .5rem;
 	border: 2px dotted green;

@@ -70,7 +70,7 @@ votes.graph: dst = votes-per-day
 
 graphs: votes.graph
 
-data_files = all.yml tdg.tsv version
+data_files = all.yml tdg.tsv version.yml
 data_files: $(data_files)
 
 
@@ -126,9 +126,9 @@ data_files: extra_data
 
 githash = $(shell git rev-parse --short=6 HEAD)
 timestamp = $(shell TZ='Europe/Paris' date +'%F %H:%M')
-version:
+version.yml:
 	echo 'githash: $(githash)\ntimestamp: "$(timestamp)"' \
-	> _data/$@.yml
+	> _data/$@
 
 
 $(data_files): _data

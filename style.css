@@ -74,7 +74,6 @@ img {
 	pointer-events:	none;
 	width: 40%;
 }
-div:last-child div .shifter,
 div:first-child div .shifter {
 	opacity: 20%;
 	pointer-events:	auto;

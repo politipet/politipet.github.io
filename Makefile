@@ -70,6 +70,16 @@ votes.graph: dst = votes-per-day
 
 graphs: votes.graph
 
+graphs: stats.symlink
+stats.symlink:
+	cd _site; ln -s votes-per-day.png stats.graph.png
+
+dyn-top.graph: src = 962972440
+dyn-top.graph: dst = dyn-top-5
+
+graphs: dyn-top.graph
+
+
 data_files = all.yml tdg.tsv version.yml top_20.tsv
 data_files: $(data_files)
 

@@ -80,7 +80,7 @@ dyn-top.graph: dst = dyn-top-5
 graphs: dyn-top.graph
 
 
-data_files = all.yml tdg.tsv version.yml top_20.tsv
+data_files = all.yml tdg.tsv version.yml top_20.tsv dyn.tsv
 data_files: $(data_files)
 
 
@@ -115,7 +115,8 @@ all.yml:
 	{ echo "id,commission,score"; tr ' ' , < _data/alive.txt; } \
 	> _data/alive.csv
 
-data_all.txt = https://github.com/politipet/data/raw/master/all-data.txt
+data-master = https://github.com/politipet/data/raw/master
+data_all.txt = $(data-master)/all-data.txt
 
 
 %.extra:
@@ -127,7 +128,7 @@ get.score = $(shell cat _data/alive.txt				\
 
 -include .extra_data
 .extra_data:
-	curl -sL https://github.com/politipet/data/raw/master/compose.txt > .1
+	curl -sL $(data-master)/compose.txt		> .1
 	sed 's/\s*=/.score =/'				.1 > $@
 	sed 's/\s*=.*/.extra/; s/^/extra_data: /'	.1 >> $@
 
@@ -142,6 +143,9 @@ top_20.tsv:
 		BEGIN		{ print "id" "\t" "title" } \
 	' | sed 's:">:\t: ; s: \+::' \
 	> _data/$@
+
+dyn.tsv:
+	curl -sL $(data-master)/all-dyn.txt > _data/$@
 
 
 githash = $(shell git rev-parse --short=6 HEAD)

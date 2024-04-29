@@ -17,6 +17,15 @@ initiatives par commission
 (total : {{site.data.alive.size}})
 
 [blame-comm]: https://github.com/politipet/data/blame/master/all-stat.txt
+☆
+
+[![top 5 plus dynamiques](dyn-top-5.png)][all-dyn.txt]
+
+voix collectées en 10 jours
+
+(total : {{site.data.dyn[11].comm}})
+
+[all-dyn.txt]: https://github.com/politipet/data/blob/master/all-dyn.txt
 
 ☆
 

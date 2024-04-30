@@ -9,17 +9,19 @@
 
 </div>
 
+<div id="main" markdown="1">
 -----
 
-## [tête de gondole](tdg)
-## [graphiques](gfx)
 ## [top 20](top-20)
-## [stats](stats)
+## [graphiques](gfx)
+## [tête de gondole](tdg)
+## [statistiques](stats)
 ## [info](info)
 
 ##### [☆.☆](ver)
 
 -----
+</div>
 
 <div id="footer" markdown="1">
 

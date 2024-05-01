@@ -21,3 +21,13 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 }
+html {
+	background-image: url(/dyn-top-5.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #FFB080;
+	background-blend-mode: soft-light;
+}
+body {
+	background-color: rgba(255,178,128, .5);
+}

@@ -163,6 +163,11 @@ $(data_files): _data
 _data:
 	mkdir $@
 
+
+build.site:
+	git tag -f build ; git push -f site build
+
+
 VOTE = "https://petitions.assemblee-nationale.fr/initiatives"
 SEEN = "https://seenthis.net/messages"
 BASE = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTaQG5GcdXrinSC3tlJNf5I16eWZVfEnKwZxKM2b-tgS0VbOWbLGsVFNIeB6RvGWRr-E2s-GezWijig/pubchart"

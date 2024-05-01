@@ -11,16 +11,17 @@
     <link href='style.css' rel='stylesheet'>
     {% assign fqdn = site.title | split: "." %}
     {% assign host = fqdn [0] %}
-    {% assign page_id = page.url | remove_first: "/" | remove: ".html" %}
+    {% assign page_id = page.dir | append: page.name | remove: "/" %}
     {% assign page_id = page_id  | remove: ".md" | remove: "index" %}
     {% assign page_num = page_id | to_integer %}
-    {% if page_num > 0 %}{% assign page_id = page_id | prepend: "i-" %}{%endif%}
-    {% assign title = site.data.title[page_id].title %}
-    <title> {{ host }}.fr {{page_id}} {{title}}</title>
-    <meta property="og:title" content="{{page_id | replace: "i-", "n°"}} : {{title}}"/>
+    {% if page_num > 0 %}{% assign page_id = "i-" | append: page_id %}{%endif%}
+    {% assign title = page_id | replace: "i-", "n°" | append: " : " %}
+    {% assign title = title | append: site.data.title[page_id].title %}
+    <title> {{ host }}.fr {{title}}</title>
+    <meta property="og:title" content="{{title}}"/>
     <meta property="og:description" content="initiative citoyenne à l'Assemblée nationale"/>
     <meta property="og:image" content="{{site.url}}/{{page_id}}.graph.png"/>
-    <meta property="og:url" content="{{site.url}}{{page.dir}}{{page_id | remove: "i-"}}"/>
+    <meta property="og:url" content="{{site.url}}/{{page_id | remove: "i-"}}"/>
   </head>
 
   <body>

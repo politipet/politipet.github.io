@@ -10,13 +10,13 @@ votes par jour sur l'ensemble des PAN
 [all-votes.txt]: https://github.com/politipet/data/blob/master/all-votes.txt
 ☆
 
-[![pie chart PAN](pie-chart-PAN.png)][blame-comm]
+[![pie chart PAN](pie-chart-PAN.png)][show-comm]
 
 initiatives par commission
 
 (total : {{site.data.alive.size}})
 
-[blame-comm]: https://github.com/politipet/data/blame/master/all-stat.txt
+[show-comm]: https://github.com/politipet/data/blob/master/all-stat.txt
 ☆
 
 [![top 5 plus dynamiques](dyn-top-5.png)][all-dyn.txt]

@@ -54,10 +54,8 @@ footer.repl = \
 	s,:SEEN:,$(SEEN)/$(src),;\
 	s,:REF:,$(ref:i-%=%),;\
 
-url = $(if $(ref.url),$(ref.url),$(ref))
-ref.url = $($(ref).url)
-bassine.url = "?filter[search_text]=bassine"
-destitution.url = "?filter[search_text]=destitution"
+url = $(if $(filter i-%, $(ref)),$(ref),$(search))
+search = "?filter[search_text]=$(ref)"
 
 
 pie-chart.graph: src = 365702971

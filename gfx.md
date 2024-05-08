@@ -18,11 +18,9 @@
 
 {% for item in site.data.tdg %}
 
-{% case item.id %}
-  {% when "bassine" %} {% assign url = search | append: "bassine" %}
-  {% when "destitution" %} {% assign url = search | append: "destitution" %}
-  {% else %}           {% assign url = item.id %}
-{% endcase %}
+{% if item.id contains "i-" %}	{% assign url = item.id %}
+{% else %}			{% assign url = search | append: item.id %}
+{% endif %}
 
 {% assign score = site.data.all[item.id].score | to_integer %}
 

@@ -90,6 +90,9 @@ div:first-child div .shifter {
 .texte {
 	max-width: 40rem;
 }
+.texte blockquote {
+	text-align: justify;
+}
 .lien_lien {
 	background-repeat: no-repeat;
 	padding-left: 1.5rem;

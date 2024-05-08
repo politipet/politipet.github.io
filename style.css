@@ -19,6 +19,8 @@
 }
 img {
 	max-width: 100%;
+}
+#contents img {
 	display: block;
 	font-size: xx-large;
 	font-weight: bold;

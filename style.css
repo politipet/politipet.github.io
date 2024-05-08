@@ -101,6 +101,11 @@ div:first-child div .shifter {
 	overflow-wrap: break-word;
 	hyphens: auto;
 }
+.texte blockquote strong {
+	text-align: center;
+	font-weight: normal;
+	display: block;
+}
 .lien_lien_total {
 	display: none;
 }

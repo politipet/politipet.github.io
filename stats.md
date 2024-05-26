@@ -43,8 +43,9 @@ Top 20
 {% assign base = "https://petitions.assemblee-nationale.fr/initiatives/" %}
 {% assign link = base | append: item[0] %}
 <tr><td align="right">{{score}}</td><td><a href="{{link}}">{{item[0]}}</a></td></tr>
-{% if forloop.index == 10 %} <tr style="height: .7em"></tr> {% endif %}
 {% if forloop.index == 20 %} {% break %} {% endif %}
+{% assign mod_5 = forloop.index | modulo: 5 %}
+{% if mod_5 == 0 %} <tr style="height: .7em"></tr> {% endif %}
 {% endfor %}
 </table>
 

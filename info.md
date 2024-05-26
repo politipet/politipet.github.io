@@ -67,7 +67,7 @@ nombre total de votes (bleu), nombre de votes / heure (rouge).
 Cliquer dessus pour voir la page de résumé de la proposition.
 
 Les <u>boutons score</u> affichent le total des voix et permettent
-d'aller voter sur la plateforme des PAN.  Le score indiqué est
+d'aller voter sur la plateforme de l'Assemblée. Le score indiqué est
 mis à jour toutes les heures.
 
 Les <u>boutons du bas</u> permettent de participer au sondage,
@@ -87,8 +87,8 @@ commissions.
 -------------------
 
 Quand une proposition admissible est considérée, la commission désigne
-un·e rapporteur·e chargé·e d'étudier le texte «en première lecture». Le
-ou la rapporteur.e produit un rapport et une recommendation : classer ou
+un·e rapporteur·e chargé·e d'étudier le texte «en première lecture».
+Le·a rapporteur·e produit un rapport et une recommendation : classer ou
 étudier «au fond» la proposition.
 
 La commission se réunit régulièrement ou sur requête d'un·e député·e et

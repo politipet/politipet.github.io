@@ -5,7 +5,7 @@ Statistiques
 
 [![votes par jour](votes-per-day.png)][all-votes.txt]
 
-votes par jour sur l'ensemble des PAN
+votes par jour sur l'ensemble des initiatives
 
 [all-votes.txt]: https://github.com/politipet/data/blob/master/all-votes.txt
 ☆

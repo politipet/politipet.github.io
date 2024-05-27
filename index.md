@@ -13,7 +13,7 @@
 -----
 
 ## [top 20](top-20)
-## [graphiques](gfx)
+## [participation](gfx)
 ## [tête de gondole](tdg)
 ## [statistiques](stats)
 ## [info](info)

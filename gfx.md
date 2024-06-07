@@ -14,12 +14,13 @@
 <div id="contents">
 
 {% assign vote = "https://petitions.assemblee-nationale.fr/initiatives" %}
-{% assign search = "?filter[search_text]=" %}
+{% assign search = "?filter[search_text]=TEXT&order=recent" %}
 
 {% for item in site.data.tdg %}
 
 {% if item.id contains "i-" %}	{% assign url = item.id %}
-{% else %}			{% assign url = search | append: item.id %}
+{% else %}
+{% assign url = search | replace: "TEXT", item.id %}
 {% endif %}
 
 {% assign score = site.data.all[item.id].score | to_integer %}

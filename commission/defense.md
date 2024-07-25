@@ -4,13 +4,15 @@ Défense nationale
 
 <pre class="composition">
 
-21 LaREM
-11 FN
- 7 LR
- 6 Modem
+23 NFP
+16 FN
+13 EPR
+ 5 DR
+ 4 Modem
  4 Horizons
+ 3 Non inscrits
  2 Liot
-17 Nupes
+ 2 AD
 
 </pre>
 
@@ -26,4 +28,4 @@ admissibilité
 
 
 [logo]: https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/4/5/8/8/4588854-1-fre-FR/PICTO_AFF_DEFENSE_300x300.png
-[officiel]: https://www.assemblee-nationale.fr/dyn/16/organes/commissions-permanentes/defense/composition
+[officiel]: https://www.assemblee-nationale.fr/dyn/17/organes/commissions-permanentes/defense/composition

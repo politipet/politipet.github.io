@@ -134,6 +134,8 @@ get.score = $(shell cat _data/alive.txt				\
 	sed 's/\s*=/.score =/'				.1 > $@
 	sed 's/\s*=.*/.extra/; s/^/extra_data: /'	.1 >> $@
 
+extra_data:
+
 data_files: extra_data
 
 top_20.tsv:

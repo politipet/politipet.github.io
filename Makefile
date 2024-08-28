@@ -87,7 +87,7 @@ data_files: $(data_files)
 
 
 tdg.tsv:
-	@curl -s $(SEEN)/1007431 \
+	@curl -s $(SEEN)/1068218 \
 	| grep 'class="texte"' \
 	| sed 's:<br>:\n:g' \
 	| grep lien_lien \

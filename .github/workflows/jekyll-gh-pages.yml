@@ -4,6 +4,9 @@ on:
   push:
     tags: ["build"]
 
+  schedule:
+    - cron: "30 * * * *"
+
 # Allow deployment to GitHub Pages
 permissions:
   contents: read

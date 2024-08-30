@@ -12,11 +12,11 @@
 <div id="main" markdown="1">
 -----
 
-## [top 20](top-20)
+## [info](info)
 ## [participation](gfx)
 ## [tête de gondole](tdg)
 ## [statistiques](stats)
-## [info](info)
+## [top 20](top-20)
 
 ##### [☆.☆](ver)
 

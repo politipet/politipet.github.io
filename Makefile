@@ -165,6 +165,15 @@ _data:
 	mkdir $@
 
 
+extra_data: macron-destitution
+macron-destitution:
+	(curl -sL $(data-master)/i-md.txt	\
+		| sed 's: :\t:'			;\
+	printf "%s\t%s\t" $(timestamp)		;\
+	./md.sh --score				;\
+	) > md.txt
+
+
 build.site:
 	git tag -f build ; git push -f site build
 

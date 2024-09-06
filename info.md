@@ -34,7 +34,7 @@ et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
 être admissibles, sinon elles sont classées, sans étude.
 Les propositions admissibles sont discutées en commission, les
 député·es décident alors de les porter ou de les rejetter. Celles
-qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
+qui dépassent 500.000 voix peuvent aller en débat public dans l'hémicycle.
 
 
 ![pie chart PAN](pie-chart-PAN.png)
@@ -45,7 +45,7 @@ qui dépassent 500.000 peuvent aller en débat public dans l'hémicycle.
 ☆ aux armes, citoyen·nes ☆
 --------------------------
 
-Les intitiatives citoyennes sont une voie d'entrée directe
+Les initiatives citoyennes sont une voie d'entrée directe
 dans le parlement. La signature, anonyme et officielle, constitue
 un véritable <u>vote électronique</u>.
 Participer aux scrutins réalise deux actions en même temps :

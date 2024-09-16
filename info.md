@@ -24,24 +24,6 @@ il suffit d'avoir un accès France Connect : compte améli
 ou impôts, mot de passe.
 
 
-☆ règles du jeu ☆
------------------
-
-Les propositions des citoyen·nes sont enregistrées et attribuées
-selon le sujet à l'une des huit commissions de l'Assemblée.
-Elles sont ainsi ouvertes au vote populaire
-et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
-être admissibles, sinon elles sont classées, sans étude.
-Les propositions admissibles sont discutées en commission, les
-député·es décident alors de les porter ou de les rejetter. Celles
-qui dépassent 500.000 voix peuvent aller en débat public dans l'hémicycle.
-
-
-![pie chart PAN](pie-chart-PAN.png)
-
-<center>initiatives par commission</center>
-<br>
-
 ☆ aux armes, citoyen·nes ☆
 --------------------------
 
@@ -57,6 +39,24 @@ votent fréquemment et de manière ciblée sur les thèmes choisis par
 la population. Les parlementaires ont certes le dernier mot _de jure_,
 mais sont politiquement tenu·es de respecter les scrutins populaires.
 Ce sont alors les citoyen·nes qui impulsent la loi.
+
+
+![pie chart PAN](pie-chart-PAN.png)
+
+<center>initiatives par commission</center>
+<br>
+
+☆ règles du jeu ☆
+-----------------
+
+Les propositions des citoyen·nes sont enregistrées et attribuées
+selon le sujet à l'une des huit commissions de l'Assemblée.
+Elles sont ainsi ouvertes au vote populaire
+et doivent atteindre 5.000 ou 10.000 voix en 6 ou 9 mois pour
+être admissibles, sinon elles sont classées, sans étude.
+Les propositions admissibles sont discutées en commission, les
+député·es décident alors de les porter ou de les rejetter. Celles
+qui dépassent 500.000 voix peuvent aller en débat public dans l'hémicycle.
 
 
 ☆ la vitrine politipet ☆

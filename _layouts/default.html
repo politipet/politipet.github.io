@@ -23,6 +23,18 @@
     <meta property="og:description" content="initiative citoyenne à l'Assemblée nationale"/>
     <meta property="og:image" content="{{site.url}}/{{page_id}}.graph.png"/>
     <meta property="og:url" content="{{site.url}}/{{page_id | remove: "i-"}}"/>
+
+    <!-- analytics -->
+    <script
+	src="https://cdn.amplitude.com/libs/analytics-browser-2.11.1-min.js.gz"
+	crossorigin="anonymous">
+    </script>
+    <script>window.amplitude
+	.init('28c28d09d37d48a386bddd0cae40cfb6', {
+		serverZone: "EU",
+		defaultTracking: true,
+	})
+    </script>
   </head>
 
   <body>

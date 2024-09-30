@@ -1,16 +1,3 @@
-target = $(shell cut -f 1 graphs.txt)
-.graph = $(shell cut -f 2 graphs.txt)
-.seen  = $(shell cut -f 3 graphs.txt)
-
-all_id = $(shell seq $(words $(target)))
-
-src = $(word $*, $($(suffix $@)))
-dst = $(word $*, $(target))$(suffix $@)
-ref = $(word $*, $(target))
-
-graphs: $(addsuffix .graph, $(all_id))
-seens:  $(addsuffix .seen,  $(all_id))
-
 seens graphs:
 	: generated $(words $^) $@
 
@@ -21,14 +8,38 @@ seens graphs:
 	@curl -s $(SEEN)/$(src) \
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
-	> $(ref).md
-	@if [ `wc -l < $(ref).md` = 0 ]; then \
-		echo === FALLBACK $(ref) ===; \
-		curl -s https://politipet.fr/$(ref).md > $(ref).md; \
+	> $(dst).md
+	@if [ `wc -l < $(dst).md` = 0 ]; then \
+		echo === FALLBACK $(dst) ===; \
+		curl -s https://politipet.fr/$(dst).md > $(dst).md; \
 	else \
 		cat i-page.footer.md | sed "$(footer.repl)" \
-		>> $(ref).md	; fi
-	@cp $(ref).md $(ref:i-%=%).md 2>/dev/null || true
+		>> $(dst).md	; fi
+	@cp $(dst).md $(dst:i-%=%).md 2>/dev/null || true
+
+%.seen: dst = $*
+%.graph: dst = $@
+
+-include .targets
+.targets: targets
+	@cat $^ | awk '{ \
+		print $$1 ".seen: src = " $$2; print "seens: " $$1 ".seen"; \
+	} \
+	int($$3) { \
+		print $$1 ".graph: src = " $$3; print "graphs: " $$1 ".graph"; \
+	}' > $@
+
+targets:
+	@curl -s $(SEEN)/$(TDG) | sed "		\
+		1,/id \/ seen \/ graph/ d;	\
+		/-<\/code>/, $$ d;		\
+		s/&nbsp; / /g;			\
+		s:<br />::;			\
+		s/ \+/\t/g"			\
+	> $@
+	@[ `wc -l < $@` -gt 0 ] || \
+		curl -s https://politipet.fr/$@ > $@
+
 
 %.closed:
 	@src=`egrep ^$* closed.txt | cut -f 2`; \
@@ -43,7 +54,6 @@ seens graphs:
 
 %.closed: url = $*
 %.closed: src = $$src
-%.closed: ref = $*
 
 closed = $(shell cut -f 1 closed.txt)
 seens: $(closed:%=%.closed)
@@ -52,10 +62,10 @@ seens: $(closed:%=%.closed)
 footer.repl = \
 	s,:VOTE:,$(VOTE)/$(url),;\
 	s,:SEEN:,$(SEEN)/$(src),;\
-	s,:REF:,$(ref:i-%=%),;\
+	s,:REF:,$(dst:i-%=%),;\
 
-url = $(if $(filter i-%, $(ref)),$(ref),$(search))
-search = "?filter[search_text]=$(ref)"
+url = $(if $(filter i-%, $(dst)),$(dst),$(search))
+search = "?filter[search_text]=$($(dst).search)"
 
 
 pie-chart.graph: src = 365702971
@@ -86,8 +96,9 @@ data_files = all.yml tdg.tsv version.yml top_20.tsv dyn.tsv
 data_files: $(data_files)
 
 
+TDG = 1068218
 tdg.tsv:
-	@curl -s $(SEEN)/1068218 \
+	@curl -s $(SEEN)/$(TDG) \
 	| sed "/<\/article>/,$$ d" \
 	| grep 'class="texte"' \
 	| sed 's:<br>:\n:g' \

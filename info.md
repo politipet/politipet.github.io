@@ -128,26 +128,23 @@ aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 
 ### [une amie qui nous veut du bien][intro.seen]
 
-<center>☆</center>
-
-### [home](/)
-
 <center>
 <a rel="me" href="https://piaille.fr/@politipet">&nbsp;</a>
 </center>
+
+### [home](/)
 
 </div>
 
 -----
 
-[social][seenthis] ☆ [contact][email] ☆ [source][github]
-
+[social][masto] ☆ [contact][email] ☆ [source][github]
 
 
 [email]: mailto:politipet@laposte.net
 [github]: https://github.com/politipet
-[seenthis]: https://seenthis.net/people/politipet
 [intro.seen]: https://seenthis.net/messages/1010675
+[masto]: https://piaille.fr/tags/initiatives_citoyennes
 
 [politipet]: https://politipet.fr
 [most voted]: https://petitions.assemblee-nationale.fr/initiatives?order=most_voted

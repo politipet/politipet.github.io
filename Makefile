@@ -21,7 +21,7 @@ seens graphs:
 %.graph: dst = $@
 
 -include .targets
-.targets: targets
+.targets: targets closed
 	@cat $^ | awk '{ \
 		print $$1 ".seen: src = " $$2; print "seens: " $$1 ".seen"; \
 	} \
@@ -29,9 +29,13 @@ seens graphs:
 		print $$1 ".graph: src = " $$3; print "graphs: " $$1 ".graph"; \
 	}' > $@
 
-targets:
+
+targets: stem = id \/ seen \/ graph
+closed: stem = id closed \/ seen
+
+targets closed:
 	@curl -s $(SEEN)/$(TDG) | sed "		\
-		1,/id \/ seen \/ graph/ d;	\
+		1,/$(stem)/ d;			\
 		/-<\/code>/, $$ d;		\
 		s/&nbsp; / /g;			\
 		s:<br />::;			\
@@ -40,23 +44,12 @@ targets:
 	@[ `wc -l < $@` -gt 0 ] || \
 		curl -s https://politipet.fr/$@ > $@
 
-
 %.closed:
-	@src=`egrep ^$* closed.txt | cut -f 2`; \
-	curl -s $(SEEN)/$$src \
-	| grep '<div  id="texte'$$src'">' \
-	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
-	> $*.md ;\
-	cat i-page.footer.md | sed "$(footer.repl)" \
-	| grep -v graph | sed 's/voter/voir/' \
-	>> $*.md
-	@cp $*.md $(*:i-%=%).md 2>/dev/null || true
+	@sed -i 's/voter/voir/; /graph/ d;' $*.md
 
-%.closed: url = $*
-%.closed: src = $$src
-
-closed = $(shell cut -f 1 closed.txt)
-seens: $(closed:%=%.closed)
+closed = $(shell cut -f 1 closed 2>/dev/null)
+fixup-closed: $(closed:%=%.closed)
+seens: fixup-closed
 
 
 footer.repl = \

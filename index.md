@@ -48,15 +48,6 @@ body {
 #main {
 	margin: 3.5em 0;
 }
-html {
-	display: table;
-	height: 100%;
-	width: 100%;
-}
-body {
-	display: table-cell;
-	vertical-align: middle;
-}
 </style>
 
 

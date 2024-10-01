@@ -15,13 +15,3 @@ img {
 	height: 150px;
 	margin-top: 2em;
 }
-html {
-	display: table;
-	height: 100%;
-	width: 100%;
-}
-body {
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
-}

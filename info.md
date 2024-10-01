@@ -57,6 +57,26 @@ député·es décident alors de les porter ou de les rejetter. Celles
 qui dépassent 500.000 voix peuvent aller en débat public dans l'hémicycle.
 
 
+☆ la vie des pets ☆
+-------------------
+
+Quand une proposition admissible est considérée, la commission désigne
+un·e rapporteur·e chargé·e d'étudier le texte «en première lecture».
+Le·a rapporteur·e produit un rapport et une recommendation : classer ou
+étudier «au fond» la proposition.
+
+La commission se réunit régulièrement ou sur requête d'un·e député·e et
+décide du sort des propositions selectionnées par un vote à main levée.
+Elle peut choisir de suivre, ou pas, la recommendation et de «classer»
+[=rejetter] ou «ne pas classer» [=porter] la proposition. Lorsqu'elle retient
+une proposition, la commission prévoit de la discuter en profondeur,
+pour ensuite en faire un projet de loi.
+
+La commission produit une décision et un compte rendu. Les débats
+sont filmés. Vidéo et compte rendu sont disponibles au bas de la
+page de la proposition sur le site de l'Assemblée.
+
+
 ☆ la vitrine politipet ☆
 ------------------------
 
@@ -79,26 +99,6 @@ commissions.
 ### [toutes les propositions à l'AN][most recent]
 
 <br>
-
-
-☆ la vie des pets ☆
--------------------
-
-Quand une proposition admissible est considérée, la commission désigne
-un·e rapporteur·e chargé·e d'étudier le texte «en première lecture».
-Le·a rapporteur·e produit un rapport et une recommendation : classer ou
-étudier «au fond» la proposition.
-
-La commission se réunit régulièrement ou sur requête d'un·e député·e et
-décide du sort des propositions selectionnées par un vote à main levée.
-Elle peut choisir de suivre, ou pas, la recommendation et de «classer»
-[=rejetter] ou «ne pas classer» [=porter] la proposition. Lorsqu'elle retient
-une proposition, la commission prévoit de la discuter en profondeur,
-pour ensuite en faire un projet de loi.
-
-La commission produit une décision et un compte rendu. Les débats
-sont filmés. Vidéo et compte rendu sont disponibles au bas de la
-page de la proposition sur le site de l'Assemblée.
 
 
 ☆ la plateforme de vote ☆

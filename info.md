@@ -13,8 +13,8 @@
 
 <div class="info" markdown="1">
 
-Vitrine indépendante, outil de suivi, incitateur civique,
-[politipet.fr][politipet] présente une sélection d'initiatives citoyennes
+PoLiTiPeT est une vitrine indépendante, incitateur civique
+et outil de suivi, pour une sélection d'☆initiatives citoyennes☆
 ouvertes au vote sur la plateforme de l'Assemblée nationale.
 
 <center>☆</center>

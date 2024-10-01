@@ -13,15 +13,10 @@
 
 <div class="info" markdown="1">
 
-PoLiTiPeT est une vitrine indépendante, incitateur civique
-et outil de suivi, pour une sélection d'☆initiatives citoyennes☆
-ouvertes au vote sur la plateforme de l'Assemblée nationale.
-
-<center>☆</center>
-
-Voter est <u>anonyme</u> et prend <u>une minute</u>,
-il suffit d'avoir un accès France Connect : compte améli
-ou impôts, mot de passe.
+PoLiTiPeT est une vitrine indépendante, incitatrice civique
+et outil de suivi pour les initiatives citoyennes à l'Assemblée
+nationale. La selection de propositions ouvertes au vote varie
+avec les saisons et les suggestions des fans.
 
 
 ☆ aux armes, citoyen·nes ☆

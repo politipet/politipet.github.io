@@ -23,15 +23,15 @@ seens graphs:
 -include .targets
 .targets: targets
 	@cat $^ | awk '{ \
-		print $$1 ".seen: src = " $$3; print "seens: " $$1 ".seen"; \
+		print $$1 ".seen: src = " $$2; print "seens: " $$1 ".seen"; \
 	} \
-	int($$2) { \
-		print $$1 ".graph: src = " $$2; print "graphs: " $$1 ".graph"; \
+	int($$3) { \
+		print $$1 ".graph: src = " $$3; print "graphs: " $$1 ".graph"; \
 	}' > $@
 
 targets:
 	@curl -s $(SEEN)/$(TDG) | sed "		\
-		1,/id \/ graph \/ seen/ d;	\
+		1,/id \/ seen \/ graph/ d;	\
 		/-<\/code>/, $$ d;		\
 		s/&nbsp; / /g;			\
 		s:<br />::;			\

@@ -2,18 +2,18 @@ Commissions
 ===========
 
 
-### [développement durable](developpement-durable.md)
+### [développement durable](developpement-durable)
 
-### [affaires économiques](affaires-economiques.md)
+### [affaires économiques](affaires-economiques)
 
-### [éducation et culture](education-culture.md)
+### [éducation et culture](education-culture)
 
-### [affaires sociales](affaires-sociales.md)
+### [affaires sociales](affaires-sociales)
 
-### [lois et administration](lois.md)
+### [lois et administration](lois)
 
-### [affaires étrangères](affaires-etrangeres.md)
+### [affaires étrangères](affaires-etrangeres)
 
-### [finances](finances.md)
+### [finances](finances)
 
-### [défense](defense.md)
+### [défense](defense)

@@ -179,3 +179,11 @@ h3#politipet {
 h3#politipet a {
 	text-decoration: none;
 }
+
+#main a, #footer a {
+	text-decoration: none;
+	border: 1px solid aliceblue;
+	border-radius: .6em;
+	padding: .2em;
+	user-select: none;
+}

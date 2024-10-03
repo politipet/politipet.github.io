@@ -46,7 +46,7 @@ body {
 	margin: auto 0;
 }
 #main {
-	margin: 3.5em 0;
+	margin: 2.5em 0;
 }
 </style>
 

@@ -38,9 +38,11 @@ Ce sont alors les citoyen·nes qui impulsent la loi.
 
 ![pie chart PAN](pie-chart-PAN.png)
 
-<center>initiatives par commission</center>
-<center>({{site.data.dyn[11].comm}} votes en 10 jours)</center>
-<center>({{site.data.alive.size}} propositions)</center>
+<center>
+initiatives par commission<br>
+{{site.data.dyn[11].comm}} votes en 10 jours<br>
+{{site.data.alive.size}} propositions<br>
+</center>
 <br>
 
 

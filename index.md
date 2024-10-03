@@ -44,6 +44,10 @@ body {
 	background-color: rgba(255,178,128, 0.5);
 	padding: 0 8px;
 	margin: auto 0;
+	text-align: center;
+}
+center {
+	display: inline-block;
 }
 #main {
 	margin: 2.5em 0;

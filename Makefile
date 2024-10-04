@@ -37,7 +37,7 @@ targets closed:
 	@curl -s $(SEEN)/$(TDG) | sed "		\
 		1,/$(stem)/ d;			\
 		/-<\/code>/, $$ d;		\
-		s/&nbsp; / /g;			\
+		s/&nbsp;/ /g;			\
 		s:<br />::;			\
 		s/ \+/\t/g"			\
 	> $@

@@ -37,7 +37,7 @@
 <div id="{{item.id | remove: "i-" }}">
 
 <a href="{{item.id | remove: "i-" }}">
-  <img alt="{{item.text}}" src="{{item.id}}.graph.png">
+  <img alt="{{item.text}}" src="{{site.data.graph[item.id]}}">
 </a>
 
 <div class="buttons">

@@ -182,7 +182,7 @@ h3#politipet a {
 
 #main a, #footer a {
 	text-decoration: none;
-	border: 1px solid aliceblue;
+	border: 1px solid #FED;
 	border-radius: .6em;
 	padding: .2em;
 	user-select: none;

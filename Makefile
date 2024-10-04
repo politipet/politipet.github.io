@@ -37,7 +37,7 @@ targets closed:
 	@curl -s $(SEEN)/$(TDG) | sed "		\
 		1,/$(stem)/ d;			\
 		/-<\/code>/, $$ d;		\
-		s/&nbsp; / /g;			\
+		s/&nbsp;/ /g;			\
 		s:<br />::;			\
 		s/ \+/\t/g"			\
 	> $@
@@ -64,29 +64,29 @@ search = "?filter[search_text]=$($(dst).search)"
 pie-chart.graph: src = 365702971
 pie-chart.graph: dst = pie-chart-PAN
 
-graphs: pie-chart.graph
-
 votes.graph: src = 1008534023
 votes.graph: dst = votes-per-day
-
-graphs: votes.graph
 
 dyn-top.graph: src = 962972440
 dyn-top.graph: dst = dyn-top-5
 
-graphs: dyn-top.graph
+graphs: $(addsuffix .graph, pie-chart votes dyn-top)
 
-graphs: stats.symlink
-graphs: commission.symlink
 
-stats.symlink: src = votes-per-day.png
-commission.symlink: src = pie-chart-PAN.png
-%.symlink:
-	ln -s $(src) _site/$*.graph.png
+graph.yml: targets
+	@( \
+	echo "stats: votes-per-day.png" ;\
+	echo "commission/: pie-chart-PAN.png" ;\
+	awk '\
+		int($$3)	 {print $$1 ": " $$1 ".graph.png"}\
+		$$3 && !int($$3) {print $$1 ": " $$3}\
+	' $^ ;\
+	) > _data/$@
 
 
 data_files = all.yml tdg.tsv version.yml top_20.tsv dyn.tsv
 data_files: $(data_files)
+data_files: graph.yml
 
 
 TDG = 1068218

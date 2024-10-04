@@ -18,10 +18,14 @@
     {% if page_num > 0 %}{% assign page_id = "i-" | append: page_id %}{%endif%}
     {% assign title = page_id | replace: "i-", "n°" | append: " : " %}
     {% assign title = title | append: site.data.title[page_id].title %}
+    {% assign image = site.data.graph[page_id] %}
+    {% unless image contains "://" %}
+    {% assign image = site.url | append: "/" | append: image %}
+    {% endunless %}
     <title> {{ host }}.fr {{title}}</title>
     <meta property="og:title" content="{{title}}"/>
     <meta property="og:description" content="initiative citoyenne à l'Assemblée nationale"/>
-    <meta property="og:image" content="{{site.url}}/{{page_id}}.graph.png"/>
+    <meta property="og:image" content="{{image}}"/>
     <meta property="og:url" content="{{site.url}}/{{page_id | remove: "i-"}}"/>
 
     <!-- analytics -->

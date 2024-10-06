@@ -16,4 +16,9 @@ politipet
 <script>
 document.getElementById("politipet")
 .onclick = function() { location = 'https://github.com/politipet' }
+document.body
+.onclick = function() {
+	var text = document.querySelector("center")
+	text.style.display = (text.style.display ? "" : "none")
+}
 </script>

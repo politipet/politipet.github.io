@@ -15,7 +15,7 @@
 
 PoLiTiPeT est une vitrine indépendante, incitatrice civique
 et outil de suivi pour les initiatives citoyennes à l'Assemblée
-nationale. La selection de propositions ouvertes au vote varie
+nationale. La sélection de propositions ouvertes au vote varie
 avec les saisons et les suggestions des fans.
 
 

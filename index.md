@@ -25,7 +25,7 @@
 
 <div id="footer" markdown="1">
 
-[![sondage](favicon.ico)](poll/)
+[![sondage](favicon.png)](poll/)
 [![plus votées][logo an]][most voted]
 [![commissions][logo lois]](commission/)
 

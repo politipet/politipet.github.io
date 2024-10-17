@@ -78,6 +78,7 @@ graph.yml: targets
 	echo "stats: votes-per-day.png" ;\
 	echo "commission/: pie-chart-PAN.png" ;\
 	awk '\
+		$$4		 {print $$1 ": " $$4; next}\
 		int($$3)	 {print $$1 ": " $$1 ".graph.png"}\
 		$$3 && !int($$3) {print $$1 ": " $$3}\
 	' $^ ;\

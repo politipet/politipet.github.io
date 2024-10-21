@@ -112,7 +112,7 @@ tdg.tsv:
 	> _data/title.yml
 	@{ echo "id\ttext"; cat $(list.tsv); } > _data/$@
 
-list.tsv = tdg/list.tsv
+list.tsv = sel.tsv
 
 all.yml:
 	curl -sL $(data_all.txt) \

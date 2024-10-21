@@ -10,15 +10,6 @@ votes par jour sur l'ensemble des initiatives
 [all-votes.txt]: https://github.com/politipet/data/blob/master/all-votes.txt
 ☆
 
-[![pie chart PAN](pie-chart-PAN.png)][show-comm]
-
-initiatives par commission
-
-(total : {{site.data.alive.size}})
-
-[show-comm]: https://github.com/politipet/data/blob/master/all-stat.txt
-☆
-
 [![top 5 plus dynamiques](dyn-top-5.png)][all-dyn.txt]
 
 voix collectées en 10 jours
@@ -27,6 +18,15 @@ voix collectées en 10 jours
 
 [all-dyn.txt]: https://github.com/politipet/data/blob/master/all-dyn.txt
 
+☆
+
+[![pie chart PAN](pie-chart-PAN.png)][show-comm]
+
+initiatives par commission
+
+(total : {{site.data.alive.size}})
+
+[show-comm]: https://github.com/politipet/data/blob/master/all-stat.txt
 ☆
 
 [Top of The Pets](https://seenthis.net/messages/1021649)

@@ -5,12 +5,14 @@
 
 <link rel="stylesheet" href="sel.css"/>
 <style>
-img {
-	width: 105%;
-	margin: -.5em -2em -.7em;
+.content img {
 	border: 2px solid grey;
 	border-radius: 1em;
 	cursor: pointer;
+}
+.content a:has(> img) {
+	padding: 0;
+	background-color: transparent;
 }
 </style>
 

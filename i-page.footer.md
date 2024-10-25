@@ -18,9 +18,11 @@
 
 </div>
 
+<script src="voter.js"></script>
 <script>
 document.querySelector("div > div.texte > div > p > strong")
 		.onclick = function() { history.back() }
+init_voter()
 </script>
 
 [vote]: :VOTE:

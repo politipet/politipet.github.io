@@ -30,13 +30,12 @@
 
 {% endfor %}
 
-
-<hr style="width: 2em; margin: 1em;">
-
-[sélection](/sel)
-
 </div>
 
 ----
 
-[home](/)
+[📈 gfx](/gfx) ☆ [home](/) ☆ [sel 📋](/sel)
+
+<script>
+document.querySelector("h1").onclick = function() { location = "sel" }
+</script>

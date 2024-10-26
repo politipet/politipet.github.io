@@ -1,4 +1,4 @@
-<div id="header" markdown="1" onclick="location.href='/'">
+<div id="header" markdown="1" onclick="history.back()">
 
 ☆ POLITIPET ☆
 =============

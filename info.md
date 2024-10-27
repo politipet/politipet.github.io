@@ -1,13 +1,9 @@
-<div id="header" markdown="1" onclick="location='/'">
-
 ☆ POLITIPET ☆
 =============
 
 #### initiatives citoyennes
 
 ### votez · faites voter
-
-</div>
 
 -----
 

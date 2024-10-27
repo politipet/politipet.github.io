@@ -1,17 +1,12 @@
-#header {
-	user-select: none;
-	cursor: pointer;
-}
-#header h4 {
+#initiatives-citoyennes {
 	letter-spacing: .13rem;
 	height: 1.2rem;
 }
-#header h4 b {
-	display: inline-block;
-	width: 2rem;
-}
 #votez--faites-voter {
 	letter-spacing: .2rem;
+}
+h1, h3, h4 {
+	user-select: none;
 }
 img {
 	max-width: 100%;

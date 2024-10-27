@@ -1,26 +1,24 @@
 <div class="info" markdown="1">
 
-Authentifiez-vous anonymement comme personne physique majeure avec
-le bouton [[s'authentifier]]. Terminez en cliquant le bouton
-[[continuer sur la plateforme]] et fermez la page. Vous êtes authentifié·e
-pour une demi-heure. Votez la proposition avec le bouton [[voter]].
+Pour voter aux initiatives citoyennes à l'Assemblée,
+il faut prouver qu'on est une personne physique majeure.
 
-<center> 🎃 🎃 🎃 </center>
+France Connect permet de s'authentifier anonymement,
+vérifie l'age et garantit l'unicité et l'anonymat du vote.
 
 <div id='footer' class="info-page" style="text-align:center" markdown="1">
 
-[s'authentifier avec France Connect][auth]
+[s'authentifier personne physique][auth]
 
 [voter][vote]
 
 </div>
 
-Pour voter aux initiatives citoyennes à l'Assemblée nationale,
-il faut prouver qu'on est une personne physique majeure.
+Authentifiez-vous anonymement avec le bouton ❝s’authentifier❞.
+Terminez en cliquant ❝continuer sur la plateforme❞ et fermez la page.
 
-La plateforme utilise France Connect comme tiers de confiance
-pour authentifier (et non identifier) les personnes physiques,
-vérifier l'age et garantir l'anonymat du vote.
+Vous êtes authentifié·e pour une demi-heure.
+Votez autant de propositions que vous voulez.
 
 </div>
 

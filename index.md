@@ -1,4 +1,4 @@
-<div id="header" markdown="1" onclick="location='info'">
+<div id="header" markdown="1">
 
 ☆ POLITIPET ☆
 =============
@@ -53,6 +53,8 @@ center {
 	margin: 2.5em 0;
 }
 </style>
+
+<script>set_next("gfx")</script>
 
 
 [logo an]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png

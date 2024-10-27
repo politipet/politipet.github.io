@@ -1,4 +1,4 @@
-<div id="header" markdown="1" onclick="history.back()">
+<div id="header" markdown="1">
 
 ☆ POLITIPET ☆
 =============
@@ -79,3 +79,4 @@ c.querySelectorAll(".shifter.bak")
 
 })()
 </script>
+<script>set_next("tdg")</script>

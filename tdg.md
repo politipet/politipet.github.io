@@ -36,6 +36,4 @@
 
 [📈 gfx](/gfx) ☆ [home](/) ☆ [sel 📋](/sel)
 
-<script>
-document.querySelector("h1").onclick = function() { location = "sel" }
-</script>
+<script>set_next("sel")</script>

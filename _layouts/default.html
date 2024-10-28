@@ -40,12 +40,7 @@
 	})
     </script>
 
-    <script>
-	function set_next(page) {
-		document.querySelector("h1").onclick
-			= function() { location.replace(page) }
-	}
-    </script>
+    <script src="/site.js"></script>
   </head>
 
   <body>
@@ -53,10 +48,7 @@
         {{ content }}
   </center>
 
-  <script>
-	var h1 = document.querySelector("h1")
-	if (h1 && ! h1.onclick) h1.onclick = function () { history.back() }
-  </script>
+  <script>default_header_onclick()</script>
 
   </body>
 </html>

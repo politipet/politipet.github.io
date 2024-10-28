@@ -45,7 +45,7 @@ targets closed:
 		curl -s https://politipet.fr/$@ > $@
 
 %.closed:
-	@sed -i 's/voter/voir/; /graph/ d;' $*.md
+	@sed -i 's/voter]/voir]/; /graph]/ d;' $*.md
 
 closed = $(shell cut -f 1 closed 2>/dev/null)
 fixup-closed: $(closed:%=%.closed)

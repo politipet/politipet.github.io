@@ -132,13 +132,16 @@ aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 <a rel="me" href="https://piaille.fr/@politipet">&nbsp;</a>
 </center>
 
-### [home](/)
+### [social][masto] ☆ [contact][email] ☆ [source][github]
 
 </div>
 
 -----
 
-[social][masto] ☆ [contact][email] ☆ [source][github]
+[home](/)
+
+
+<script>set_next("/")</script>
 
 
 [email]: mailto:politipet@laposte.net

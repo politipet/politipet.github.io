@@ -21,7 +21,7 @@
 <script src="voter.js"></script>
 <script>
 document.querySelector("div > div.texte > div > p > strong")
-		.onclick = function() { history.back() }
+		.onclick = function() { location = "/" }
 init_voter()
 </script>
 

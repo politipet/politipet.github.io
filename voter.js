@@ -13,6 +13,8 @@ function init_voter() {
 		else
 			location = vote + id
 	}
+
+	if (location.hash == "#vote") location = vote + id
 }
 
 function needs_auth() {

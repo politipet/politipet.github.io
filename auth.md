@@ -24,9 +24,11 @@ Votez autant de propositions que vous voulez.
 
 
 [auth]: https://petitions.assemblee-nationale.fr/users/auth/france_connect_uid
-[vote]: javascript:history.back()
+[vote]: #vote
 
 <script>
 auth = document.querySelector("#footer p:first-child a")
+vote = document.querySelector("#footer p:last-child a")
 auth.setAttribute("target", "blank_")
+vote.href = location.search.replace("?", "/") + "#vote"
 </script>

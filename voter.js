@@ -3,17 +3,10 @@ function init_voter() {
 	var id = location.pathname.replace("/", "")
 	var vote = "https://petitions.assemblee-nationale.fr/initiatives/i-"
 
-	voter.href = "#"
 	voter.setAttribute("target", "blank_")
 	voter.onclick = function(ev) {
-		ev.preventDefault()
-
-		if (needs_auth())
-			location = "/auth?" + id
-		else
-			location = vote + id
+		this.href = (needs_auth() ? "/auth?" : vote) + id
 	}
-
 	if (location.hash == "#vote") location = vote + id
 }
 

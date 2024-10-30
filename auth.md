@@ -10,8 +10,6 @@ vérifie l'age et garantit l'unicité et l'anonymat du vote.
 
 [s'authentifier personne physique][auth]
 
-[voter][vote]
-
 </div>
 
 Authentifiez-vous anonymement avec le bouton ❝s’authentifier❞.
@@ -24,11 +22,3 @@ Votez autant de propositions que vous voulez.
 
 
 [auth]: https://petitions.assemblee-nationale.fr/users/auth/france_connect_uid
-[vote]: #vote
-
-<script>
-auth = document.querySelector("#footer p:first-child a")
-vote = document.querySelector("#footer p:last-child a")
-auth.setAttribute("target", "blank_")
-vote.href = location.search.replace("?", "/") + "#vote"
-</script>

@@ -7,7 +7,6 @@ function init_voter() {
 	voter.onclick = function(ev) {
 		this.href = (needs_auth() ? "/auth?" : vote) + id
 	}
-	if (location.hash == "#vote") location = vote + id
 }
 
 function needs_auth() {

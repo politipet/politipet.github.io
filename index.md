@@ -50,7 +50,7 @@ center {
 }
 </style>
 
-<script>set_next("gfx")</script>
+<script>header_link("sel")</script>
 
 
 [logo an]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png

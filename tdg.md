@@ -35,5 +35,3 @@
 ----
 
 [📈 gfx](/gfx) ☆ [home](/) ☆ [sel 📋](/sel)
-
-<script>set_next("sel")</script>

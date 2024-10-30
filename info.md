@@ -141,9 +141,6 @@ aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 [home](/)
 
 
-<script>set_next("/")</script>
-
-
 [email]: mailto:politipet@laposte.net
 [github]: https://github.com/politipet
 [intro.seen]: https://seenthis.net/messages/1010675

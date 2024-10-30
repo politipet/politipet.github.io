@@ -75,4 +75,3 @@ c.querySelectorAll(".shifter.bak")
 
 })()
 </script>
-<script>set_next("/")</script>

@@ -18,5 +18,3 @@
 ----
 
 [home](/)
-
-<script>set_next("/")</script>

@@ -1,10 +1,9 @@
 <div class="info" markdown="1">
 
 Pour voter aux initiatives citoyennes à l'Assemblée,
-il faut prouver qu'on est une personne physique majeure.
-
-France Connect permet de s'authentifier anonymement,
-vérifie l'age et garantit l'unicité et l'anonymat du vote.
+il faut être une personne physique majeure.
+France Connect permet de le prouver en s'authentifiant,
+vérifie l'age et garantit l'anonymat du vote.
 
 <div id='footer' class="info-page" style="text-align:center" markdown="1">
 

@@ -119,14 +119,14 @@ div:first-child div .shifter {
 	display: none;
 }
 /* pet title, in seenthis page */
-div > div.texte > div > p > strong {
+div.texte h1 {
 	display: inline-block;
 	padding: 1rem;
 	border: 2px dotted green;
 	border-radius: 1.5rem;
 	background-color: bisque;
 	letter-spacing: .1rem;
-	cursor: pointer;
+	font-size: larger;
 }
 .info {
 	text-align: justify;

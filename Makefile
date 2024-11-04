@@ -8,6 +8,7 @@ seens graphs:
 	@curl -s $(SEEN)/$(src) \
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
+	| sed 's:<strong>\([^<]*\)</strong>:<h1>\1</h1>:' \
 	> $(dst).md
 	@if [ `wc -l < $(dst).md` = 0 ]; then \
 		echo === FALLBACK $(dst) ===; \

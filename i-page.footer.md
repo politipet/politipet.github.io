@@ -20,8 +20,6 @@
 
 <script src="voter.js"></script>
 <script>
-document.querySelector("div > div.texte > div > p > strong")
-	.onclick = default_header_onclick
 init_voter()
 </script>
 

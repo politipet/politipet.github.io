@@ -16,7 +16,7 @@ seens graphs:
 	else \
 		cat i-page.footer.md | sed "$(footer.repl)" \
 		>> $(dst).md	; fi
-	@cp $(dst).md $(dst:i-%=%).md 2>/dev/null || true
+	@mv $(dst).md $(dst:i-%=%).md 2>/dev/null || true
 
 %.seen: dst = $*
 %.graph: dst = $@
@@ -46,7 +46,7 @@ targets closed:
 		curl -s https://politipet.fr/$@ > $@
 
 %.closed:
-	@sed -i 's/voter]/voir]/; /graph]/ d;' $*.md
+	@sed -i 's/voter]/voir]/; /graph]/ d;' $(*:i-%=%).md
 
 closed = $(shell cut -f 1 closed 2>/dev/null)
 fixup-closed: $(closed:%=%.closed)

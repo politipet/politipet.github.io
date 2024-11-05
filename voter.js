@@ -5,6 +5,7 @@ function init_voter() {
 
 	voter.setAttribute("target", "blank_")
 	voter.onclick = function(ev) {
+		if (this.innerHTML == "voter")
 		this.href = (needs_auth() ? "/auth?" : vote) + id
 	}
 }

@@ -14,6 +14,10 @@
 	padding: 0;
 	background-color: transparent;
 }
+.content i {
+	top: 2px;
+	position: relative;
+}
 </style>
 
 <div class="content" markdown="1">
@@ -22,6 +26,7 @@
 {% assign gfx = site.data.graph[item.id] %}
 {% assign page = item.id | remove: "i-" %}
 
+<i id="{{ page }}"></i>
 {% if gfx %}
 [![{{ item.text }}]({{ gfx }})](/{{ page }})
 {% else %}

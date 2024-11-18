@@ -57,9 +57,9 @@ seens: fixup-closed
 footer.repl = \
 	s,:VOTE:,$(VOTE)/$(url),;\
 	s,:SEEN:,$(SEEN)/$(src),;\
-	s,:REF:,$(dst:i-%=%),;\
+	s,:REF:,$(dst),;\
 
-url = $(if $(filter i-%, $(dst)),$(dst),$(search))
+url = $(if $(filter i-%, $*),$*,$(search))
 search = "?filter[search_text]=$($(dst).search)"
 
 

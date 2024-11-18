@@ -5,7 +5,7 @@ seens graphs:
 	@curl -s $(BASE)"?oid=$(src)&format=image" > _site/$(dst).png
 
 %.seen:
-	@curl -s $(SEEN)/$(src) \
+	@curl $(_seen)/$(src) \
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
 	| sed 's:<strong>\([^<]*\)</strong>:<h1>\1</h1>:' \
@@ -19,6 +19,8 @@ seens graphs:
 
 %.seen: dst = $(*:i-%=%)
 %.graph: dst = $@
+
+_seen = -s -H "user-agent: politipet.fr" $(SEEN)
 
 -include .targets
 .targets: targets closed
@@ -34,7 +36,7 @@ targets: stem = id \/ seen \/ graph
 closed: stem = id closed \/ seen
 
 targets closed:
-	@curl -s $(SEEN)/$(TDG) | sed "		\
+	@curl $(_seen)/$(TDG) | sed "		\
 		1,/$(stem)/ d;			\
 		/-<\/code>/, $$ d;		\
 		s/&nbsp;/ /g;			\
@@ -92,7 +94,7 @@ data_files: graph.yml
 
 TDG = 1068218
 tdg.tsv:
-	@curl -s $(SEEN)/$(TDG) \
+	@curl $(_seen)/$(TDG) \
 	| sed "/<\/article>/,$$ d" \
 	| grep 'class="texte"' \
 	| sed 's:<br>:\n:g' \

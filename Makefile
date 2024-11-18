@@ -14,7 +14,7 @@ seens graphs:
 		echo === FALLBACK $(dst) ===; \
 		curl -s https://politipet.fr/$(dst).md > $(dst).md; \
 	else \
-		cat i-page.footer.md | sed "$(footer.repl)" \
+		cat page.footer.md | sed "$(footer.repl)" \
 		>> $(dst).md	; fi
 
 %.seen: dst = $(*:i-%=%)

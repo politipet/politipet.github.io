@@ -16,9 +16,8 @@ seens graphs:
 	else \
 		cat i-page.footer.md | sed "$(footer.repl)" \
 		>> $(dst).md	; fi
-	@mv $(dst).md $(dst:i-%=%).md 2>/dev/null || true
 
-%.seen: dst = $*
+%.seen: dst = $(*:i-%=%)
 %.graph: dst = $@
 
 -include .targets

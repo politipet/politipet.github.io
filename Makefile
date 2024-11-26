@@ -35,8 +35,9 @@ _seen = -s -H "user-agent: politipet.fr" $(SEEN)
 targets: stem = id \/ seen \/ graph
 closed: stem = id closed \/ seen
 
+CFG = 1084496
 targets closed:
-	@curl $(_seen)/$(TDG) | sed "		\
+	@curl $(_seen)/$(CFG) | sed "		\
 		1,/$(stem)/ d;			\
 		/-<\/code>/, $$ d;		\
 		s/&nbsp;/ /g;			\

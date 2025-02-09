@@ -11,17 +11,16 @@ vérife la date de naissance et garantit l'unicité du vote.
 
 </div>
 
-Le bouton ❝se connecter❞ ouvre une page "jetable"
-qui envoye chez France Connect.
-Fournissez vos codes habituels (ameli, impots.gouv, msa).
-Cliquez le bouton ❝continuer sur la plateforme❞
-puis <b>fermez</b> la page.
+Le bouton ❝se connecter❞ ouvre une page "jetable" chez France Connect.
+Fournissez vos codes habituels (ameli.fr, impots.gouv, msa), validez,
+puis cliquez le bouton ❝continuer sur la plateforme❞.
+Enfin, <b>fermez</b> la page.
 
-Vous êtes connecté-e. La session dure une demi-heure.
+Vous êtes connecté-e, prêt-e à voter.
+La session dure une demi-heure.
 
-Pressez à nouveau le bouton ❝voter❞. Une nouvelle page "jetable"
-s'ouvre avec le bouton ❝signer❞ de la plateforme de l'Assemblée.
-Cliquez le bouton, sélectionnez un département, cochez la case
+Le bouton ❝voter❞ envoie sur le site de l'Assemblée.
+Cliquez le bouton ❝signer❞, sélectionnez un département, cochez la case
 "je certifie ...", cliquez ❝Continuer❞ et <b>fermez</b> la page.
 
 Félicitations, vous avez voté la proposition.

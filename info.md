@@ -13,8 +13,8 @@ PoLiTiPeT est une vitrine indépendante, incitatrice civique
 et outil de suivi pour les initiatives citoyennes à l'Assemblée
 nationale. La «tête de gondole» propose une sélection d'une dizaine
 d'initiatives, ouvertes au vote populaire, chacune avec sa «page résumé»
-et son supplément «discussion». La sélection varie avec les saisons et
-les suggestions via [contact][email]|[social][masto].
+et son supplément «discussion». La sélection varie avec les saisons,
+les sondages et les discussions sur [la Fédi][masto].
 
 
 ☆ aux armes, citoyen·nes ☆
@@ -30,7 +30,8 @@ une sélection des propositions à envoyer à l'Assemblée et un
 Les citoyen·nes agissent de fait sur l'agenda législatif,
 votent fréquemment et de manière ciblée sur les thèmes choisis par
 la population. Les parlementaires ont certes le dernier mot _de jure_,
-mais sont politiquement tenu·es de respecter les scrutins populaires.
+mais sont politiquement tenu·es de respecter les scrutins populaires,
+du moment qu'ils rassemblent assez de voix.
 Ce sont alors les citoyen·nes qui impulsent la loi.
 
 

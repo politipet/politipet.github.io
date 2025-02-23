@@ -78,6 +78,7 @@ graphs: $(addsuffix .graph, pie-chart votes dyn-top)
 
 graph.yml: targets
 	@( \
+	echo "'': favicon.png" ;\
 	echo "stats: votes-per-day.png" ;\
 	echo "commission/: pie-chart-PAN.png" ;\
 	awk '\

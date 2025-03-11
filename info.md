@@ -13,8 +13,8 @@ PoLiTiPeT est une vitrine indépendante, incitatrice civique
 et outil de suivi pour les initiatives citoyennes à l'Assemblée
 nationale. La «tête de gondole» propose une sélection d'une dizaine
 d'initiatives, ouvertes au vote populaire, chacune avec sa «page résumé»
-et son supplément «discussion». La sélection varie avec les saisons,
-les sondages et les discussions sur [la Fédi][masto].
+et son supplément «discussion». La sélection varie avec les propositions
+disponibles et les échanges sur [piaille][masto].
 
 
 ☆ aux armes, citoyen·nes ☆

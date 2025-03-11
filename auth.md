@@ -1,30 +1,27 @@
 <div class="info" markdown="1">
 
 Pour voter aux initiatives citoyennes à l'Assemblée,
-il faut être une personne physique majeure.
-France Connect permet de le prouver anonymement,
-vérife la date de naissance et garantit l'unicité du vote.
+le règlement impose d'être une personne physique majeure.
+France Connect permet de le garantir de façon <u>anonyme</u>.
 
 <div id='footer' class="info-page" style="text-align:center" markdown="1">
 
-[se connecter 'personne physique'][auth]
+[se connecter 'personne majeure' anonyme][auth]
 
 </div>
 
-Le bouton ❝se connecter❞ ouvre une page "jetable" chez France Connect.
-Fournissez vos codes habituels (ameli.fr, impots.gouv, msa), validez,
-puis cliquez le bouton ❝continuer sur la plateforme❞.
-Enfin, <b>fermez</b> la page.
+Le bouton ci-dessus ouvre une page "jetable" chez France Connect.
+Fournissez vos codes France Connect habituels, validez.
+Cliquez enfin ❝continuer sur la plateforme❞ et <u>fermez</u> la page.
 
-Vous êtes connecté-e, prêt-e à voter.
-La session dure une demi-heure.
+Vous êtes connecté-e. La session de vote dure une demi-heure.
 
-Le bouton ❝voter❞ envoie sur le site de l'Assemblée.
+Le bouton ❝voter❞ ouvre maintenant une page "jetable" à l'Assemblée.
 Cliquez le bouton ❝signer❞, sélectionnez un département, cochez la case
-"je certifie ...", cliquez ❝Continuer❞ et <b>fermez</b> la page.
+"je certifie ...", cliquez ❝Continuer❞ et <u>fermez</u> la page.
 
-Félicitations, vous avez voté la proposition.
-Votez en d'autres autant que vous voulez.
+Félicitations, proposition votée !
+N'hésitez pas à en voter d'autres.
 
 </div>
 

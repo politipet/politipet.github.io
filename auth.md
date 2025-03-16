@@ -1,8 +1,10 @@
 <div class="info" markdown="1">
 
 Pour voter aux initiatives citoyennes à l'Assemblée,
-le règlement impose d'être une personne physique majeure.
-France Connect permet de le garantir de façon <u>anonyme</u>.
+il faut être une personne majeure.
+
+Le bouton suivant ouvre une page chez France Connect
+qui permet de le garantir de façon anonyme.
 
 <div id='footer' class="info-page" style="text-align:center" markdown="1">
 
@@ -10,20 +12,26 @@ France Connect permet de le garantir de façon <u>anonyme</u>.
 
 </div>
 
-Le bouton ci-dessus ouvre une page "jetable" chez France Connect.
 Fournissez vos codes France Connect habituels, validez.
-Cliquez enfin ❝continuer sur la plateforme❞ et <u>fermez</u> la page.
+Cliquez <b>continuer sur la plateforme</b> et <u>fermez</u> la page.
 
-Vous êtes connecté-e. La session de vote dure une demi-heure.
+Vous êtes connecté-e pour une demi-heure.
 
-Le bouton ❝voter❞ ouvre maintenant une page "jetable" à l'Assemblée.
-Cliquez le bouton ❝signer❞, sélectionnez un département, cochez la case
-"je certifie ...", cliquez ❝Continuer❞ et <u>fermez</u> la page.
+<center>☆</center>
+
+Le bouton <b>voter</b> ouvre maintenant la page de l'Assemblée.
+Cliquez-y le bouton <b>signer</b>, sélectionnez un département,
+cochez la case <b>je certifie...</b>, cliquez <b>continuer</b>
+et <u>fermez</u> la page.
 
 Félicitations, proposition votée !
-N'hésitez pas à en voter d'autres.
-
+Votez-en d'autres autant que vous voulez.
 </div>
 
+
+<style>
+  b::before { content: "«\00a0" }
+  b::after { content: "\00a0»" }
+</style>
 
 [auth]: https://petitions.assemblee-nationale.fr/users/auth/france_connect_uid

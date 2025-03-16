@@ -22,7 +22,7 @@
 <div id="footer" markdown="1">
 
 [![sondage](favicon.png)](poll/)
-[![plus votées][logo an]][most voted]
+[![liste an][logo an]][most recent]
 [![commissions][logo lois]](commission/)
 
 </div>
@@ -56,3 +56,4 @@ center {
 [logo an]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png
 [logo lois]: https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/8/8/9/4589883-1-fre-FR/PICTO_AFF_LOIS_300x300.png
 [most voted]: https://petitions.assemblee-nationale.fr/initiatives?order=most_voted
+[most recent]: https://petitions.assemblee-nationale.fr/initiatives?order=recently_published

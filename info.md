@@ -149,4 +149,4 @@ aurez sous le doigt pour le prochain tour, comme sur votre ordi.
 
 [politipet]: https://politipet.fr
 [most voted]: https://petitions.assemblee-nationale.fr/initiatives?order=most_voted
-[most recent]: https://petitions.assemblee-nationale.fr/initiatives?order=recent
+[most recent]: https://petitions.assemblee-nationale.fr/initiatives?order=recently_published

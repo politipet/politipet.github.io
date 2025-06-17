@@ -1,0 +1,14 @@
+.content a {
+	margin: .5rem .1rem;
+	background-color: lightgrey;
+	display: block;
+	max-width: 40rem;
+}
+a {
+	text-decoration: none;
+	border-radius: 1rem;
+	padding: .5rem 1rem;
+}
+.content p {
+	margin: 0;
+}

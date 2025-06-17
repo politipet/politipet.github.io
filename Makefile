@@ -89,7 +89,7 @@ graph.yml: targets
 	) > _data/$@
 
 
-data_files = all.yml tdg.tsv version.yml top_20.tsv dyn.tsv
+data_files = all.yml tdg.tsv version.yml top_20.tsv top_40.tsv dyn.tsv
 data_files: $(data_files)
 data_files: graph.yml
 
@@ -148,8 +148,15 @@ extra_data:
 
 data_files: extra_data
 
-top_20.tsv:
-	curl -s -H "Accept: text/html" $(VOTE)?order=most_voted \
+top_20.tsv: order = most_voted
+top_20.tsv: per_page = 20
+
+top_40.tsv: order = recently_published
+top_40.tsv: per_page = 40
+
+top_%.tsv:
+	curl -s -H "Accept: text/html" \
+		"$(VOTE)?order=$(order)&per_page=$(per_page)" \
 	| awk '\
 		/card__link/	{ gsub(".*i-", ""); printf $$0 } \
 		title		{ print; title = 0 } \

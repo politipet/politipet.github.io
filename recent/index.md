@@ -10,11 +10,12 @@
 {% for item in site.data.top_40 %}
 
 {% assign link = vote %}
+{% assign title = item.title | replace: "|", "\\|" %}
 {% assign id = item.id | string | prepend: "i-" %}
 {% if site.data.title[id] %} {% assign link = "/" %}
 {% endif %}
 
-[{{ item.title }}]({{link}}{{item.id}})
+[{{ title }}]({{link}}{{item.id}})
 
 {% endfor %}
 

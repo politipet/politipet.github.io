@@ -12,7 +12,7 @@
 ## [participation](gfx)
 ## [tête de gondole](tdg)
 ## [statistiques](stats)
-## [top 20](top-20)
+### [20](top-20) · [40](recent)
 
 ##### [☆.☆](ver)
 

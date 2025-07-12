@@ -12,9 +12,15 @@ h3 {
 p {
 	background-color: #FFD5BB;
 }
+
 center {
 	display: inline-block;
-	animation: fadeout 7s cubic-bezier(.8,0,0,1.2);
+	/*animation: fadeout 7s cubic-bezier(.8,0,0,1.2);*/
+	padding: 2em 6em;
+	border-radius: 1em;
+	background-color: #FFD5BB;
+	margin-top: -6em;
+	opacity: .9;
 }
 img {
 	max-width: 100%;

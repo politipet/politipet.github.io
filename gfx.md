@@ -21,9 +21,14 @@
 
 {% assign score = site.data.all[item.id].score | to_integer %}
 
+{% if score >= 1000000 %}
+{% assign score = score | divided_by: 1000000.0 | round: 2 %}
+{% assign score = score | string | append: "M" %}
+{% else %}
 {% if score >= 1000 %}
 {% assign score = score | divided_by: 1000.0 | round: 1 %}
 {% assign score = score | string | append: "k" %}
+{% endif %}
 {% endif %}
 
 {% if score == 0 %}

@@ -8,7 +8,7 @@ en 10 jours
 
 <div class="content" markdown="1">
 
-{% assign link = "https://petitions.assemblee-nationale.fr/initiatives/" %}
+{% assign link = "https://petitions.assemblee-nationale.fr/initiatives/i-" %}
 
 {% for item in site.data.dyn %}
 
@@ -16,14 +16,11 @@ en 10 jours
 
 {% assign id = item.id | replace: "i-", "" %}
 {% assign title = item.theme | replace: "|", "\\|" %}
-{% unless title %} {% assign title = site.data.title[id] %}
-{% endunless %}
-{% unless title %} {% assign title = item.id %}
-{% endunless %}
-{% if site.data.title[id] %} {% assign link = "/" %}
-{% endif %}
+{% if title == "" %}    {% assign title = site.data.title[id] %} {% endif %}
+{% if title == empty %} {% assign title = item.id %} {% endif %}
+{% if site.data.title[id] %} {% assign link = "/" %} {% endif %}
 
-[{{ title }}]({{link}}{{item.id}}) (+{{item.diff}})
+[{{ title }}]({{link}}{{id}}) (+{{item.diff}})
 
 {% endfor %}
 

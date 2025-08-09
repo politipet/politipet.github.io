@@ -61,7 +61,7 @@ footer.repl = \
 	s,:REF:,$(dst),;\
 
 url = $(if $(filter i-%, $*),$*,$(search))
-search = "?filter[search_text]=$*&order=most_voted"
+search = "?filter[search_text]=$*\\\&order=most_voted"
 
 
 pie-chart.graph: src = 365702971

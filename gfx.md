@@ -10,7 +10,7 @@
 <div id="contents">
 
 {% assign vote = "https://petitions.assemblee-nationale.fr/initiatives" %}
-{% assign search = "?filter[search_text]=TEXT&order=recent" %}
+{% assign search = "?filter[search_text]=TEXT&order=most_voted" %}
 
 {% for item in site.data.tdg %}
 

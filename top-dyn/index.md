@@ -20,7 +20,7 @@ en 10 jours
 {% if title == empty %} {% assign title = item.id %} {% endif %}
 {% if site.data.title[id] %} {% assign link = "/" %} {% endif %}
 
-[{{ title }}]({{link}}{{id}}) (+{{item.diff}})
+[{{ title }}]({{link}}{{id}}) (+{{item.diff}} / {{item.score}})
 
 {% endfor %}
 

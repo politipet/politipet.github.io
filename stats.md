@@ -16,6 +16,8 @@ voix collectées en 10 jours
 
 (total : {{site.data.dyn[11].comm}})
 
+[Top-10 plus votées en 10 jours](/top-dyn)
+
 [all-dyn.txt]: https://github.com/politipet/data/blob/master/all-dyn.txt
 
 ☆

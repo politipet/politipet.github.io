@@ -115,7 +115,7 @@ tdg.tsv:
 		curl -s https://politipet.fr/$(list.tsv) > $(list.tsv); }
 	@cat $(list.tsv) \
 		$(seen.tsv) \
-	| awk '{print $$1 ":"; $$1=""; print " title: " $$0}' \
+	| awk '{print $$1 ":"; $$1=""; print " title: \"" $$0 "\""}' \
 	> _data/title.yml
 	@{ echo "id\ttext"; cat $(list.tsv); } > _data/$@
 

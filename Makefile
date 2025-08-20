@@ -113,8 +113,8 @@ tdg.tsv:
 	" > $(list.tsv)
 	@[ `wc -l < $(list.tsv)` -gt 1 ] || { echo === FALLBACK ===; \
 		curl -s https://politipet.fr/$(list.tsv) > $(list.tsv); }
-	@cat $(list.tsv) \
-		$(seen.tsv) \
+	@cat $(seen.tsv) \
+		$(list.tsv) \
 	| awk '{print $$1 ":"; $$1=""; print " title: \"" $$0 "\""}' \
 	> _data/title.yml
 	@{ echo "id\ttext"; cat $(list.tsv); } > _data/$@

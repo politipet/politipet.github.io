@@ -10,8 +10,8 @@
 
 ## [info](info)
 ## [participation](gfx)
-## [tête de gondole](tdg)
-## [statistiques](stats)
+## [tdg](tdg) – [sel](sel) – [dyn](top-dyn)
+## [stats](stats) – [fedi][fedi]
 ### [20](top-20) · [40](recent)
 
 ##### [☆.☆](ver)
@@ -53,6 +53,7 @@ center {
 <script>header_link("sel")</script>
 
 
+[fedi]: https://piaille.fr/tags/initiatives_citoyennes
 [logo an]: https://www.assemblee-nationale.fr/assets/images/logo_an_square.png
 [logo lois]: https://www.assemblee-nationale.fr/var/ezflow_site/storage/images/3/8/8/9/4589883-1-fre-FR/PICTO_AFF_LOIS_300x300.png
 [most voted]: https://petitions.assemblee-nationale.fr/initiatives?order=most_voted

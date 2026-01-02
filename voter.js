@@ -4,6 +4,9 @@ function init_voter() {
 	var vote = "https://petitions.assemblee-nationale.fr/initiatives/i-"
 
 	voter.setAttribute("target", "blank_")
+
+	return // intermediate auth behaviour (below) disabled for @cinq
+
 	voter.onclick = function(ev) {
 		if (this.innerHTML == "voter")
 		this.href = (needs_auth() ? "/auth?" : vote) + id

@@ -20,7 +20,7 @@
 
 <script src="voter.js"></script>
 <script>
-// init_voter() // disabled for @cinq
+init_voter()
 
 function share() {
 	if (navigator.share) {

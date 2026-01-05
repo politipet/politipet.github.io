@@ -11,7 +11,7 @@
 ## [info](info)
 ## [participation](gfx)
 ## [tdg](tdg) – [sel](sel) – [dyn](top-dyn)
-## [stats](stats) – [fedi][fedi]
+## [fedi][fedi] – [stats](stats)
 ### [20](top-20) · [40](recent)
 
 ##### [☆.☆](ver)

@@ -34,7 +34,7 @@ jobs:
           destination: ./_site
       - run:  sudo make graphs
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
 
   deploy:
     environment:

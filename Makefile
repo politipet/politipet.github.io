@@ -9,6 +9,7 @@ seens graphs:
 	| grep '<div  id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
 	| sed 's:<strong>\([^<]*\)</strong>:<h1>\1</h1>:' \
+	| sed 's:^[[:space:]]*::' \
 	> $(dst).md
 	@if [ `wc -l < $(dst).md` = 0 ]; then \
 		echo === FALLBACK $(dst) ===; \

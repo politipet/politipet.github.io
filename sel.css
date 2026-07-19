@@ -14,7 +14,10 @@ a {
 .content p {
 	margin: 0;
 }
-
+#burger-menu {
+	float: left;
+	margin-right: -1em;
+}
 #footer a {
 	margin: 0 1em;
 	padding: .5em 1em;

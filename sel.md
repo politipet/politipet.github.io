@@ -1,6 +1,7 @@
 <h1>
-<span style="float:left">≡</span>
 ☆ PoLiTiPeT ☆
+
+<span id="burger-menu">≡</span>
 </h1>
 
 ----

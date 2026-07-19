@@ -1,5 +1,7 @@
-☰ · PoLiTiPeT · ☰
-=============
+<h1>
+<span style="float:left">≡</span>
+☆ PoLiTiPeT ☆
+</h1>
 
 ----
 

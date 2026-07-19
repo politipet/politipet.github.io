@@ -1,4 +1,4 @@
-☆ POLITIPET ☆
+☰ · PoLiTiPeT · ☰
 =============
 
 ----
@@ -17,4 +17,15 @@
 
 ----
 
-[home](/)
+<div id="footer" markdown="1">
+
+[📈](/gfx)
+·
+[☰](/menu)
+·
+[⁂](https://piaille.fr/tags/initiatives_citoyennes)
+
+</div>
+
+
+<script>header_link("menu")</script>

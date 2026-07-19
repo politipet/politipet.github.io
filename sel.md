@@ -22,9 +22,7 @@
 <div id="footer" markdown="1">
 
 [📈](/gfx)
-·
-[☰](/menu)
-·
+[Ξ](/menu)
 [⁂](https://piaille.fr/tags/initiatives_citoyennes)
 
 </div>

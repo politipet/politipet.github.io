@@ -2,6 +2,7 @@
 =============
 
 #### initiatives citoyennes
+#### à l'Assemblée nationale
 
 ### votez · faites voter
 
@@ -10,11 +11,12 @@
 <div class="info" markdown="1">
 
 PoLiTiPeT est une vitrine indépendante, incitatrice civique
-et outil de suivi pour les initiatives citoyennes à l'Assemblée
-nationale. La «tête de gondole» propose une sélection d'une dizaine
-d'initiatives, ouvertes au vote populaire, chacune avec sa «page résumé»
-et son supplément «discussion». La sélection varie avec les propositions
-disponibles et les échanges sur [piaille][masto].
+et outil de suivi pour les "initiatives citoyennes" (pétitions) à l'Assemblée
+nationale. La homepage PoLiTiPeT propose une liste d'une dizaine
+d'initiatives ouvertes au vote populaire. Cliquer un item de la liste
+envoie sur la «page résumé» de la proposition et permet de la voter.
+La sélection PoLiTiPeT varie au gré des publications sur le site de l'Assemblée
+et des échanges sur [la Fédi][masto].
 
 
 ☆ aux armes, citoyen·nes ☆

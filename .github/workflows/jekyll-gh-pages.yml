@@ -2,7 +2,7 @@ name: Jekyll GitHub Pages
 
 on:
   push:
-    tags: ["build+deploy"]
+    tags: ["build-deploy"]
 
   schedule:
     - cron: "30 * * * *"

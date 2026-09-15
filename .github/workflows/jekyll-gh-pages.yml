@@ -3,6 +3,8 @@ name: Jekyll GitHub Pages
 on:
   push:
     tags: ["build"]
+    branches:
+      - master
 
   schedule:
     - cron: "30 * * * *"

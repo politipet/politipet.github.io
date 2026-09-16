@@ -41,7 +41,7 @@ Ce sont alors les citoyen·nes qui impulsent la loi.
 
 <center>
 initiatives par commission<br>
-{{site.data.dyn[11].comm}} votes en 10 jours<br>
+{{site.data.dyn[11].diff}} votes en 10 jours<br>
 {{site.data.alive.size}} propositions<br>
 </center>
 <br>

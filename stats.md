@@ -14,7 +14,7 @@ votes par jour sur l'ensemble des initiatives
 
 voix collectées en 10 jours
 
-(total : {{site.data.dyn[11].comm}})
+(total : {{site.data.dyn[11].diff}})
 
 [Top-10 plus votées en 10 jours](/top-dyn)
 

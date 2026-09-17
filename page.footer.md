@@ -7,8 +7,8 @@
 
 [participation][graph]
 
-☆
 </div>
+[☆][seen]
 
 -----
 
@@ -65,9 +65,11 @@ function notifyCopied() {
 </script>
 
 [vote]: :VOTE:
-[chat]: :SEEN:
+[chat]: https://piaille.fr/tags/PAN_:REF:
 [graph]: /gfx#:REF:
 [share]: javascript:share()
+
+[seen]: :SEEN:
 
 [social]: https://piaille.fr/tags/initiatives_citoyennes
 [contact]: mailto:politipet@laposte.net

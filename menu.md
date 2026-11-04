@@ -4,13 +4,11 @@
 #### initiatives citoyennes
 #### à l'Assemblée nationale
 
-### votez · faites voter
-
 <div id="main" markdown="1">
 -----
 
 ## [info](info)
-## [participation](gfx)
+## [graph](gfx) – [packs](packs)
 ## [tdg](tdg) – [sel](sel) – [dyn](top-dyn)
 ## [fedi][fedi] – [stats](stats)
 ### [20](top-20) · [40](recent)

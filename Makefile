@@ -174,7 +174,7 @@ dyn.tsv:
 	curl -sL $(data-master)/all-dyn.txt > _data/$@
 
 
-githash = $(shell git rev-parse --short=6 HEAD)
+githash = $(shell git rev-parse --short=6 HEAD^)
 timestamp = $(shell TZ='Europe/Paris' date +'%F %H:%M')
 version.yml:
 	echo 'githash: $(githash)\ntimestamp: "$(timestamp)"' \

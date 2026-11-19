@@ -6,9 +6,9 @@ seens graphs:
 
 %.seen:
 	@curl $(_seen)/$(src) \
-	| grep '<div  id="texte$(src)">' \
+	| grep '<div class="contenu_message" id="texte$(src)">' \
 	| sed 's:</blockquote>.*:</blockquote></div></div></div>:' \
-	| sed 's:<strong>\([^<]*\)</strong>:<h1>\1</h1>:' \
+	| sed 's:<strong>:<h1>:; s:</strong>:</h1>:' \
 	| sed 's:^[[:space:]]*::' \
 	> $(dst).md
 	@if [ `wc -l < $(dst).md` = 0 ]; then \
@@ -18,7 +18,9 @@ seens graphs:
 		cat page.footer.md | sed "$(footer.repl)" \
 		>> $(dst).md	; fi
 	@(printf "$*\t"; \
-	cat $(dst).md | grep h1 | sed 's:.*<h1> *::; s: *</h1>.*::') >> $(seen.tsv)
+	cat $(dst).md | grep h1 | sed 's:.*<h1> *::; s: *</h1>.*::' \
+				| sed 's:<[^>]*>::g' \
+	) >> $(seen.tsv)
 
 %.seen: dst = $(*:i-%=%)
 %.graph: dst = $@
